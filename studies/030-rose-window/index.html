@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rose Window — Opus 0231 </title>
+<meta name="description" content="A generative stained-glass rose window in a dark stone nave, with the sun in the viewer's hand.">
+<style>
+  :root{
+    --stone:#08070A; --stone-mid:#2A2830; --stone-light:#3A3842; --lead:#0B0A0C;
+    --ruby:#B3202A; --cobalt:#1B4FA0; --gold:#E0A100; --emerald:#2E8B57;
+    --amethyst:#6C2A7A; --white-glass:#E9E2CF;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;height:100%;background:var(--stone);color:#B9B2A4;
+    font:13px/1.6 Georgia,"Times New Roman",serif;overflow:hidden}
+  #scene{position:fixed;inset:0;width:100%;height:100%;display:block;cursor:none}
+  .inscription{position:fixed;left:50%;bottom:9vh;transform:translateX(-50%);
+    letter-spacing:.42em;text-transform:uppercase;font-size:11px;color:#8C8578;
+    text-shadow:0 1px 0 #000,0 -1px 0 #3A3842;pointer-events:none;white-space:nowrap}
+  .hint{position:fixed;left:50%;bottom:4.2vh;transform:translateX(-50%);
+    letter-spacing:.3em;text-transform:uppercase;font-size:10px;color:#6E6659;
+    transition:opacity 1.2s ease;pointer-events:none;white-space:nowrap}
+  .hint[data-gone="true"]{opacity:0}
+  .hour{position:fixed;right:22px;bottom:22px;display:flex;align-items:center;gap:10px;
+    background:transparent;border:1px solid #35313b;border-radius:999px;padding:8px 14px;
+    color:#8C8578;font:10px/1 Georgia,serif;letter-spacing:.28em;text-transform:uppercase;
+    cursor:pointer;background:#0b0a0c66}
+  .hour:hover,.hour:focus-visible{color:#E9E2CF;border-color:#6C2A7A}
+  .hour i{width:9px;height:9px;border-radius:50%;background:var(--gold);
+    box-shadow:0 0 10px var(--gold)}
+  .hour[data-hour="night"] i{background:#9FB7D8;box-shadow:0 0 10px #9FB7D8}
+  :focus-visible{outline:2px solid var(--gold);outline-offset:4px}
+  .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
+  @media (prefers-reduced-motion: reduce){.hint{transition:none}}
+</style>
+</head>
+<body>
+<canvas id="scene" role="img" tabindex="0"
+  aria-label="A stained-glass rose window in a dark stone nave. The coloured light is thrown onto the flagstones below. Arrow keys move the sun, T changes the hour, Space commissions a new window."></canvas>
+<p class="inscription" id="inscription">Rose Window · Order XII · Opus 0231</p>
+<p class="hint" id="hint">move the sun · click for a new window</p>
+<button class="hour" id="hour" type="button" data-hour="dawn" aria-label="Change time of day">
+  <i aria-hidden="true"></i><span id="hourLabel">The hour · dawn</span>
+</button>
+<p class="sr" id="announcer" role="status" aria-live="polite"></p>
+<script>
+(() => {
+'use strict';
+
+const canvas = document.getElementById('scene');
+const ctx = canvas.getContext('2d');
+const inscription = document.getElementById('inscription');
+const hint = document.getElementById('hint');
+const announcer = document.getElementById('announcer');
+const hourButton = document.getElementById('hour');
+const hourLabel = document.getElementById('hourLabel');
+const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)');
+
+/* ---------- palette, exactly the spec's hexes ---------- */
+const C = {
+  stone:'#08070A', stoneMid:'#2A2830', stoneLight:'#3A3842', lead:'#0B0A0C',
+  ruby:'#B3202A', cobalt:'#1B4FA0', gold:'#E0A100', emerald:'#2E8B57',
+  amethyst:'#6C2A7A', white:'#E9E2CF'
+};
+const GLASS = [C.ruby, C.cobalt, C.gold, C.emerald, C.amethyst, C.white];
+const HOURS = [
+  {id:'dawn',  sun:'#F0C88A', tint:[1.00,0.86,0.74], pool:0.55, sat:1.05},
+  {id:'noon',  sun:'#FFF6E2', tint:[1.00,1.00,0.98], pool:0.42, sat:1.12},
+  {id:'dusk',  sun:'#F2A05C', tint:[1.00,0.72,0.56], pool:0.70, sat:1.00},
+  {id:'night', sun:'#B9CCE6', tint:[0.62,0.74,0.98], pool:0.20, sat:0.55}
+];
+let hourIndex = 0;
+
+/* ---------- deterministic generator ---------- */
+function rng(seed){ let a = seed >>> 0; return () => {
+  a = (a + 0x6D2B79F5) >>> 0;
+  let t = a;
+  t = Math.imul(t ^ (t >>> 15), t | 1);
+  t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+  return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+}; }
+const mix = (hex, other, k) => {
+  const p = h => [parseInt(h.slice(1,3),16), parseInt(h.slice(3,5),16), parseInt(h.slice(5,7),16)];
+  const a = p(hex), b = p(other);
+  return '#' + a.map((v,i) => Math.round(v + (b[i]-v)*k).toString(16).padStart(2,'0')).join('');
+};
+
+const RING = {oculus:0, petal:1, light:2, roundel:3, border:4};
+
+function polar(cx, cy, r, a){ return [cx + Math.cos(a)*r, cy + Math.sin(a)*r]; }
+
+function arcPoints(cx, cy, r, a0, a1, steps){
+  const out = [];
+  for (let i = 0; i <= steps; i++) {
+    const a = a0 + (a1 - a0) * (i / steps);
+    out.push(polar(cx, cy, r, a));
+  }
+  return out;
+}
+
+/** One glass piece: annular sector, optionally pinched into a lancet tip. */
+function sectorPiece(cx, cy, r0, r1, a0, a1, opts){
+  const steps = Math.max(3, Math.round((a1 - a0) / 0.05));
+  const pts = [];
+  pts.push(...arcPoints(cx, cy, r0, a0, a1, steps));
+  if (opts && opts.tip) {
+    const mid = (a0 + a1) / 2;
+    pts.push(polar(cx, cy, r0 + (r1 - r0) * 0.78, mid - (a1 - a0) * 0.16));
+    pts.push(polar(cx, cy, r1, mid));
+    pts.push(polar(cx, cy, r0 + (r1 - r0) * 0.78, mid + (a1 - a0) * 0.16));
+  } else {
+    pts.push(...arcPoints(cx, cy, r1, a1, a0, steps));
+  }
+  return pts;
+}
+
+function buildWindow(opus){
+  const rand = rng(opus * 2654435761 >>> 0);
+  const orders = [8, 10, 12, 16];
+  const n = orders[Math.floor(rand() * orders.length)];
+  const pieces = [];
+  const dominant = rand() < 0.5 ? [C.ruby, C.cobalt] : [C.cobalt, C.ruby];
+  const accent = rand() < 0.5 ? C.emerald : C.amethyst;
+
+  // oculus: a rosette of 2n small wedges plus a centre boss
+  const oculusWedge = (Math.PI * 2) / (2 * n);
+  for (let i = 0; i < 2 * n; i++) {
+    const a0 = i * oculusWedge, a1 = a0 + oculusWedge * 0.92;
+    const hue = i % 2 ? C.gold : C.white;
+    pieces.push({pts: sectorPiece(0, 0, 0.10, 0.20, a0, a1), colour: hue, ring: RING.oculus, seed: rand()});
+  }
+  pieces.push({pts: arcPoints(0, 0, 0.10, 0, Math.PI * 2, 40), colour: dominant[0], ring: RING.oculus, seed: rand(), centre:true});
+
+  // inner ring: n petals, each split by a curved band into two leaves
+  const petalStep = (Math.PI * 2) / n;
+  for (let i = 0; i < n; i++) {
+    const a0 = i * petalStep + petalStep * 0.06;
+    const a1 = a0 + petalStep * 0.88;
+    const hue = [dominant[0], dominant[1], accent][i % 3];
+    pieces.push({pts: sectorPiece(0, 0, 0.22, 0.48, a0, a1, {tip:true}), colour: hue, ring: RING.petal, seed: rand()});
+    // trefoil head, small and pale, at the petal's shoulder
+    const mid = (a0 + a1) / 2;
+    for (let k = -1; k <= 1; k++) {
+      const c = polar(0, 0, 0.52, mid + k * petalStep * 0.09);
+      pieces.push({pts: arcPoints(c[0], c[1], 0.035, 0, Math.PI * 2, 18), colour: k === 0 ? C.gold : C.white, ring: RING.petal, seed: rand()});
+    }
+  }
+
+  // middle ring: 2n smaller lights, alternating ruby/cobalt with gold borders
+  const lightStep = (Math.PI * 2) / (2 * n);
+  for (let i = 0; i < 2 * n; i++) {
+    const a0 = i * lightStep + lightStep * 0.14;
+    const a1 = a0 + lightStep * 0.72;
+    const hue = i % 2 ? dominant[1] : dominant[0];
+    pieces.push({pts: sectorPiece(0, 0, 0.58, 0.70, a0, a1, {tip:true}), colour: hue, ring: RING.light, seed: rand()});
+    pieces.push({pts: sectorPiece(0, 0, 0.54, 0.575, a0 - lightStep * 0.10, a1 + lightStep * 0.10), colour: i % 4 === 0 ? C.gold : accent, ring: RING.light, seed: rand()});
+  }
+
+  // outer ring: n roundels + 2n spandrels filling the gaps
+  const rStep = (Math.PI * 2) / n;
+  for (let i = 0; i < n; i++) {
+    const a = i * rStep + rStep / 2;
+    const c = polar(0, 0, 0.79, a);
+    pieces.push({pts: arcPoints(c[0], c[1], 0.075, 0, Math.PI * 2, 26), colour: i % 3 === 0 ? C.gold : accent, ring: RING.roundel, seed: rand()});
+    // foils: a quatrefoil ring around each roundel, made of four small circles
+    for (let k = 0; k < 4; k++) {
+      const f = k * Math.PI / 2 + Math.PI / 4;
+      const fc = polar(c[0], c[1], 0.105, f);
+      pieces.push({pts: arcPoints(fc[0], fc[1], 0.045, 0, Math.PI * 2, 16), colour: C.white, ring: RING.roundel, seed: rand()});
+    }
+    const s0 = i * rStep, s1 = s0 + rStep;
+    pieces.push({pts: sectorPiece(0, 0, 0.70, 0.90, s0 + 0.03, s1 - 0.03), colour: dominant[(i + 1) % 2], ring: RING.roundel, seed: rand()});
+  }
+
+  // quarries in the border band, small rectangles of glass
+  const qStep = (Math.PI * 2) / (n * 6);
+  for (let i = 0; i < n * 6; i++) {
+    const a0 = i * qStep + qStep * 0.12;
+    const a1 = a0 + qStep * 0.76;
+    pieces.push({pts: sectorPiece(0, 0, 0.945, 0.985, a0, a1), colour: i % 5 === 0 ? C.gold : (i % 2 ? C.white : dominant[i % 2]), ring: RING.border, seed: rand()});
+  }
+
+  return {n, opus, order: n, pieces, dominant, accent};
+}
+
+/* ---------- glass layer ---------- */
+function pathOf(g, pts){
+  g.beginPath();
+  g.moveTo(pts[0][0], pts[0][1]);
+  for (let i = 1; i < pts.length; i++) g.lineTo(pts[i][0], pts[i][1]);
+  g.closePath();
+}
+
+function renderGlass(win, R, hour){
+  const size = Math.ceil(R * 2 + 8);
+  const off = document.createElement('canvas');
+  off.width = off.height = size;
+  const g = off.getContext('2d');
+  // the generator works in unit radii; one unit is the window radius
+  g.translate(size / 2, size / 2);
+  g.scale(R, R);
+
+  for (const piece of win.pieces) {
+    const rand = rng(Math.floor(piece.seed * 1e9));
+    const jitter = (rand() - 0.5) * 0.16;
+    const base = mix(piece.colour, rand() < 0.5 ? '#000000' : '#ffffff', Math.abs(jitter) * 0.9);
+    let cx = 0, cy = 0;
+    for (const p of piece.pts) { cx += p[0]; cy += p[1]; }
+    cx /= piece.pts.length; cy /= piece.pts.length;
+    const span = Math.hypot(cx, cy) || 1;
+    const grad = g.createRadialGradient(cx - cx * 0.22, cy - cy * 0.22, 0.01, cx, cy, 0.30 + span * 0.12);
+    grad.addColorStop(0, mix(base, '#ffffff', 0.22));
+    grad.addColorStop(0.55, base);
+    grad.addColorStop(1, mix(base, C.lead, 0.45));
+    pathOf(g, piece.pts);
+    g.fillStyle = grad;
+    g.fill();
+    // streaks: a lighter annular smear following the piece
+    g.save();
+    g.clip();
+    g.globalAlpha = 0.20;
+    g.strokeStyle = mix(base, '#ffffff', 0.55);
+    g.lineWidth = 0.012;
+    for (let k = 0; k < 2; k++) {
+      g.beginPath();
+      g.arc(0, 0, span * (0.96 + k * 0.05), -0.3 + k, 0.9 + k);
+      g.stroke();
+    }
+    // bubbles
+    g.globalAlpha = 0.55;
+    for (let k = 0; k < 3; k++) {
+      g.fillStyle = mix(base, '#ffffff', 0.7);
+      g.beginPath();
+      g.arc(cx + (rand() - 0.5) * 0.02, cy + (rand() - 0.5) * 0.02, 0.0015 + rand() * 0.003, 0, Math.PI * 2);
+      g.fill();
+    }
+    // grisaille: a fine painted line on some pieces
+    if (rand() < 0.25) {
+      g.globalAlpha = 0.35;
+      g.strokeStyle = C.lead;
+      g.lineWidth = 0.004;
+      g.beginPath();
+      g.moveTo(cx - span * 0.06, cy - span * 0.10);
+      g.quadraticCurveTo(cx, cy + span * 0.04, cx + span * 0.07, cy - span * 0.06);
+      g.stroke();
+    }
+    g.restore();
+    // lead came: dark outline, then a thin highlight so pieces read as glass
+    pathOf(g, piece.pts);
+    g.lineJoin = 'round';
+    g.strokeStyle = C.lead;
+    g.lineWidth = 0.013;
+    g.stroke();
+    g.strokeStyle = 'rgba(255,255,255,0.16)';
+    g.lineWidth = 0.004;
+    g.stroke();
+  }
+
+  // hour retint: saturate/desaturate the glass
+  g.globalCompositeOperation = 'source-atop';
+  g.fillStyle = `rgba(${hour.tint.map(v => Math.round(v * 255)).join(',')},0.10)`;
+  g.fillRect(-size / 2, -size / 2, size, size);
+  g.globalCompositeOperation = 'source-over';
+  return off;
+}
+
+/* ---------- stone tracery, wall, floor ---------- */
+let W = 0, H = 0, DPR = 1, winR = 0, winX = 0, winY = 0;
+
+function layout(){
+  DPR = Math.min(2, devicePixelRatio || 1);
+  W = canvas.clientWidth; H = canvas.clientHeight;
+  canvas.width = Math.round(W * DPR);
+  canvas.height = Math.round(H * DPR);
+  ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
+  winR = Math.min(W * 0.30, H * 0.30);
+  winX = W / 2;
+  winY = H * 0.40;
+}
+
+function drawWall(){
+  ctx.fillStyle = C.stone;
+  ctx.fillRect(0, 0, W, H);
+  // ashlar courses
+  const bh = Math.max(34, H / 16);
+  for (let y = 0, row = 0; y < H; y += bh, row++) {
+    const offset = row % 2 ? bh * 0.9 : 0;
+    for (let x = -bh; x < W + bh; x += bh * 1.8) {
+      const g = ctx.createLinearGradient(x, y, x, y + bh);
+      g.addColorStop(0, row % 3 ? C.stoneMid : C.stoneLight);
+      g.addColorStop(1, C.stone);
+      ctx.fillStyle = g;
+      ctx.globalAlpha = 0.42;
+      ctx.fillRect(x + offset, y, bh * 1.8 - 2, bh - 2);
+    }
+  }
+  ctx.globalAlpha = 1;
+  // mortar lines
+  ctx.strokeStyle = '#000';
+  ctx.globalAlpha = 0.5;
+  ctx.lineWidth = 1;
+  for (let y = 0; y < H; y += bh) {
+    ctx.beginPath(); ctx.moveTo(0, y); ctx.lineTo(W, y); ctx.stroke();
+  }
+  ctx.globalAlpha = 1;
+
+  // pointed arch moulding around the window
+  const archTop = winY - winR * 1.62;
+  const spring = winY - winR * 0.2;
+  ctx.save();
+  ctx.beginPath();
+  ctx.moveTo(winX - winR * 1.34, H * 0.9);
+  ctx.lineTo(winX - winR * 1.34, spring);
+  ctx.quadraticCurveTo(winX - winR * 1.24, archTop + winR * 0.35, winX, archTop);
+  ctx.quadraticCurveTo(winX + winR * 1.24, archTop + winR * 0.35, winX + winR * 1.34, spring);
+  ctx.lineTo(winX + winR * 1.34, H * 0.9);
+  ctx.closePath();
+  ctx.fillStyle = '#0C0B0E';
+  ctx.fill();
+  ctx.strokeStyle = C.stoneLight;
+  ctx.lineWidth = Math.max(2, winR * 0.03);
+  ctx.stroke();
+  ctx.strokeStyle = C.stoneMid;
+  ctx.lineWidth = Math.max(6, winR * 0.09);
+  ctx.globalAlpha = 0.9;
+  ctx.stroke();
+  ctx.restore();
+
+  // columns
+  for (const x of [W * 0.055, W * 0.945]) {
+    const g = ctx.createLinearGradient(x - 26, 0, x + 26, 0);
+    g.addColorStop(0, '#050407');
+    g.addColorStop(0.5, '#141219');
+    g.addColorStop(1, '#050407');
+    ctx.fillStyle = g;
+    ctx.fillRect(x - 26, 0, 52, H * 0.86);
+    ctx.fillStyle = '#100E14';
+    ctx.beginPath();
+    ctx.ellipse(x, H * 0.86, 34, 12, 0, 0, Math.PI * 2);
+    ctx.fill();
+  }
+}
+
+function drawTracery(win){
+  // stone ring between the glass and the wall, with a carved bevel
+  ctx.save();
+  ctx.beginPath();
+  ctx.arc(winX, winY, winR * 1.045, 0, Math.PI * 2);
+  ctx.arc(winX, winY, winR * 0.995, 0, Math.PI * 2, true);
+  ctx.fillStyle = C.stoneMid;
+  ctx.fill();
+  ctx.strokeStyle = C.stoneLight;
+  ctx.lineWidth = 2;
+  ctx.stroke();
+  // radial mullions over the glass, on top of it: the window's stone skeleton
+  const n = win.n;
+  ctx.strokeStyle = C.stoneLight;
+  ctx.lineWidth = Math.max(2, winR * 0.013);
+  ctx.globalAlpha = 0.55;
+  for (let i = 0; i < n; i++) {
+    const a = (i / n) * Math.PI * 2;
+    ctx.beginPath();
+    ctx.moveTo(winX + Math.cos(a) * winR * 0.20, winY + Math.sin(a) * winR * 0.20);
+    ctx.lineTo(winX + Math.cos(a) * winR * 1.01, winY + Math.sin(a) * winR * 1.01);
+    ctx.stroke();
+  }
+  // concentric mouldings
+  for (const [r, w, col] of [[0.21, 0.012, C.stoneLight], [0.53, 0.010, C.stoneMid], [0.715, 0.008, C.stoneLight], [0.905, 0.010, C.stoneMid]]) {
+    ctx.beginPath();
+    ctx.arc(winX, winY, winR * r, 0, Math.PI * 2);
+    ctx.lineWidth = Math.max(2, winR * w);
+    ctx.strokeStyle = col;
+    ctx.stroke();
+  }
+  ctx.restore();
+}
+
+function drawFloor(){
+  const horizon = H * 0.62;
+  const g = ctx.createLinearGradient(0, horizon, 0, H);
+  g.addColorStop(0, '#111014');
+  g.addColorStop(1, '#070609');
+  ctx.fillStyle = g;
+  ctx.fillRect(0, horizon, W, H - horizon);
+  // flagstone joints in perspective
+  ctx.strokeStyle = '#1C1A20';
+  ctx.lineWidth = 1.4;
+  const vpX = W / 2, vpY = H * 0.30;
+  for (let i = -10; i <= 10; i++) {
+    const x = W / 2 + i * W * 0.11;
+    ctx.beginPath();
+    ctx.moveTo(x, horizon);
+    ctx.lineTo(vpX + (x - vpX) * 3.4, H);
+    ctx.stroke();
+  }
+  for (let k = 1; k < 9; k++) {
+    const t = k / 9;
+    const y = horizon + Math.pow(t, 1.7) * (H - horizon);
+    ctx.beginPath();
+    ctx.moveTo(0, y); ctx.lineTo(W, y);
+    ctx.stroke();
+  }
+}
+
+/* ---------- state ---------- */
+const state = {
+  sun: {x: 0.5, y: 0.42},
+  target: {x: 0.5, y: 0.42},
+  opus: 231,
+  win: null,
+  glass: null,
+  phase: 'settled',
+  phaseStart: 0,
+  lastInput: 0,
+  hintGone: false,
+  time: 0
+};
+
+function commission(opus, at){
+  state.opus = opus;
+  state.win = buildWindow(opus);
+  state.glass = renderGlass(state.win, winR, HOURS[hourIndex]);
+  state.phase = 'leads';
+  state.phaseStart = at;
+  const roman = ['I','II','III','IV','V','VI','VII','VIII','IX','X','XI','XII','XIII','XIV','XV','XVI'];
+  const orderText = roman[(state.win.n / 2) - 1] || String(state.win.n);
+  inscription.textContent = `Rose Window · Order ${orderText} · Opus ${String(opus).padStart(4, '0')}`;
+  announcer.textContent = `New window commissioned, order ${orderText}, opus ${opus}.`;
+}
+
+/* ---------- per-frame compose ---------- */
+function drawSunGlyph(){
+  const {x, y} = state.sun;
+  const sx = x * W, sy = y * H * 0.95;
+  const night = HOURS[hourIndex].id === 'night';
+  ctx.save();
+  ctx.translate(sx, sy);
+  ctx.fillStyle = night ? '#C8D8EE' : HOURS[hourIndex].sun;
+  ctx.shadowColor = ctx.fillStyle;
+  ctx.shadowBlur = 16;
+  if (night) {
+    ctx.beginPath();
+    ctx.arc(0, 0, 7, 0.5, Math.PI * 2 - 0.5);
+    ctx.arc(3, 0, 6, Math.PI * 2 - 0.5, 0.5, true);
+    ctx.fill();
+  } else {
+    ctx.beginPath();
+    ctx.arc(0, 0, 5, 0, Math.PI * 2);
+    ctx.fill();
+    ctx.lineWidth = 1.2;
+    ctx.strokeStyle = ctx.fillStyle;
+    for (let i = 0; i < 8; i++) {
+      const a = i * Math.PI / 4;
+      ctx.beginPath();
+      ctx.moveTo(Math.cos(a) * 8, Math.sin(a) * 8);
+      ctx.lineTo(Math.cos(a) * 13, Math.sin(a) * 13);
+      ctx.stroke();
+    }
+  }
+  ctx.restore();
+}
+
+function drawGlassLayer(hour, t){
+  if (!state.glass) return;
+  const R = winR;
+  // glazing animation: pieces light up ring by ring
+  let reveal = 1;
+  if (state.phase === 'leads') reveal = 0;
+  else if (state.phase === 'glaze') reveal = Math.min(1, (t - state.phaseStart) / 1400);
+  ctx.save();
+  ctx.globalAlpha = 0.30 + 0.70 * reveal;
+  ctx.drawImage(state.glass, winX - state.glass.width / 2, winY - state.glass.height / 2);
+  ctx.restore();
+
+  // lead strokes drawing themselves outward from the centre
+  if (state.phase !== 'settled') {
+    const p = Math.min(1, (t - state.phaseStart) / (state.phase === 'leads' ? 900 : 1));
+    ctx.save();
+    ctx.translate(winX, winY);
+    ctx.strokeStyle = C.lead;
+    ctx.lineWidth = Math.max(2, R * 0.014);
+    ctx.globalAlpha = 0.9 - p * 0.55;
+    const n = state.win.n;
+    for (let i = 0; i < n * 2; i++) {
+      const a = (i / (n * 2)) * Math.PI * 2;
+      ctx.beginPath();
+      ctx.moveTo(Math.cos(a) * R * 0.18, Math.sin(a) * R * 0.18);
+      ctx.lineTo(Math.cos(a) * R * (0.2 + 0.8 * p), Math.sin(a) * R * (0.2 + 0.8 * p));
+      ctx.stroke();
+    }
+    ctx.restore();
+  }
+
+  // sun lighting: hotspot opposite the sun, plus halation over the leads
+  const dx = (0.5 - state.sun.x) * R * 1.25;
+  const dy = (0.45 - state.sun.y) * R * 1.25;
+  ctx.save();
+  ctx.globalCompositeOperation = 'lighter';
+  const hot = ctx.createRadialGradient(winX + dx, winY + dy, R * 0.05, winX + dx, winY + dy, R * 1.05);
+  hot.addColorStop(0, `rgba(255,250,235,${0.42 * (1 - Math.min(1, hour.pool))})`);
+  hot.addColorStop(0.45, 'rgba(255,238,206,0.12)');
+  hot.addColorStop(1, 'rgba(255,255,255,0)');
+  ctx.fillStyle = hot;
+  ctx.beginPath();
+  ctx.arc(winX, winY, R * 1.02, 0, Math.PI * 2);
+  ctx.fill();
+  // halation: a blurred copy of the glass bloomed over the leads
+  if (!reduceMotion.matches) {
+    ctx.filter = `blur(${Math.max(6, R * 0.05)}px)`;
+    ctx.globalAlpha = 0.30;
+    ctx.drawImage(state.glass, winX - state.glass.width / 2, winY - state.glass.height / 2);
+    ctx.filter = 'none';
+  }
+  // depth: glass away from the sun goes dimmer, as if thicker in shadow
+  ctx.save();
+  ctx.globalCompositeOperation = 'multiply';
+  const shade = ctx.createRadialGradient(winX + dx, winY + dy, R * 0.10, winX + dx, winY + dy, R * 1.25);
+  shade.addColorStop(0, '#ffffff');
+  shade.addColorStop(0.55, '#8f8a84');
+  shade.addColorStop(1, '#2a2730');
+  ctx.fillStyle = shade;
+  ctx.beginPath();
+  ctx.arc(winX, winY, R * 1.005, 0, Math.PI * 2);
+  ctx.fill();
+  ctx.restore();
+  ctx.restore();
+}
+
+function drawProjection(hour){
+  if (!state.glass) return;
+  const depth = H * 0.30 * (0.5 + hour.pool);
+  const dropX = (state.sun.x - 0.5) * W * 0.9;
+  const targetY = H * 0.80 + (state.sun.y - 0.42) * H * 0.10;
+  const stretch = 1.9 + hour.pool * 1.3;
+  ctx.save();
+  // the pool sits on the floor, so it is drawn over the flagstones
+  ctx.globalCompositeOperation = 'lighter';
+  ctx.globalAlpha = 0.22 + hour.pool * 0.30;
+  ctx.filter = `blur(${Math.max(2, winR * 0.008)}px)`;
+  ctx.translate(W / 2 + dropX, targetY);
+  ctx.transform(1, 0, -0.42 - (state.sun.x - 0.5) * 0.5, 0.42, 0, 0);
+  const w = winR * 2.05, h = winR * stretch * 0.86;
+  ctx.drawImage(state.glass, -w / 2, -h / 2, w, h);
+  ctx.filter = 'none';
+  // bounce of average colour up the foot of the wall
+  const avg = hour.tint;
+  ctx.globalAlpha = 0.10 + hour.pool * 0.12;
+  const bounce = ctx.createLinearGradient(0, -h * 0.2, 0, -h * 1.4);
+  bounce.addColorStop(0, `rgba(${avg.map(v => Math.round(v * 240)).join(',')},0.55)`);
+  bounce.addColorStop(1, 'rgba(0,0,0,0)');
+  ctx.fillStyle = bounce;
+  ctx.fillRect(-w * 0.7, -h * 1.4, w * 1.4, h * 1.4);
+  ctx.restore();
+}
+
+function drawMotes(t, hour){
+  if (reduceMotion.matches) return;
+  const shaftTop = {x: winX, y: winY + winR * 0.6};
+  const shaftFoot = {x: W / 2 + (state.sun.x - 0.5) * W * 0.9, y: H * 0.82};
+  ctx.save();
+  ctx.globalCompositeOperation = 'lighter';
+  for (let i = 0; i < 46; i++) {
+    const p = (i * 0.6180339887) % 1;
+    const speed = 0.02 + (i % 7) * 0.006;
+    const k = ((t * 0.00006 * (1 + speed * 8)) + p) % 1;
+    const x = shaftTop.x + (shaftFoot.x - shaftTop.x) * k + Math.sin(t * 0.0004 + i) * 18;
+    const y = shaftTop.y + (shaftFoot.y - shaftTop.y) * k + Math.cos(t * 0.0003 + i * 2) * 12;
+    const twinkle = 0.4 + 0.6 * Math.abs(Math.sin(t * 0.001 + i));
+    ctx.fillStyle = `rgba(255,238,206,${0.10 + twinkle * 0.35})`;
+    ctx.beginPath();
+    ctx.arc(x, y, 0.8 + (i % 3) * 0.5, 0, Math.PI * 2);
+    ctx.fill();
+  }
+  ctx.restore();
+}
+
+function frame(t){
+  state.time = t;
+  const hour = HOURS[hourIndex];
+
+  // sun follows the pointer with a soft lag; drifts if idle
+  if (!reduceMotion.matches && t - state.lastInput > 6000) {
+    state.target.x = 0.5 + Math.sin(t * 0.00008) * 0.35;
+    state.target.y = 0.42 + Math.cos(t * 0.00005) * 0.10;
+  }
+  state.sun.x += (state.target.x - state.sun.x) * 0.06;
+  state.sun.y += (state.target.y - state.sun.y) * 0.06;
+
+  if (state.phase === 'leads' && t - state.phaseStart > 900) {
+    state.phase = 'glaze';
+    state.phaseStart = t;
+  } else if (state.phase === 'glaze' && t - state.phaseStart > 1400) {
+    state.phase = 'settled';
+  }
+
+  drawWall();
+  drawFloor();
+  drawProjection(hour);
+  drawGlassLayer(hour, t);
+  drawTracery(state.win);
+  drawMotes(t, hour);
+  drawSunGlyph();
+  requestAnimationFrame(frame);
+}
+
+/* ---------- input ---------- */
+function setSunFromEvent(e){
+  const r = canvas.getBoundingClientRect();
+  state.target.x = Math.max(0.04, Math.min(0.96, (e.clientX - r.left) / r.width));
+  state.target.y = Math.max(0.10, Math.min(0.80, (e.clientY - r.top) / r.height));
+  state.lastInput = state.time;
+  if (!state.hintGone) {
+    state.hintGone = true;
+    hint.dataset.gone = 'true';
+  }
+}
+
+canvas.addEventListener('pointermove', setSunFromEvent);
+canvas.addEventListener('pointerdown', (e) => {
+  if (e.button !== 0) return;
+  setSunFromEvent(e);
+});
+canvas.addEventListener('click', (e) => {
+  if (e.target.closest('.hour')) return;
+  commission(state.opus + 1, state.time);
+});
+
+function cycleHour(delta){
+  hourIndex = (hourIndex + delta + HOURS.length) % HOURS.length;
+  const hour = HOURS[hourIndex];
+  hourButton.dataset.hour = hour.id;
+  hourLabel.textContent = `The hour · ${hour.id}`;
+  if (state.win) state.glass = renderGlass(state.win, winR, hour);
+  announcer.textContent = `Time of day: ${hour.id}.`;
+}
+hourButton.addEventListener('click', (e) => { e.stopPropagation(); cycleHour(1); });
+
+addEventListener('keydown', (e) => {
+  const step = e.shiftKey ? 0.08 : 0.025;
+  let handled = true;
+  switch (e.key) {
+    case 'ArrowLeft': state.target.x = Math.max(0.04, state.target.x - step); break;
+    case 'ArrowRight': state.target.x = Math.min(0.96, state.target.x + step); break;
+    case 'ArrowUp': state.target.y = Math.max(0.10, state.target.y - step); break;
+    case 'ArrowDown': state.target.y = Math.min(0.80, state.target.y + step); break;
+    case 't': case 'T': cycleHour(1); break;
+    case ' ': case 'Enter': commission(state.opus + 1, state.time); break;
+    default: handled = false;
+  }
+  if (handled) {
+    e.preventDefault();
+    state.lastInput = state.time;
+    if (!state.hintGone) { state.hintGone = true; hint.dataset.gone = 'true'; }
+  }
+});
+
+addEventListener('resize', () => {
+  layout();
+  if (state.win) state.glass = renderGlass(state.win, winR, HOURS[hourIndex]);
+  drawWall();
+  drawFloor();
+});
+
+/* ---------- boot ---------- */
+layout();
+commission(231, performance.now());
+if (reduceMotion.matches) {
+  state.phase = 'settled';
+  state.glass = renderGlass(state.win, winR, HOURS[hourIndex]);
+}
+requestAnimationFrame(frame);
+})();
+</script>
+</body>
+</html>

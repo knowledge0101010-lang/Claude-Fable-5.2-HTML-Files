@@ -1,0 +1,965 @@
+{
+"harness": "e63368bb761f5465895a969eec47b987758516db95edfb49c5b64a36d716d56a",
+"files": {
+"001-suminagashi-marbling-tray.html": {
+"sha256": "46faf11d933bd54366d2156cf579e7a2e9724cadd1660cd914e1521d4751eda0",
+"bytes": 61268
+},
+"002-airship-terminal-split-flap.html": {
+"sha256": "ca7452b20136879472986131ebfd7999f26768dd274f99fb603a1dff6084db05",
+"bytes": 54113
+},
+"003-anatomy-of-a-croissant.html": {
+"sha256": "dc97178da2fb22c4bb362569f403b5fa6ccf0e8fb6b5d147ab39ac865e38bebd",
+"bytes": 69524
+},
+"004-lighthouse-keeper-night-watch.html": {
+"sha256": "ca22572581a22b79d64532b8039d15df176635ba174c1fcd24b43592d73b2065",
+"bytes": 73967
+},
+"005-working-slide-rule.html": {
+"sha256": "93bb9e00a04e8a95aca9c297e75c77a9b55be246b88323a5dedbf77ea4d0f3ed",
+"bytes": 62678
+},
+"006-volcan-chico-hot-sauce.html": {
+"sha256": "d27de4f7b6457f678c130737f5504f9f340291ed022f28b1b7bf43f0dc3c46cd",
+"bytes": 97236
+},
+"007-ice-core-800-metres.html": {
+"sha256": "1a40d08696b786dd0703dcea4a92697c458e4f382e064c74076e0aa8a7cc1c86",
+"bytes": 73054
+},
+"008-cabinet-of-impossible-minerals.html": {
+"sha256": "bb240f1578b2fffadc6bc2e8065003792209bdbe8a7537d5a2d606a70c08cfa8",
+"bytes": 48770
+},
+"009-koi-pond-noon.html": {
+"sha256": "4b828d1a46aa5c71741124cf637fd15d9e1b44f9aeac0c455f2d679f00d13c95",
+"bytes": 71825
+},
+"010-op-art-pulse.html": {
+"sha256": "c5f1a036e3d83ca41ea77c1bd5d59d83609cdee54c8640635b44edb9bac688ed",
+"bytes": 32378
+},
+"011-the-hours-in-words.html": {
+"sha256": "b8fda56552e0fbce04a864058fd8a4f02e1163936901b3583c35118d4abd2215",
+"bytes": 47284
+},
+"012-murmuration-at-dusk.html": {
+"sha256": "19e0438117f42096f50d899a59b14c6806320885f89a48c709391935b16b1948",
+"bytes": 52743
+},
+"013-iron-filings.html": {
+"sha256": "357db8704110a466cb198b8cffd9f0f86ebb02e21b0091b6e34f5755a975eedf",
+"bytes": 61569
+},
+"014-ulam-prime-spiral.html": {
+"sha256": "e951c4baf4447171a72b06f279461816623067df8ed3ac5d9324a72710913383",
+"bytes": 58582
+},
+"015-maison-ombre-perfume.html": {
+"sha256": "3ac4734bc17c55bd42148f9f5da2310f4033ee0bca6a1baf13bc2b39d04f6ac7",
+"bytes": 74436
+},
+"016-vector-lunar-descent.html": {
+"sha256": "34c835fa698ecf35dd5c7eb60ab88802726311fd63b533fa658e088bed797adc",
+"bytes": 56071
+},
+"017-spore-print-riso-zine.html": {
+"sha256": "8b507a9f281aa94df27fe7ac48cffab7a25de759f2d15dc849e38c11a8241afd",
+"bytes": 84037
+},
+"018-pen-plotter-landscapes.html": {
+"sha256": "5e9011bf3112b8be05fc591d5c8bedb735be20352d3add37eef860c4186b94c5",
+"bytes": 58806
+},
+"019-bauhaus-drum-machine.html": {
+"sha256": "8ff83b2c5e471b55460401aee31de81b940e7e02126a78db46f1b60342a392ae",
+"bytes": 50887
+},
+"020-aurora-over-the-fjord.html": {
+"sha256": "f4b928e30261fd29e4f5ea41fd4d5ae07b7a7d51fcfba19a2d3f1901cc0b9024",
+"bytes": 48895
+},
+"021-drawer-of-imaginary-moths.html": {
+"sha256": "ff66783ac141f47344569198afba1c7bb1dd5140de45c80ae1b452a8cd46cb68",
+"bytes": 67966
+},
+"022-hotel-meridian-elevator.html": {
+"sha256": "857ec088ffbef12c371ee2828ad444543c8830d8bc77331d8384e6d70f47e0f0",
+"bytes": 85923
+},
+"023-walnut-turntable.html": {
+"sha256": "1d652d7b88d73e3cd4344475c1214baa71ffaec4b05738986a876b13e21b5b9a",
+"bytes": 58038
+},
+"024-village-of-three-hundred.html": {
+"sha256": "30eb5f4c6f690987d461fc9b32a5da4ede9a1f75cbb2490fd46f0748f6cb1510",
+"bytes": 84215
+},
+"025-pottery-wheel.html": {
+"sha256": "d15f940ba500d8e61d0bc885910ea4f3c18ebe9205673d9ba754db212551a4b4",
+"bytes": 88697
+},
+"026-frost-on-the-window.html": {
+"sha256": "0d61e9b083a0c3a4c8cec38eb42c99291cfc9dc045b9f8b4f87e4a86d8de4034",
+"bytes": 68010
+},
+"027-calligrams.html": {
+"sha256": "41cacfc614139940e3343fb8abb0655514e9ac62d9fed11776289a26694263ae",
+"bytes": 59402
+},
+"028-conservas-mare-alta.html": {
+"sha256": "b2cfeef70771a37f017639ec66bdbc2cbec22c277a2cf43f4c1385eeb50a5194",
+"bytes": 112518
+},
+"029-skerry-weather-station.html": {
+"sha256": "3a2817eea315cdd68fcabb94da98d7bd46a69154552e3e9716c2d5efa5f85853",
+"bytes": 78074
+},
+"030-rose-window.html": {
+"sha256": "76a49cd2a09e3a90d0cfd46f598a4bbbd0762cae8276c5114201c73b5254e8d1",
+"bytes": 59363
+},
+"031-tangram-menagerie.html": {
+"sha256": "f99e5ca887b4720b7a934ee882bdb337ec504083f2b408476b1cbf3c3d529318",
+"bytes": 46113
+},
+"032-the-night-typist.html": {
+"sha256": "72e7d4cb7888437dd802a84400d0522d3d56ebf6f45fc977dd176f0ccc008b7e",
+"bytes": 58093
+},
+"033-lava-lamp-1971.html": {
+"sha256": "fca0135823c87cdcd5b224dcef4dbc185bfc64f501c72a88d9d0d089b880ee48",
+"bytes": 43932
+},
+"034-museum-of-obsolete-sounds.html": {
+"sha256": "af3238a01808d8d60e281f24b909b59d38ba4ebdd88ab42f4ba62cf38e7cd1d2",
+"bytes": 82187
+},
+"035-totality.html": {
+"sha256": "366cbfdc8788055896ce569fbfc53c2949eab22bfd31597e287a7fd7a635d370",
+"bytes": 55268
+},
+"036-kestrel-frameworks-bicycles.html": {
+"sha256": "c086f2405372bc87f2b4da682ce4b4799173ac3a87ad67ef62b6e579f1c94998",
+"bytes": 74968
+},
+"037-pendulum-wave.html": {
+"sha256": "28ec0d56965ab6eb2ba952cb93b3492075a998615b017c16fe89edc8ca02bb98",
+"bytes": 53034
+},
+"038-instant-film.html": {
+"sha256": "1ab39695872e99834e2628b762cbaafdda6e9a65233ee7aae73ebb310ea0e2e9",
+"bytes": 59386
+},
+"039-mars-greenhouse-console.html": {
+"sha256": "d343b85a54424688dc0e4354f23231f52c8bf55c5b768a0325c136cf1aba0067",
+"bytes": 70152
+},
+"040-the-harbour-courier-1926.html": {
+"sha256": "82a7d1e5b36b665baa62a45b88c784a31f11d46bc88acea04230a5ff7b6da4e6",
+"bytes": 104909
+},
+"041-jelly-alphabet.html": {
+"sha256": "de2994a4bc9f14d9c8786fb21d32a81c2cb277b3367a3840f66c49e553d72935",
+"bytes": 64875
+},
+"042-dance-of-venus.html": {
+"sha256": "0a83e718476628f88705f57555a08bed76d9595dc925e118c923109dacf27efa",
+"bytes": 54818
+},
+"043-lichen-on-slate.html": {
+"sha256": "177cd2d7e8efd273c2e3e517732b22ad65c725d584470e8b12c516ee36e5ee88",
+"bytes": 57111
+},
+"044-ariadnes-thread.html": {
+"sha256": "0ae56e62f3e3d6239b98c5174746d9f63b21ab596f6bb085db5fa961111e5da5",
+"bytes": 51796
+},
+"045-foundry-specimen-halden.html": {
+"sha256": "816fb68e60a0b9334837881951b34d86c1d7500c63b527d92a83889dd6e5f9b4",
+"bytes": 80461
+},
+"046-snow-at-the-bridge.html": {
+"sha256": "57297976cccc229bed9b3e7df39f51449eb8a81f38608a903f320d45277333e3",
+"bytes": 74719
+},
+"047-atelier-vesper-watch.html": {
+"sha256": "dd14dc370ea4cecff7c46ae1e935cbeed1b7acc1af9e1d5b92ceeee1b70281c0",
+"bytes": 85243
+},
+"048-cross-stitch-studio.html": {
+"sha256": "540dede0bd46a86369d126cd29f029a9b21bac6f8b252707dc2595e8559d16cf",
+"bytes": 87665
+},
+"049-conchology-cabinet.html": {
+"sha256": "33ab794bb968f437907715d694cf0d643c2bbd324fa7662ceedfd4a670dd5a09",
+"bytes": 70662
+},
+"050-river-from-source-to-sea.html": {
+"sha256": "b4c429c293b9f8bb4c2be8ccf4bc1511cedcadcfacd39aa9e4dce2bb245a8e11",
+"bytes": 83271
+},
+"051-pinscreen.html": {
+"sha256": "a3492c54fd8cb3b7ab870d46b99c530a4584e8c65516d2246360aab50c41a5ed",
+"bytes": 51248
+},
+"052-beton-brut-zine.html": {
+"sha256": "fd7f214c695aa011efd6f1f437fa9758aca0d64792d4f38c9fd790c261350f88",
+"bytes": 69509
+},
+"053-sandpile.html": {
+"sha256": "42ed999a1401bed7a7dd02850df56d6b295a21acc79aee227a4c6efc871cc847",
+"bytes": 49679
+},
+"054-matryoshka.html": {
+"sha256": "fa7d2f37c4172dae0d7fe046caee859809e7d7ec0657a5ee4634434af924298e",
+"bytes": 52705
+},
+"055-seismograph-drum.html": {
+"sha256": "da7597576cc8b0a70dc64abcc5bad31cc21a45c7f39e7f1c050625ec24e98b79",
+"bytes": 65464
+},
+"056-the-combination.html": {
+"sha256": "54652ea9e8863915bf3585ba5a3156a5500eb64183aad9cd0da86dc4cc572a15",
+"bytes": 74493
+},
+"057-a-year-of-daylight.html": {
+"sha256": "9f4f9e20ad4c1f3fcbb2b19a8e19ca68ab9198c4bc50f9a6ff4438828ab2e859",
+"bytes": 54010
+},
+"058-the-drawloom.html": {
+"sha256": "f8a464829c88fc7685b371f148a5b1dff68c7b7756bf1115b60de41db4892880",
+"bytes": 65201
+},
+"059-pluvia-and-sons-umbrellas.html": {
+"sha256": "e517078b2db11723764a1160e9e9027814d4b41fba909b196f95892ba5520658",
+"bytes": 80116
+},
+"060-ascii-tide.html": {
+"sha256": "62e3da5f5d30c58f64a9f88cf70b965b19aa003810a5017520cdd24bfa86673e",
+"bytes": 45040
+},
+"061-moon-tonight.html": {
+"sha256": "84598be28314d41fe1406278da5c35f4c2927ab06fbe9b5ab88770b648dded50",
+"bytes": 44581
+},
+"062-wheat-before-rain.html": {
+"sha256": "3d39cce63b6fb909b166d7d7007c540d968b3ad7f9818cf93775c71981eb609c",
+"bytes": 67655
+},
+"063-the-astrolabe.html": {
+"sha256": "a0d88c8d6f4fc1f31809fd731f2cd7424d4a055a19b6e72dbee5e6ed4527f096",
+"bytes": 65902
+},
+"064-par-avion.html": {
+"sha256": "2c712ae623468ce8ee12ac6d0b17e40288237f80bcf37b89df44df591c57845e",
+"bytes": 92353
+},
+"065-ripple-tank.html": {
+"sha256": "35343ff372f1b471b984072f8a88428fcd22b19f67a3c18bf7e1ffb25d2d8707",
+"bytes": 60289
+},
+"066-night-diner.html": {
+"sha256": "10cc4c29e381f6a76e2f08f1e652e7308ac8d82ee5ff26d853ceaa53305ab802",
+"bytes": 55407
+},
+"067-a-short-history-of-fog.html": {
+"sha256": "0f07fc930f825979ceb0ad3bec4a8bd483cc2877d2ac2d70ee879e8c53bbc7f2",
+"bytes": 50656
+},
+"068-gelato-tower.html": {
+"sha256": "668c38588c919a1e4a585b026837291b10f2897022849e21686b1d03e3b1686c",
+"bytes": 64346
+},
+"069-strange-attractors.html": {
+"sha256": "478adc03fafa004a619b3d9d4715229679e46420ec7d013c718139ef767e5d87",
+"bytes": 51766
+},
+"070-semaphore.html": {
+"sha256": "01d6030a086dd535d1664337b2afd4aa8d677b2a7ce9a49cc1fd7e6f70b9e362",
+"bytes": 60487
+},
+"071-apiary-no-9.html": {
+"sha256": "e24b38cffcfc1ad65ab448e4602fd849792315c799b98c8085686a7a5aa1c201",
+"bytes": 63313
+},
+"072-lumen-town-grid.html": {
+"sha256": "5fb0c49bef0eae3cda0136436adbe123a23562336e074c6fe20b61af678392bf",
+"bytes": 83208
+},
+"073-zoetrope.html": {
+"sha256": "f347cf674666b35bd53e74945e59c33aa1e97ce2dd777503d75f82589b803480",
+"bytes": 65183
+},
+"074-collatz-kelp.html": {
+"sha256": "0a50a325d1f8d98a38d254666af81aecdb9b90f8cb1a99ae58d3afbd74fcf920",
+"bytes": 53640
+},
+"075-wood-type-avalanche.html": {
+"sha256": "93e5fabad3a9c9cef525da856c7e7dd9c9d557793b73436c2e9504e8f51a4677",
+"bytes": 64323
+},
+"079-formicarium.html": {
+"sha256": "b6b34da1ec5caa0c7cb2a1b03ccc75558d776a96df85eed98a27c9ed41b33fea",
+"bytes": 60907
+},
+"001-suminagashi-marbling-tray.txt": {
+"sha256": "57019fb47bb30991bd1e2ea68ea1f1862ed245177b4b1bd6a10535c5214b8d7c",
+"bytes": 7145
+},
+"002-airship-terminal-split-flap.txt": {
+"sha256": "0ace4eea61eaa282ec128e1b3ded146b6e53c362ba0f8f4bd677c5d039ee41f9",
+"bytes": 7469
+},
+"003-anatomy-of-a-croissant.txt": {
+"sha256": "717b2eb4633453c1d4ebe5deb946810732369ba84b2a46a9e5e993e05791265b",
+"bytes": 7559
+},
+"004-lighthouse-keeper-night-watch.txt": {
+"sha256": "8d1bc17d04cdbd718295aea5626bd34a75cc2820f0dbd909f552ee949cd88c58",
+"bytes": 9359
+},
+"005-working-slide-rule.txt": {
+"sha256": "dd76a009a740683bf90fdecb29a911efcbdddc3ce0267e6e5779060aec31cb0e",
+"bytes": 7072
+},
+"006-volcan-chico-hot-sauce.txt": {
+"sha256": "53e101138c18956396822df7131d1cdbfe72a7ada7c2e0066ff406ea70cb1457",
+"bytes": 7439
+},
+"007-ice-core-800-metres.txt": {
+"sha256": "101b51adca4c1f244932bb00223b0a0b9d4b5f484bbc7c4b07bb8b766dad1ef2",
+"bytes": 7676
+},
+"008-cabinet-of-impossible-minerals.txt": {
+"sha256": "c0374ad24bd6e45306cb6e35cec5dec5b603b832b41844ef4439a16d14e76a7b",
+"bytes": 7143
+},
+"009-koi-pond-noon.txt": {
+"sha256": "1f0cbbd16ce7900febc7ef907e59d3bfb94adbc690cdda11376c5712a41d17c2",
+"bytes": 6861
+},
+"010-op-art-pulse.txt": {
+"sha256": "e2d18a1f6caca7179eea66d278f666a71ffe61d80f05e32b12f7288a5bc08316",
+"bytes": 9852
+},
+"011-the-hours-in-words.txt": {
+"sha256": "2af732c2e7c69715f742c0bf86e5469d60c6bf53f0f06f07a310986503aa5c54",
+"bytes": 7795
+},
+"012-murmuration-at-dusk.txt": {
+"sha256": "acb451317ff90014220275079200780cf29c8d46e77cb983af6d85b37da7f0fb",
+"bytes": 9478
+},
+"013-iron-filings.txt": {
+"sha256": "046a06439c527003d94c5b9948002f077cdf355e8fb559313a5d84cd59baa3be",
+"bytes": 7991
+},
+"014-ulam-prime-spiral.txt": {
+"sha256": "04a24cdf5b36e6ed14e87d0197f0099c6bc3adcc9128e8d87152c217b77974d4",
+"bytes": 7688
+},
+"015-maison-ombre-perfume.txt": {
+"sha256": "ec504bab3a1c028a3a6e0cb736ad145e35be58beb08911fea70d5f437aa52bf8",
+"bytes": 8280
+},
+"016-vector-lunar-descent.txt": {
+"sha256": "1241ad9e97d07a96afb8c1c7e255c909d6573b13d83027addd91585df637fe70",
+"bytes": 7843
+},
+"017-spore-print-riso-zine.txt": {
+"sha256": "0bcde3289dfec8dce04e8ea8c64945f18876de964e6cc0f0f2e83b6759515c85",
+"bytes": 8945
+},
+"018-pen-plotter-landscapes.txt": {
+"sha256": "c983f4aa87bcbbd0259df9657130c1901db526da16504b3faa9c0bcc4419f18f",
+"bytes": 7795
+},
+"019-bauhaus-drum-machine.txt": {
+"sha256": "5b1103e8dd4fff03b34b5d3b6f0078d145025ba61643e6bd111b84812391acde",
+"bytes": 8471
+},
+"020-aurora-over-the-fjord.txt": {
+"sha256": "d275345d7fec3336908edab4195fd9d5c3f7bacb175ce4f719fff5ca7b0ec4aa",
+"bytes": 7817
+},
+"021-drawer-of-imaginary-moths.txt": {
+"sha256": "934e8c88b4625013bf327d9d1e0c76672bf2b7f271aca168f04b34ab07fae1ca",
+"bytes": 9080
+},
+"022-hotel-meridian-elevator.txt": {
+"sha256": "5133ebd6308bdc9eac7b03d7f1bce356972ccf3633199ac014a219971807d9d8",
+"bytes": 8640
+},
+"023-walnut-turntable.txt": {
+"sha256": "175df6d914af7b14f3090a7e5721f96c6c8eaf3166abdca61dc588baa37e6afc",
+"bytes": 9403
+},
+"024-village-of-three-hundred.txt": {
+"sha256": "798862bf10c0d0efceaed0df1dcbcf64497b960c3a702d137ff6f446dd469596",
+"bytes": 8710
+},
+"025-pottery-wheel.txt": {
+"sha256": "a5b2a68ae45940e37884f04302a00042be8442b54bce1860431cfeca9af19187",
+"bytes": 8569
+},
+"026-frost-on-the-window.txt": {
+"sha256": "4fc7878ac6a4212d8f4ab282e86aeab76e077ecb6dbff4124383168daee58e46",
+"bytes": 8061
+},
+"027-calligrams.txt": {
+"sha256": "453b6a9cc8f9c9319bf44387b3c086385afbb479a063d03e0a57b7a705ab32aa",
+"bytes": 9518
+},
+"028-conservas-mare-alta.txt": {
+"sha256": "7d0e6e46ccc38ace59db612a347537e2cdf7cf558441fbd8f966467a6fdb482c",
+"bytes": 7678
+},
+"029-skerry-weather-station.txt": {
+"sha256": "54168bb8d6ef2d51da04607f18cb4da63f573271fad83702c160c3e13ab188e3",
+"bytes": 8972
+},
+"030-rose-window.txt": {
+"sha256": "28a7b4e285b62064e60593a82830c5f2bd3650c3e82017cd581f5d45afb72aea",
+"bytes": 7671
+},
+"031-tangram-menagerie.txt": {
+"sha256": "026d0cd7eda3496b22d109b8b96dec5a56aadee58a1acc4fb5c1f141f3b27f03",
+"bytes": 7236
+},
+"032-the-night-typist.txt": {
+"sha256": "773c195f899efdf15523e6d4b75b33d78ac6071ca5ee6f24773c5e08bc3c96b7",
+"bytes": 9447
+},
+"033-lava-lamp-1971.txt": {
+"sha256": "4b703679bca0c3b44fc298ac3d9a0bdf55a7f70212aba5746c61816c16413819",
+"bytes": 7562
+},
+"034-museum-of-obsolete-sounds.txt": {
+"sha256": "f966513510b469f4a6a48b9e36cbd4455726945194f87d072dd02153930db659",
+"bytes": 9736
+},
+"035-totality.txt": {
+"sha256": "2d9672c41d3f3b2f13da163b6ae968ee6de378a73852095c864c758800fda16e",
+"bytes": 8830
+},
+"036-kestrel-frameworks-bicycles.txt": {
+"sha256": "7991259e62e2585b6051258264830c9379937705c3af48a768e2e0bbbcebebbc",
+"bytes": 10450
+},
+"037-pendulum-wave.txt": {
+"sha256": "23f4dc33467e8b03d3a13f1762fd3665b2f90d71d410a771bef60d32964063b5",
+"bytes": 8200
+},
+"038-instant-film.txt": {
+"sha256": "ef469595564cbbe2abd2000e4c8acb49974238e7208ff7a3e288c659a91708ed",
+"bytes": 8896
+},
+"039-mars-greenhouse-console.txt": {
+"sha256": "5a1376f56ac3236e5cbb371b6b9c28d9bf3b0b2395ec0f42745c9c42907ffefe",
+"bytes": 10429
+},
+"040-the-harbour-courier-1926.txt": {
+"sha256": "65da97c2ccd3c9c0deff90a07ecbb5836c1b92ade492cf15e8fc4ab9acd17a99",
+"bytes": 8333
+},
+"041-jelly-alphabet.txt": {
+"sha256": "5d342a1185aef8bc2ac50dcff524d07222d0673f1441b0da0f8456e0d442b713",
+"bytes": 8316
+},
+"042-dance-of-venus.txt": {
+"sha256": "5270dce65b29eb16c330372fba770c14bbcf71aa390a26f67ea8b92e247451da",
+"bytes": 9111
+},
+"043-lichen-on-slate.txt": {
+"sha256": "f2bee335c68fa0bf13d70f80c3a02b54d35d6a1abf6f4e00fc58082487859d8d",
+"bytes": 9340
+},
+"044-ariadnes-thread.txt": {
+"sha256": "23a05cdccdffca1ccb8b6ed5293234ce3d0280831c6493f3de15303bfd5b4bdb",
+"bytes": 8390
+},
+"045-foundry-specimen-halden.txt": {
+"sha256": "454f4c148a5a2e2717336823a2d691d7e8d67f4b5682abb6858d64d0c5b8be14",
+"bytes": 8607
+},
+"046-snow-at-the-bridge.txt": {
+"sha256": "25be7869f73d52f74c8551fd8b5249b8eda66c33d1bb26439756667b8042f18f",
+"bytes": 8627
+},
+"047-atelier-vesper-watch.txt": {
+"sha256": "72aea866b079b46acebc739d11ca773e75c438b4124eef4dd15892bdd8016c04",
+"bytes": 9476
+},
+"048-cross-stitch-studio.txt": {
+"sha256": "4de9fd25be952d1b2f7a16c04d2819765ff93ae8ef9bac0870d2b83560d3a3ce",
+"bytes": 7964
+},
+"049-conchology-cabinet.txt": {
+"sha256": "9985e31c40a9c788a245ba9593a8afca08b1acfacc3f783a0b2045d365f539a4",
+"bytes": 11141
+},
+"050-river-from-source-to-sea.txt": {
+"sha256": "391ddf1906531ab26834726e35ee62f9ab84234135d2bf3df69c20faa412d6e0",
+"bytes": 9466
+},
+"051-pinscreen.txt": {
+"sha256": "eb58d485bc01e8a85026d199897ae2a05dba7b8ad5a34d2eb0fe4ce13eb15535",
+"bytes": 8862
+},
+"052-beton-brut-zine.txt": {
+"sha256": "08bff8da0eb9bfee739d98cb833cde522b27b0311fc6e489433092e406d9c66a",
+"bytes": 8997
+},
+"053-sandpile.txt": {
+"sha256": "f06eb5c3464b8cf6ad51b9eebd55227a438441d4364ef024b27b35d8983f538c",
+"bytes": 8651
+},
+"054-matryoshka.txt": {
+"sha256": "4b8a88d3cde7f12c837fd4ad0c8e475b7a5b661b4f4b18258e45c38ff9466912",
+"bytes": 8839
+},
+"055-seismograph-drum.txt": {
+"sha256": "004f9f2e25531444f4487e7e8bb6fe1ef557f97f16ff73036fe49465de5f4fbf",
+"bytes": 8242
+},
+"056-the-combination.txt": {
+"sha256": "e697e463ff7eff89dc3adcb3a5012c4434a857cbf416292f8f88938b92ca1f67",
+"bytes": 10111
+},
+"057-a-year-of-daylight.txt": {
+"sha256": "a8487c0f9ac03f027a554200f46861e4071c9f28d93731df9207bbfb0f0ce7ae",
+"bytes": 8578
+},
+"058-the-drawloom.txt": {
+"sha256": "ddc66e27c03afd06cdcfeeac26a7df5f4e0f9fe122f9b1295d629b78421ea314",
+"bytes": 9230
+},
+"059-pluvia-and-sons-umbrellas.txt": {
+"sha256": "aeabdce5d2001182e225ac8278155203ec51d14a5b06b4aa1ffff841653ff068",
+"bytes": 9211
+},
+"060-ascii-tide.txt": {
+"sha256": "8ff02c6217c0cec4831f1215ed728aea1fa623ec227aea9626ee485f6579f6e8",
+"bytes": 9652
+},
+"061-moon-tonight.txt": {
+"sha256": "f53f0bfcbc693feb20912995e846374f4257a936b88b89a2a7642a0a8aa5897d",
+"bytes": 8769
+},
+"062-wheat-before-rain.txt": {
+"sha256": "5ca83e945cac2faceb80bbb858fa3cefb592cd4cb8edfd39ba3bc4d2c2b3e2e5",
+"bytes": 9686
+},
+"063-the-astrolabe.txt": {
+"sha256": "7aa7b1ed079a71f9d72c31764209ed6e3569f7792613563f488daa3b847fbd99",
+"bytes": 10146
+},
+"064-par-avion.txt": {
+"sha256": "99402e5adf646d631352aa48f58a3529a11c62fc6c5f4f888e9c58f390c1b375",
+"bytes": 10148
+},
+"065-ripple-tank.txt": {
+"sha256": "66d337f6d9a5d735d580cdfaa87c33799b3d7bd857e765bd4bea509d0b25c88c",
+"bytes": 8905
+},
+"066-night-diner.txt": {
+"sha256": "8eddadf65823f7599c8f8e080a96bf097c44f66551a80a1941bd6ac65fe5e90b",
+"bytes": 8811
+},
+"067-a-short-history-of-fog.txt": {
+"sha256": "716fac37fdc81d8b098f4f89afc169df0374dd52dfb927bad60445aca21427c9",
+"bytes": 9373
+},
+"068-gelato-tower.txt": {
+"sha256": "72e683a0a23021d2695f6330e40b30c61e8b4a7b5aa24d6d86f6c9ad7c55d305",
+"bytes": 9099
+},
+"069-strange-attractors.txt": {
+"sha256": "382c3f931ba6955fbf2f8ed0f7626dd7bc391f672b57b6cf818b63d36c3c4a09",
+"bytes": 9572
+},
+"070-semaphore.txt": {
+"sha256": "e872f5e9e4132a0d9760f81a7fd12beec1bf1c3d4699dabfc48a108c51eb8ab3",
+"bytes": 9470
+},
+"071-apiary-no-9.txt": {
+"sha256": "e0a2badc6c7d41cacc6b2c9606bd2bf924235bf7addeb2458a097c9fdd59eaf9",
+"bytes": 9407
+},
+"072-lumen-town-grid.txt": {
+"sha256": "84f45296cacbd3e2d5e3fc6ff1c9ccdd94987762e422b2d34407304ec57984a8",
+"bytes": 9888
+},
+"073-zoetrope.txt": {
+"sha256": "c8cbf740ba1f9dfe8f9c354b21b2f626ecd9adb539b76c461ecf2ca69c0de4c8",
+"bytes": 10039
+},
+"074-collatz-kelp.txt": {
+"sha256": "8a6444a58f47cbda0caa79ea8313252c9a2a61a7910ba0d092ff711157ac1679",
+"bytes": 8834
+},
+"075-wood-type-avalanche.txt": {
+"sha256": "a43e9f74a74ce38fe960e047a906633f2ccf3b32ba88b9e584bc0f266228e0d1",
+"bytes": 8286
+},
+"079-formicarium.txt": {
+"sha256": "89711574fd46bfdfbce31b043758b2a6856ce268b8a0dac0d0e891e754ac8712",
+"bytes": 8457
+},
+"thumbs/001-suminagashi-marbling-tray.jpg": {
+"sha256": "70914305f411a4a95be4131f4b8304b61273277a47d3b61c60653dc65462d132",
+"bytes": 127773
+},
+"thumbs/002-airship-terminal-split-flap.jpg": {
+"sha256": "4944db76873fd4ed43a572a7fd9e83dc848fa8f3dcc90592d231a204df19e993",
+"bytes": 266900
+},
+"thumbs/003-anatomy-of-a-croissant.jpg": {
+"sha256": "b8d46b059ce45f9cef098462596bee313781b6581e1edbc662bf801ca25e7788",
+"bytes": 144410
+},
+"thumbs/004-lighthouse-keeper-night-watch.jpg": {
+"sha256": "4c0f0804459ffdee69a0d883afa788a48c628379f6b31a219e080225c448e348",
+"bytes": 135244
+},
+"thumbs/005-working-slide-rule.jpg": {
+"sha256": "72b961f58212f87700c8d313fb9e5f2bf0e9e1070cb9ca78a363c3f828681210",
+"bytes": 209738
+},
+"thumbs/006-volcan-chico-hot-sauce.jpg": {
+"sha256": "95b82e97ac413af41c28619e1bdb4742a47d81d4e2b45b9c7204549db2bbadea",
+"bytes": 190991
+},
+"thumbs/007-ice-core-800-metres.jpg": {
+"sha256": "d02e16997b968bc97fa01c107032d4a5ce42cdf92a54eefbf9478500b36b98a4",
+"bytes": 109411
+},
+"thumbs/008-cabinet-of-impossible-minerals.jpg": {
+"sha256": "e46d59fc4dbc013eb1ff8a844657baa1f77f38c7427087f3485c5e80ec4007e6",
+"bytes": 114791
+},
+"thumbs/009-koi-pond-noon.jpg": {
+"sha256": "15552ab7086c232a70ed1eb2509b823bc49930d94e3341cb64c5aa5a98755744",
+"bytes": 148047
+},
+"thumbs/010-op-art-pulse.jpg": {
+"sha256": "ed0504d77e6c012c47f20e1b50e81d5345b559d7d20ad051a462674b3a9273b6",
+"bytes": 130531
+},
+"thumbs/011-the-hours-in-words.jpg": {
+"sha256": "8726a83cc55f238efcbbe1f9497ae95072ed48dbab40e8c74d92b4ca15036fe0",
+"bytes": 233822
+},
+"thumbs/012-murmuration-at-dusk.jpg": {
+"sha256": "4e23c84c60d3de41a76648f372d94020f63319b84388465a3eb1fbebfaf52130",
+"bytes": 209641
+},
+"thumbs/013-iron-filings.jpg": {
+"sha256": "e1d2d15c650b1eb79e7bd3e2a11752730ef151daa4f6f11b77b29b68f7a232b4",
+"bytes": 451220
+},
+"thumbs/014-ulam-prime-spiral.jpg": {
+"sha256": "600ae825958ef13f13b772ca38fef78b20b7e0853c162099b75e59d2af43b1f4",
+"bytes": 289290
+},
+"thumbs/015-maison-ombre-perfume.jpg": {
+"sha256": "817f2e25f8257a842547685a373a8703f121e90e1e37ace3070af3835f91f2b3",
+"bytes": 133776
+},
+"thumbs/016-vector-lunar-descent.jpg": {
+"sha256": "13e07ca56119c8a2184769ca165293b887b2b89026dcc724dd32e5e8935481b7",
+"bytes": 113658
+},
+"thumbs/017-spore-print-riso-zine.jpg": {
+"sha256": "cecc508a2890c5f26ca8eb04ed5f1adffa04dbec9e46b4a9a6e9cc193bf0d633",
+"bytes": 266490
+},
+"thumbs/018-pen-plotter-landscapes.jpg": {
+"sha256": "fa99f34b8067d109097a5a36f7c2bce09812783239beabad67f5b2a270673349",
+"bytes": 107629
+},
+"thumbs/019-bauhaus-drum-machine.jpg": {
+"sha256": "586e093ad4414d863c8f5bf25aa88296384a20b09a12a3c760d9f6b6bbcdf3d3",
+"bytes": 245244
+},
+"thumbs/020-aurora-over-the-fjord.jpg": {
+"sha256": "be673f0c1a57ee127694141891596f62a1b97b32265435be555449ebe4802bed",
+"bytes": 117642
+},
+"thumbs/021-drawer-of-imaginary-moths.jpg": {
+"sha256": "a849ab90ad0afda1950a9aec2af9e293fb0981d05a386629dd72bbccee569439",
+"bytes": 216579
+},
+"thumbs/022-hotel-meridian-elevator.jpg": {
+"sha256": "bccaf8b512a26ae8c51f6fe8a8b4b6b7edbb415f37b8077478b51db7705788f3",
+"bytes": 202842
+},
+"thumbs/023-walnut-turntable.jpg": {
+"sha256": "7472d7c94eee404e135f897a92e2cf6ad2517eea1f0abed85faf8f1327f9b260",
+"bytes": 203764
+},
+"thumbs/024-village-of-three-hundred.jpg": {
+"sha256": "75624014bd19574c65efcaf6776298181b978c65a25d6b4d94d14c67f58eb5e3",
+"bytes": 170793
+},
+"thumbs/025-pottery-wheel.jpg": {
+"sha256": "a175694efd64f32ef8c6f43e4d829d774d9d1dadcb41f44ba36f4d734f862b26",
+"bytes": 121324
+},
+"thumbs/026-frost-on-the-window.jpg": {
+"sha256": "094bfb29128753ffbc96b7a857c9281bed0b8fa3b7864a04bdc34c47bdeb4c70",
+"bytes": 134188
+},
+"thumbs/027-calligrams.jpg": {
+"sha256": "f1125fd559a95cbc5c6f30d4b2c4cc266941b8b06cf28bd7c44a3b2e9cb1513f",
+"bytes": 142005
+},
+"thumbs/028-conservas-mare-alta.jpg": {
+"sha256": "e14673a5fabb9ab3a237b26fb426beee6d648a8f72ae524a30d1aa414f923ddb",
+"bytes": 185130
+},
+"thumbs/029-skerry-weather-station.jpg": {
+"sha256": "957b36d015f1aba8122214d63eca1168980ed41f709ace15754a55bb067837b3",
+"bytes": 175797
+},
+"thumbs/030-rose-window.jpg": {
+"sha256": "df6f360c7d22d12c6d90ae2aaca6fc2f0005145c5c040bc40e6d3faec4212f79",
+"bytes": 155642
+},
+"thumbs/031-tangram-menagerie.jpg": {
+"sha256": "400e2a8f4738075a965b1247fe2cf910bf79c26c087154b4c7e8eea67fe8286b",
+"bytes": 195613
+},
+"thumbs/032-the-night-typist.jpg": {
+"sha256": "e519f39070018cefeee3afccf5d1c5dcbcf4e2e2733a56aede3f037511fa2301",
+"bytes": 185156
+},
+"thumbs/033-lava-lamp-1971.jpg": {
+"sha256": "c6c2b048567bb37c551853367ab4ac76178bbb937297d0cdcf94066639e4d9a5",
+"bytes": 142807
+},
+"thumbs/034-museum-of-obsolete-sounds.jpg": {
+"sha256": "c4aed2faae807ae53a8e0284407c3d8b10b376fd69cb26ae871156f70e38051c",
+"bytes": 95432
+},
+"thumbs/035-totality.jpg": {
+"sha256": "5a291c46a55a873dfcb7b70852cb682343c997c237384f1d9b0354b5e34cdd82",
+"bytes": 153241
+},
+"thumbs/036-kestrel-frameworks-bicycles.jpg": {
+"sha256": "fe06022c37869cff0fe7b8e7043b1bb75c40845a37a36163991f5a35cf0caea4",
+"bytes": 173867
+},
+"thumbs/037-pendulum-wave.jpg": {
+"sha256": "e512e3f3f196c63dd21a7b304b884ddf75c8517133f50e3b22b74347422a7d11",
+"bytes": 140780
+},
+"thumbs/038-instant-film.jpg": {
+"sha256": "bc4a4e8331b8576b90ce1367708a74f16327058768c024f23c94bd5f289de645",
+"bytes": 101127
+},
+"thumbs/039-mars-greenhouse-console.jpg": {
+"sha256": "060291bc6be16379c25a547a2320e8736c35d90b85f57ad3358dd62d3f34df64",
+"bytes": 172659
+},
+"thumbs/040-the-harbour-courier-1926.jpg": {
+"sha256": "50adcbce727851ce8bc072ec55a2614812b7969706e501de64f6458bf6646204",
+"bytes": 538577
+},
+"thumbs/041-jelly-alphabet.jpg": {
+"sha256": "c32326190994bb1e7d274a027aaff121712cc4c89895528a320e804cd3393d15",
+"bytes": 119949
+},
+"thumbs/042-dance-of-venus.jpg": {
+"sha256": "66ba247a074755c8eea1b29f0e297b171bd2e40c104cec11ae09a4ec1eb99ec4",
+"bytes": 297780
+},
+"thumbs/043-lichen-on-slate.jpg": {
+"sha256": "315d05fc26bce60b49d6b5329fbfb5490e353dc9c21d924fc5adb05d5a5e8f43",
+"bytes": 136879
+},
+"thumbs/044-ariadnes-thread.jpg": {
+"sha256": "d4c105957af3ac34513a602d6b5a118396bd0689e4c8d206ef7f3f7075acc6f9",
+"bytes": 311125
+},
+"thumbs/045-foundry-specimen-halden.jpg": {
+"sha256": "057fd760b0c6bccb251793f56148288b36e0060e3a806279a057193b52b083c6",
+"bytes": 95061
+},
+"thumbs/046-snow-at-the-bridge.jpg": {
+"sha256": "705553f3b11ffc0813a2c3157284bbb8c1a30616e9c693e075f1c2d3c7268536",
+"bytes": 141175
+},
+"thumbs/047-atelier-vesper-watch.jpg": {
+"sha256": "f8c317253a618016d53697589b9a544ae7fe137d506b09efe9285ad4a15c0ce4",
+"bytes": 169015
+},
+"thumbs/048-cross-stitch-studio.jpg": {
+"sha256": "018883d2574b23bf1a7806dc67c7f20b56ec139736b9c757be72ccdcab08e117",
+"bytes": 335683
+},
+"thumbs/049-conchology-cabinet.jpg": {
+"sha256": "08c9352297fd3feb08367c1709f3efa28e461708387674abc1f8ce9c50c7d160",
+"bytes": 154007
+},
+"thumbs/050-river-from-source-to-sea.jpg": {
+"sha256": "907a960c9ddf55b7b78747c8f453ba6a475cc3f086af8e5994d6f604db67ea7d",
+"bytes": 243865
+},
+"thumbs/051-pinscreen.jpg": {
+"sha256": "5dc63594d6b111f7c9258663667aeca5408028edb36243d33a12ef18c6d1c700",
+"bytes": 394026
+},
+"thumbs/052-beton-brut-zine.jpg": {
+"sha256": "76e6c01ed19e6a82a0852f965ada1b762ab7141c853daae9d4073e0d5bfe05c2",
+"bytes": 405773
+},
+"thumbs/053-sandpile.jpg": {
+"sha256": "dd506edf5609e2528d57d897be41b85bfd0a3824608fcfff5cde42ef478859a5",
+"bytes": 395655
+},
+"thumbs/054-matryoshka.jpg": {
+"sha256": "b99fd009318d9bb64f2aa1cec8cdee190e57221de33580c3c6a7059d2bf4d04a",
+"bytes": 157961
+},
+"thumbs/055-seismograph-drum.jpg": {
+"sha256": "1b2142ca2228bd00ca45b1cf7c172783e7ac92f3ec6096b5537975e847d598f8",
+"bytes": 212640
+},
+"thumbs/056-the-combination.jpg": {
+"sha256": "faddb0d877bd92e6cf679aaf7e4a5a5ab011185accf67609d8ca16d78084b043",
+"bytes": 144453
+},
+"thumbs/057-a-year-of-daylight.jpg": {
+"sha256": "eabf293ac980335d9b9583c7aa4a64e5010871b538ade5bcb47c53e7ea12a88b",
+"bytes": 175551
+},
+"thumbs/058-the-drawloom.jpg": {
+"sha256": "7024bb2f45e0c3042fd3aec344b0442a9b5497669e8073000ebebb82dce8c357",
+"bytes": 424548
+},
+"thumbs/059-pluvia-and-sons-umbrellas.jpg": {
+"sha256": "936eb0ebab56e0942f26fbaedb426b43ad868f2afca180261781d9efc3a71211",
+"bytes": 162014
+},
+"thumbs/060-ascii-tide.jpg": {
+"sha256": "8fae99bb43ab23c3fa25c40e0f3a7bf8ee7736bf6115b7f28dccac529bb5363c",
+"bytes": 298731
+},
+"thumbs/061-moon-tonight.jpg": {
+"sha256": "c7d2668bbbd244dc84761eb619aec1139dd107c834055b10e21df0d7146d363a",
+"bytes": 73001
+},
+"thumbs/062-wheat-before-rain.jpg": {
+"sha256": "a69320aaa2f0d655bbc7f4f0c4c7db80d9848a9bbfc9170c37984d6955d5ac07",
+"bytes": 339764
+},
+"thumbs/063-the-astrolabe.jpg": {
+"sha256": "f5c86a6904af4e6b2b9be27744bd94eb17b7c882be4b25e90e2b79a7fb2dad67",
+"bytes": 260378
+},
+"thumbs/064-par-avion.jpg": {
+"sha256": "bb75fc04860c9200661fcec8292e6f103a119cd8b9257e92c23622f2a7203c99",
+"bytes": 149261
+},
+"thumbs/065-ripple-tank.jpg": {
+"sha256": "865bcff55840c4088a024d6171071c4ac2f0a14a7fb83189465179a6f32cf743",
+"bytes": 199333
+},
+"thumbs/066-night-diner.jpg": {
+"sha256": "2adbae9577a3ca7c452a2680ad01b7730d68b11d57107ddcf2c164efb59d6c29",
+"bytes": 114226
+},
+"thumbs/067-a-short-history-of-fog.jpg": {
+"sha256": "ab2e1b9c5e0c89df14e422cc40c0ade512c534dcb8e8d3583dd8efa8b7ccc4b6",
+"bytes": 82259
+},
+"thumbs/068-gelato-tower.jpg": {
+"sha256": "5588d02f5c9dda1b6b48e0ba3b42020b93a00975965c3ca303b8cccb8dd64c77",
+"bytes": 150365
+},
+"thumbs/069-strange-attractors.jpg": {
+"sha256": "2c2698e04c4f52f2ecd35a86543a03a1cb196ab82809b751f97f1a8902caed41",
+"bytes": 150822
+},
+"thumbs/070-semaphore.jpg": {
+"sha256": "5733da063b8177a8da1c10e756e435d4a0e4b2de42cdd817ef67700c84889b43",
+"bytes": 258417
+},
+"thumbs/071-apiary-no-9.jpg": {
+"sha256": "14a776e423f59a5d9efc624cf12e47e9db2a9461610a0929476b4988e8b80ccb",
+"bytes": 121961
+},
+"thumbs/072-lumen-town-grid.jpg": {
+"sha256": "3047830b0cb6fbd6c36d92af3e646f7e262cff8d5808d42d958781e5106a7dbd",
+"bytes": 238898
+},
+"thumbs/073-zoetrope.jpg": {
+"sha256": "2ef278f558701d21aef0abc681ed6db68a8010cdc21f1eccb4b786a067bdd35b",
+"bytes": 147958
+},
+"thumbs/074-collatz-kelp.jpg": {
+"sha256": "47b9c3206ba135dcb326cb236d084ca898f3bae99cc9465f404defd656ee18cf",
+"bytes": 195810
+},
+"thumbs/075-wood-type-avalanche.jpg": {
+"sha256": "9ce07ac0f4d935505141505966fd8fb65efa0bbe060cad8891019911ffeecfd1",
+"bytes": 208589
+},
+"thumbs/079-formicarium.jpg": {
+"sha256": "57d06701637e3e911d6cb323036774c1729b81234cfafb9e5193663aa211afd1",
+"bytes": 234181
+},
+"studies/030-rose-window/index.html": {
+"sha256": "3972976bbd1dcb1a00a20c935dab9a6074c744e46e94e31a9c3a940e81192c2f",
+"bytes": 25327
+},
+"index.html": {
+"sha256": "7aa43aba0f3e44f024e53d86eb24a6980cdf4d5c77ce70cb9b61990ae9ca506b",
+"bytes": 802849
+},
+"scripts/gallery-template.html": {
+"sha256": "c89e432d4076b67a67480d9ce434e2738b19a5d750cdedaad25803ebabdb22b0",
+"bytes": 9282
+},
+"scripts/build_gallery.py": {
+"sha256": "843fdc0bdeee69b458797a55e44c1a23ab7ceb42c5ffc7a39de5a2a3a402c012",
+"bytes": 5959
+},
+"harness/manifest.py": {
+"sha256": "670619a960ad7030c6b7e7808b52724951b7d2f8dd1be128bafc6b13eec1c6ef",
+"bytes": 3124
+},
+"harness/prompt_pack.py": {
+"sha256": "8a122f65b8452adf9e4a0d501ff2f246330680def08c07e63cdb7469862a4afb",
+"bytes": 5269
+},
+"harness/regress.py": {
+"sha256": "f9d4fec83b4f4b3398bbfac8022380ded86e6b04f22e0bd128aabbeb85e3fefd",
+"bytes": 8452
+},
+"harness/sparse.py": {
+"sha256": "b8999095aee5308fbf6cc74461fa3164a0915e1407b613272a24ee9f9c549d03",
+"bytes": 5533
+},
+"harness/spec.py": {
+"sha256": "e2570e10dc368bc85b0a4734dd3524d96cb64704619e538a4b884c68ca46928c",
+"bytes": 4348
+},
+"harness/spiking.py": {
+"sha256": "7fc552b7155e0b76f2fe1166b013655d515f751290ce7ffac66dc01617c1d213",
+"bytes": 6616
+},
+"harness/static_audit.py": {
+"sha256": "7d5a528ace9a751762cfdb0ae44ee71e71eadda027aa923fddab2440496676d0",
+"bytes": 9949
+},
+"harness/runtime.mjs": {
+"sha256": "fef4e3116f7c42a54a1f2bd0662e809b5a4d649ed52ba8292f684e4978ad2043",
+"bytes": 12619
+}
+}
+}

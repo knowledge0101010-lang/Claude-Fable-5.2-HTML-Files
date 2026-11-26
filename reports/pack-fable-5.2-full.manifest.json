@@ -1,0 +1,12 @@
+{
+ "builtAt": "2026-11-26T22:03:44+0900",
+ "out": "reports/pack-fable-5.2-full.md",
+ "chars": 426203,
+ "est_tokens": 118390,
+ "sources": [
+  {
+   "file": "refs/prompts/fable-5.2/web-app-fable-5.2.md",
+   "sha256": "f6c62d2bdf182bb5"
+  }
+ ]
+}
