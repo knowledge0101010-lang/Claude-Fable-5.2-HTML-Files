@@ -1,7 +1,7 @@
 {
  "id": "study-030-derived",
  "card": "requests/study-030-derived.yaml",
- "startedAt": "2026-11-27T12:19:34+0900",
+ "startedAt": "2026-11-27T14:13:31+0900",
  "stage": "judge",
  "ok": true,
  "goal": "030-rose-window 파생판이 원본 스펙을 만족하고 갤러리가 그대로 재현되는지 확인한다",
@@ -23,15 +23,7 @@
    "bytes": 25327
   }
  ],
- "meta": {
-  "wall_seconds": 0.6,
-  "exit": 0,
-  "stdout_tail": [
-   "Built index.html with 76 studies, full prompts, techniques and interaction models.",
-   "PASS gallery-reproducible"
-  ],
-  "stderr_tail": []
- },
+ "meta": {},
  "metrics": {
   "composite": 0.9747,
   "delta": 0.18,
@@ -42,5 +34,5 @@
   "composite=0.9747 >= 0.97 · PASS",
   "reimpl_score=1.0 >= 0.98 · PASS"
  ],
- "finishedAt": "2026-11-27T12:19:34+0900"
+ "finishedAt": "2026-11-27T14:13:31+0900"
 }

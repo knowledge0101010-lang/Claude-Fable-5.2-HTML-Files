@@ -1,0 +1,24 @@
+max_iterations: 3
+checkpoint_interval: 1
+random_seed: 11
+llm:
+  primary_model: "deepseek-flash"
+  primary_model_weight: 1.0
+  api_base: "http://127.0.0.1:8123/v1"
+  temperature: 0.7
+  max_tokens: 16000
+  timeout: 180
+prompt:
+  system_message: "Emit ONE minimal SEARCH/REPLACE diff inside the block; never restate the whole file. You are generating a single self-contained HTML art study from a written spec. Improve the HTML string inside the EVOLVE-BLOCK. It must stay one file with no external requests, include the exact hex colours the spec names, use canvas or svg, support prefers-reduced-motion and keyboard input, and stay under 140 KB. Edit only inside the block."
+database:
+  population_size: 4
+  archive_size: 2
+  num_islands: 1
+  elite_selection_ratio: 0.25
+  exploitation_ratio: 0.7
+  similarity_threshold: 0.99
+evaluator:
+  timeout: 120
+  cascade_thresholds: [1.0]
+  parallel_evaluations: 1
+diff_based_evolution: true

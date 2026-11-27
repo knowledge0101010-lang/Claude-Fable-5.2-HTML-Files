@@ -6,3 +6,5 @@ _site/
 reports/shots/
 reports/shots*/
 harness/__pycache__/
+evolution/*/openevolve_output/checkpoints/
+evolution/*/openevolve_output/logs/

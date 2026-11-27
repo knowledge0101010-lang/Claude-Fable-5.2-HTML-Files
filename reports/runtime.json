@@ -1,5 +1,5 @@
 {
- "capturedAt": "2026-11-26T12:58:36.730Z",
+ "capturedAt": "2026-11-27T05:14:50.080Z",
  "pages": [
   {
    "file": "index.html",
@@ -9,11 +9,11 @@
    "errors": [],
    "warnings": [],
    "timing": {
-    "open": 36,
-    "enable": 121,
-    "metrics": 1203,
+    "open": 42,
+    "enable": 150,
+    "metrics": 1202,
     "desktop": 1,
-    "mobile": 791,
+    "mobile": 723,
     "mobileShot": 320
    },
    "metrics": {
@@ -50,8 +50,8 @@
    "errors": [],
    "warnings": [],
    "timing": {
-    "open": 30,
-    "enable": 117,
+    "open": 32,
+    "enable": 147,
     "metrics": 1204,
     "desktop": 1,
     "mobile": 366
@@ -88,9 +88,9 @@
    "errors": [],
    "warnings": [],
    "timing": {
-    "open": 6,
+    "open": 8,
     "enable": 125,
-    "metrics": 1201,
+    "metrics": 1203,
     "desktop": 1,
     "mobile": 360
    },
@@ -126,11 +126,11 @@
    "errors": [],
    "warnings": [],
    "timing": {
-    "open": 9,
-    "enable": 96,
-    "metrics": 1204,
+    "open": 8,
+    "enable": 70,
+    "metrics": 1203,
     "desktop": 1,
-    "mobile": 377
+    "mobile": 374
    },
    "metrics": {
     "title": "The Anatomy of a Croissant · Crumb Quarterly, No. 14",
@@ -164,11 +164,11 @@
    "errors": [],
    "warnings": [],
    "timing": {
-    "open": 5,
-    "enable": 117,
+    "open": 7,
+    "enable": 163,
     "metrics": 1202,
     "desktop": 1,
-    "mobile": 357
+    "mobile": 358
    },
    "metrics": {
     "title": "Night Watch at Sorrow Rock",
@@ -202,9 +202,9 @@
    "errors": [],
    "warnings": [],
    "timing": {
-    "open": 6,
-    "enable": 103,
-    "metrics": 1204,
+    "open": 16,
+    "enable": 126,
+    "metrics": 1205,
     "desktop": 1,
     "mobile": 368
    },
@@ -241,10 +241,10 @@
    "warnings": [],
    "timing": {
     "open": 4,
-    "enable": 83,
-    "metrics": 1233,
-    "desktop": 2,
-    "mobile": 404
+    "enable": 141,
+    "metrics": 1206,
+    "desktop": 1,
+    "mobile": 403
    },
    "metrics": {
     "title": "Volcán Chico — small volcano, big opinions",
@@ -278,9 +278,9 @@
    "errors": [],
    "warnings": [],
    "timing": {
-    "open": 7,
-    "enable": 98,
-    "metrics": 1201,
+    "open": 13,
+    "enable": 96,
+    "metrics": 1202,
     "desktop": 1,
     "mobile": 356
    },
@@ -316,11 +316,11 @@
    "errors": [],
    "warnings": [],
    "timing": {
-    "open": 12,
-    "enable": 104,
-    "metrics": 1205,
+    "open": 7,
+    "enable": 100,
+    "metrics": 1203,
     "desktop": 1,
-    "mobile": 386
+    "mobile": 382
    },
    "metrics": {
     "title": "Cabinet of Impossible Minerals — Gallery VII, Case III",
@@ -354,11 +354,11 @@
    "errors": [],
    "warnings": [],
    "timing": {
-    "open": 9,
-    "enable": 267,
-    "metrics": 1204,
+    "open": 7,
+    "enable": 261,
+    "metrics": 1202,
     "desktop": 1,
-    "mobile": 355
+    "mobile": 361
    },
    "metrics": {
     "title": "Koi Pond, Noon",
@@ -392,9 +392,9 @@
    "errors": [],
    "warnings": [],
    "timing": {
-    "open": 6,
-    "enable": 62,
-    "metrics": 1204,
+    "open": 5,
+    "enable": 63,
+    "metrics": 1203,
     "desktop": 1,
     "mobile": 367
    },
@@ -430,14 +430,14 @@
    "errors": [],
    "warnings": [],
    "timing": {
-    "open": 5,
-    "enable": 83,
-    "metrics": 1202,
+    "open": 4,
+    "enable": 79,
+    "metrics": 1203,
     "desktop": 1,
-    "mobile": 358
+    "mobile": 365
    },
    "metrics": {
-    "title": "It is three minutes to ten at night.",
+    "title": "It is thirteen minutes past two in the afternoon.",
     "canvases": 0,
     "svgs": 1,
     "buttons": 3,
@@ -445,7 +445,7 @@
     "reducedMotion": false,
     "scrollHeight": 913,
     "lang": "en",
-    "nodes": 119
+    "nodes": 144
    },
    "desktop": {
     "scrollWidth": 1440,
@@ -469,10 +469,10 @@
    "warnings": [],
    "timing": {
     "open": 7,
-    "enable": 183,
-    "metrics": 1203,
+    "enable": 192,
+    "metrics": 1202,
     "desktop": 1,
-    "mobile": 356
+    "mobile": 355
    },
    "metrics": {
     "title": "Murmuration at Dusk",
@@ -507,10 +507,10 @@
    "warnings": [],
    "timing": {
     "open": 5,
-    "enable": 134,
-    "metrics": 1203,
+    "enable": 128,
+    "metrics": 1201,
     "desktop": 1,
-    "mobile": 356
+    "mobile": 357
    },
    "metrics": {
     "title": "Demonstration 14 — Lines of Force",
@@ -544,11 +544,11 @@
    "errors": [],
    "warnings": [],
    "timing": {
-    "open": 5,
-    "enable": 204,
+    "open": 4,
+    "enable": 199,
     "metrics": 1203,
     "desktop": 1,
-    "mobile": 359
+    "mobile": 361
    },
    "metrics": {
     "title": "Where the Primes Fall",
@@ -583,8 +583,8 @@
    "warnings": [],
    "timing": {
     "open": 5,
-    "enable": 77,
-    "metrics": 1203,
+    "enable": 81,
+    "metrics": 1202,
     "desktop": 1,
     "mobile": 372
    },
@@ -621,10 +621,10 @@
    "warnings": [],
    "timing": {
     "open": 5,
-    "enable": 76,
+    "enable": 80,
     "metrics": 1203,
     "desktop": 1,
-    "mobile": 356
+    "mobile": 354
    },
    "metrics": {
     "title": "Descent — A Vector Lander",
@@ -658,11 +658,11 @@
    "errors": [],
    "warnings": [],
    "timing": {
-    "open": 10,
-    "enable": 86,
-    "metrics": 1205,
+    "open": 19,
+    "enable": 119,
+    "metrics": 1201,
     "desktop": 1,
-    "mobile": 395
+    "mobile": 402
    },
    "metrics": {
     "title": "SPORE PRINT no. 3 · The Wet Month · Damp Hands Press",
@@ -697,10 +697,10 @@
    "warnings": [],
    "timing": {
     "open": 4,
-    "enable": 101,
+    "enable": 100,
     "metrics": 1203,
     "desktop": 1,
-    "mobile": 357
+    "mobile": 358
    },
    "metrics": {
     "title": "Plotter No. 2 — Landscapes in One Pen",
@@ -734,11 +734,11 @@
    "errors": [],
    "warnings": [],
    "timing": {
-    "open": 7,
-    "enable": 92,
-    "metrics": 1204,
+    "open": 6,
+    "enable": 115,
+    "metrics": 1202,
     "desktop": 1,
-    "mobile": 385
+    "mobile": 379
    },
    "metrics": {
     "title": "Rhythmus — a drum machine in primary colours",
@@ -772,11 +772,11 @@
    "errors": [],
    "warnings": [],
    "timing": {
-    "open": 6,
-    "enable": 69,
+    "open": 12,
+    "enable": 54,
     "metrics": 1203,
     "desktop": 1,
-    "mobile": 362
+    "mobile": 361
    },
    "metrics": {
     "title": "Aurora over Skjervøy Sound",
@@ -810,9 +810,9 @@
    "errors": [],
    "warnings": [],
    "timing": {
-    "open": 15,
-    "enable": 184,
-    "metrics": 1205,
+    "open": 6,
+    "enable": 183,
+    "metrics": 1204,
     "desktop": 1,
     "mobile": 376
    },
@@ -849,10 +849,10 @@
    "warnings": [],
    "timing": {
     "open": 7,
-    "enable": 37,
-    "metrics": 1203,
+    "enable": 50,
+    "metrics": 1202,
     "desktop": 1,
-    "mobile": 367
+    "mobile": 363
    },
    "metrics": {
     "title": "The Hotel Meridian — Going Up",
@@ -886,11 +886,11 @@
    "errors": [],
    "warnings": [],
    "timing": {
-    "open": 4,
-    "enable": 88,
-    "metrics": 1206,
+    "open": 8,
+    "enable": 96,
+    "metrics": 1202,
     "desktop": 1,
-    "mobile": 382
+    "mobile": 381
    },
    "metrics": {
     "title": "Side A — Marlowe PL·7",
@@ -924,11 +924,11 @@
    "errors": [],
    "warnings": [],
    "timing": {
-    "open": 25,
-    "enable": 158,
-    "metrics": 1202,
+    "open": 39,
+    "enable": 191,
+    "metrics": 1203,
     "desktop": 1,
-    "mobile": 358
+    "mobile": 360
    },
    "metrics": {
     "title": "Everyone in Ostrava-under-Hill",
@@ -962,11 +962,11 @@
    "errors": [],
    "warnings": [],
    "timing": {
-    "open": 16,
-    "enable": 149,
-    "metrics": 1217,
-    "desktop": 17,
-    "mobile": 388
+    "open": 34,
+    "enable": 188,
+    "metrics": 1216,
+    "desktop": 16,
+    "mobile": 375
    },
    "metrics": {
     "title": "The Wheel — Throw a Pot",
@@ -1000,11 +1000,11 @@
    "errors": [],
    "warnings": [],
    "timing": {
-    "open": 31,
-    "enable": 198,
-    "metrics": 1203,
+    "open": 5,
+    "enable": 201,
+    "metrics": 1202,
     "desktop": 1,
-    "mobile": 354
+    "mobile": 355
    },
    "metrics": {
     "title": "Frost on the Window",
@@ -1038,9 +1038,9 @@
    "errors": [],
    "warnings": [],
    "timing": {
-    "open": 6,
-    "enable": 59,
-    "metrics": 1204,
+    "open": 10,
+    "enable": 91,
+    "metrics": 1202,
     "desktop": 1,
     "mobile": 373
    },
@@ -1077,7 +1077,7 @@
    "warnings": [],
    "timing": {
     "open": 8,
-    "enable": 81,
+    "enable": 69,
     "metrics": 1203,
     "desktop": 1,
     "mobile": 383
@@ -1114,9 +1114,9 @@
    "errors": [],
    "warnings": [],
    "timing": {
-    "open": 2,
-    "enable": 99,
-    "metrics": 1205,
+    "open": 4,
+    "enable": 71,
+    "metrics": 1204,
     "desktop": 1,
     "mobile": 381
    },
@@ -1152,11 +1152,11 @@
    "errors": [],
    "warnings": [],
    "timing": {
-    "open": 7,
-    "enable": 190,
+    "open": 8,
+    "enable": 175,
     "metrics": 1201,
     "desktop": 1,
-    "mobile": 354
+    "mobile": 363
    },
    "metrics": {
     "title": "Rose Window · Opus 0231",
@@ -1190,8 +1190,8 @@
    "errors": [],
    "warnings": [],
    "timing": {
-    "open": 5,
-    "enable": 85,
+    "open": 10,
+    "enable": 89,
     "metrics": 1203,
     "desktop": 1,
     "mobile": 362
@@ -1228,11 +1228,11 @@
    "errors": [],
    "warnings": [],
    "timing": {
-    "open": 15,
-    "enable": 4090,
-    "metrics": 1204,
+    "open": 7,
+    "enable": 4126,
+    "metrics": 1203,
     "desktop": 1,
-    "mobile": 356
+    "mobile": 357
    },
    "metrics": {
     "title": "The Night Typist",
@@ -1243,7 +1243,7 @@
     "reducedMotion": false,
     "scrollHeight": 913,
     "lang": "en",
-    "nodes": 479
+    "nodes": 480
    },
    "desktop": {
     "scrollWidth": 1440,
@@ -1266,11 +1266,11 @@
    "errors": [],
    "warnings": [],
    "timing": {
-    "open": 6,
-    "enable": 75,
-    "metrics": 1208,
+    "open": 4,
+    "enable": 94,
+    "metrics": 1204,
     "desktop": 1,
-    "mobile": 364
+    "mobile": 361
    },
    "metrics": {
     "title": "Lava Lamp, 1971",
@@ -1304,9 +1304,9 @@
    "errors": [],
    "warnings": [],
    "timing": {
-    "open": 7,
-    "enable": 99,
-    "metrics": 1204,
+    "open": 15,
+    "enable": 81,
+    "metrics": 1203,
     "desktop": 1,
     "mobile": 369
    },
@@ -1343,10 +1343,10 @@
    "warnings": [],
    "timing": {
     "open": 8,
-    "enable": 346,
-    "metrics": 1212,
+    "enable": 364,
+    "metrics": 1219,
     "desktop": 39,
-    "mobile": 400
+    "mobile": 398
    },
    "metrics": {
     "title": "Totality",
@@ -1380,9 +1380,9 @@
    "errors": [],
    "warnings": [],
    "timing": {
-    "open": 5,
-    "enable": 74,
-    "metrics": 1204,
+    "open": 7,
+    "enable": 85,
+    "metrics": 1202,
     "desktop": 1,
     "mobile": 383
    },
@@ -1418,11 +1418,11 @@
    "errors": [],
    "warnings": [],
    "timing": {
-    "open": 7,
-    "enable": 84,
-    "metrics": 1204,
-    "desktop": 2,
-    "mobile": 363
+    "open": 4,
+    "enable": 113,
+    "metrics": 1202,
+    "desktop": 1,
+    "mobile": 362
    },
    "metrics": {
     "title": "Pendulum Wave",
@@ -1456,11 +1456,11 @@
    "errors": [],
    "warnings": [],
    "timing": {
-    "open": 19,
-    "enable": 85,
+    "open": 5,
+    "enable": 69,
     "metrics": 1203,
     "desktop": 1,
-    "mobile": 365
+    "mobile": 363
    },
    "metrics": {
     "title": "Instant Film",
@@ -1494,11 +1494,11 @@
    "errors": [],
    "warnings": [],
    "timing": {
-    "open": 6,
-    "enable": 32,
+    "open": 5,
+    "enable": 56,
     "metrics": 1202,
     "desktop": 1,
-    "mobile": 356
+    "mobile": 355
    },
    "metrics": {
     "title": "ARES-HORT Console — Greenhouse B",
@@ -1509,7 +1509,7 @@
     "reducedMotion": false,
     "scrollHeight": 913,
     "lang": "en",
-    "nodes": 248
+    "nodes": 249
    },
    "desktop": {
     "scrollWidth": 1440,
@@ -1532,11 +1532,11 @@
    "errors": [],
    "warnings": [],
    "timing": {
-    "open": 7,
-    "enable": 362,
-    "metrics": 1204,
-    "desktop": 1,
-    "mobile": 402
+    "open": 5,
+    "enable": 382,
+    "metrics": 1202,
+    "desktop": 7,
+    "mobile": 396
    },
    "metrics": {
     "title": "The Harbour Courier — Tuesday, 9 March 1926",
@@ -1571,10 +1571,10 @@
    "warnings": [],
    "timing": {
     "open": 7,
-    "enable": 85,
-    "metrics": 1207,
+    "enable": 81,
+    "metrics": 1209,
     "desktop": 1,
-    "mobile": 357
+    "mobile": 355
    },
    "metrics": {
     "title": "Jelly Alphabet",
@@ -1608,11 +1608,11 @@
    "errors": [],
    "warnings": [],
    "timing": {
-    "open": 8,
-    "enable": 84,
-    "metrics": 1204,
+    "open": 12,
+    "enable": 85,
+    "metrics": 1202,
     "desktop": 1,
-    "mobile": 372
+    "mobile": 369
    },
    "metrics": {
     "title": "The Dance of Venus",
@@ -1646,11 +1646,11 @@
    "errors": [],
    "warnings": [],
    "timing": {
-    "open": 7,
-    "enable": 1360,
-    "metrics": 1203,
+    "open": 8,
+    "enable": 1357,
+    "metrics": 1202,
     "desktop": 1,
-    "mobile": 361
+    "mobile": 360
    },
    "metrics": {
     "title": "Lichen on Slate",
@@ -1684,11 +1684,11 @@
    "errors": [],
    "warnings": [],
    "timing": {
-    "open": 7,
-    "enable": 77,
-    "metrics": 1203,
+    "open": 8,
+    "enable": 79,
+    "metrics": 1202,
     "desktop": 1,
-    "mobile": 383
+    "mobile": 381
    },
    "metrics": {
     "title": "Ariadne's Thread",
@@ -1722,8 +1722,8 @@
    "errors": [],
    "warnings": [],
    "timing": {
-    "open": 19,
-    "enable": 79,
+    "open": 11,
+    "enable": 106,
     "metrics": 1203,
     "desktop": 1,
     "mobile": 388
@@ -1761,10 +1761,10 @@
    "warnings": [],
    "timing": {
     "open": 6,
-    "enable": 164,
-    "metrics": 1236,
-    "desktop": 5,
-    "mobile": 357
+    "enable": 149,
+    "metrics": 1238,
+    "desktop": 11,
+    "mobile": 356
    },
    "metrics": {
     "title": "Evening Snow at the Bridge",
@@ -1798,11 +1798,11 @@
    "errors": [],
    "warnings": [],
    "timing": {
-    "open": 7,
-    "enable": 100,
-    "metrics": 1204,
+    "open": 8,
+    "enable": 96,
+    "metrics": 1205,
     "desktop": 1,
-    "mobile": 372
+    "mobile": 371
    },
    "metrics": {
     "title": "Atelier Vesper — Heure Bleue 38 · Calibre V.03",
@@ -1836,11 +1836,11 @@
    "errors": [],
    "warnings": [],
    "timing": {
-    "open": 28,
-    "enable": 207,
-    "metrics": 1203,
+    "open": 32,
+    "enable": 215,
+    "metrics": 1202,
     "desktop": 1,
-    "mobile": 359
+    "mobile": 369
    },
    "metrics": {
     "title": "Cross-Stitch Studio",
@@ -1874,11 +1874,11 @@
    "errors": [],
    "warnings": [],
    "timing": {
-    "open": 14,
-    "enable": 132,
-    "metrics": 1203,
+    "open": 18,
+    "enable": 143,
+    "metrics": 1202,
     "desktop": 1,
-    "mobile": 377
+    "mobile": 385
    },
    "metrics": {
     "title": "A Cabinet of Computed Shells · Gallery 49",
@@ -1912,8 +1912,8 @@
    "errors": [],
    "warnings": [],
    "timing": {
-    "open": 7,
-    "enable": 90,
+    "open": 6,
+    "enable": 100,
     "metrics": 1203,
     "desktop": 1,
     "mobile": 380
@@ -1950,11 +1950,11 @@
    "errors": [],
    "warnings": [],
    "timing": {
-    "open": 7,
-    "enable": 112,
-    "metrics": 1203,
-    "desktop": 1,
-    "mobile": 359
+    "open": 8,
+    "enable": 135,
+    "metrics": 1236,
+    "desktop": 35,
+    "mobile": 360
    },
    "metrics": {
     "title": "Pinscreen",
@@ -1989,10 +1989,10 @@
    "warnings": [],
    "timing": {
     "open": 6,
-    "enable": 111,
-    "metrics": 1204,
+    "enable": 101,
+    "metrics": 1202,
     "desktop": 1,
-    "mobile": 390
+    "mobile": 384
    },
    "metrics": {
     "title": "BÉTON BRUT No. 6 — The Northmere Issue",
@@ -2026,11 +2026,11 @@
    "errors": [],
    "warnings": [],
    "timing": {
-    "open": 5,
-    "enable": 83,
-    "metrics": 1204,
+    "open": 8,
+    "enable": 82,
+    "metrics": 1202,
     "desktop": 1,
-    "mobile": 370
+    "mobile": 375
    },
    "metrics": {
     "title": "sandpile: one rule, every size of avalanche",
@@ -2064,11 +2064,11 @@
    "errors": [],
    "warnings": [],
    "timing": {
-    "open": 8,
-    "enable": 91,
-    "metrics": 1204,
+    "open": 14,
+    "enable": 80,
+    "metrics": 1207,
     "desktop": 1,
-    "mobile": 383
+    "mobile": 385
    },
    "metrics": {
     "title": "Seven Sisters — A Nest of Dolls",
@@ -2102,11 +2102,11 @@
    "errors": [],
    "warnings": [],
    "timing": {
-    "open": 13,
-    "enable": 125,
+    "open": 6,
+    "enable": 124,
     "metrics": 1203,
     "desktop": 1,
-    "mobile": 370
+    "mobile": 379
    },
    "metrics": {
     "title": "Kettlewick Observatory — Seismograph No. 2",
@@ -2115,9 +2115,9 @@
     "buttons": 9,
     "audio": true,
     "reducedMotion": false,
-    "scrollHeight": 1317,
+    "scrollHeight": 1347,
     "lang": "en",
-    "nodes": 529
+    "nodes": 534
    },
    "desktop": {
     "scrollWidth": 1440,
@@ -2140,9 +2140,9 @@
    "errors": [],
    "warnings": [],
    "timing": {
-    "open": 7,
-    "enable": 76,
-    "metrics": 1203,
+    "open": 8,
+    "enable": 102,
+    "metrics": 1202,
     "desktop": 1,
     "mobile": 362
    },
@@ -2155,7 +2155,7 @@
     "reducedMotion": false,
     "scrollHeight": 913,
     "lang": "en",
-    "nodes": 587
+    "nodes": 567
    },
    "desktop": {
     "scrollWidth": 1440,
@@ -2178,11 +2178,11 @@
    "errors": [],
    "warnings": [],
    "timing": {
-    "open": 5,
-    "enable": 154,
-    "metrics": 1205,
-    "desktop": 1,
-    "mobile": 364
+    "open": 17,
+    "enable": 141,
+    "metrics": 1216,
+    "desktop": 17,
+    "mobile": 375
    },
    "metrics": {
     "title": "A Year of Daylight",
@@ -2216,11 +2216,11 @@
    "errors": [],
    "warnings": [],
    "timing": {
-    "open": 12,
-    "enable": 90,
-    "metrics": 1204,
+    "open": 6,
+    "enable": 101,
+    "metrics": 1203,
     "desktop": 1,
-    "mobile": 362
+    "mobile": 360
    },
    "metrics": {
     "title": "The Drawloom — Cloth from a Diagram",
@@ -2254,11 +2254,11 @@
    "errors": [],
    "warnings": [],
    "timing": {
-    "open": 7,
-    "enable": 135,
+    "open": 6,
+    "enable": 144,
     "metrics": 1202,
     "desktop": 1,
-    "mobile": 377
+    "mobile": 374
    },
    "metrics": {
     "title": "Pluvia & Sons — Umbrella Makers, Garrow, est. 1871",
@@ -2292,11 +2292,11 @@
    "errors": [],
    "warnings": [],
    "timing": {
-    "open": 31,
-    "enable": 110,
+    "open": 3,
+    "enable": 91,
     "metrics": 1202,
     "desktop": 1,
-    "mobile": 358
+    "mobile": 353
    },
    "metrics": {
     "title": "TIDE.TXT",
@@ -2331,13 +2331,13 @@
    "warnings": [],
    "timing": {
     "open": 7,
-    "enable": 66,
-    "metrics": 1230,
-    "desktop": 29,
-    "mobile": 415
+    "enable": 75,
+    "metrics": 1207,
+    "desktop": 30,
+    "mobile": 387
    },
    "metrics": {
-    "title": "Waning Gibbous · 95% — The Moon Tonight",
+    "title": "Waning Gibbous · 92% — The Moon Tonight",
     "canvases": 3,
     "svgs": 3,
     "buttons": 5,
@@ -2368,9 +2368,9 @@
    "errors": [],
    "warnings": [],
    "timing": {
-    "open": 6,
-    "enable": 246,
-    "metrics": 1202,
+    "open": 5,
+    "enable": 243,
+    "metrics": 1203,
     "desktop": 1,
     "mobile": 357
    },
@@ -2406,11 +2406,11 @@
    "errors": [],
    "warnings": [],
    "timing": {
-    "open": 8,
-    "enable": 86,
+    "open": 31,
+    "enable": 73,
     "metrics": 1204,
     "desktop": 1,
-    "mobile": 377
+    "mobile": 372
    },
    "metrics": {
     "title": "The Astrolabe — Exhibit IV.12",
@@ -2445,9 +2445,9 @@
    "warnings": [],
    "timing": {
     "open": 5,
-    "enable": 86,
-    "metrics": 1204,
-    "desktop": 1,
+    "enable": 102,
+    "metrics": 1202,
+    "desktop": 0,
     "mobile": 361
    },
    "metrics": {
@@ -2482,11 +2482,11 @@
    "errors": [],
    "warnings": [],
    "timing": {
-    "open": 6,
-    "enable": 84,
-    "metrics": 1204,
-    "desktop": 20,
-    "mobile": 391
+    "open": 5,
+    "enable": 117,
+    "metrics": 1220,
+    "desktop": 19,
+    "mobile": 378
    },
    "metrics": {
     "title": "Ripple Tank · Apparatus 7",
@@ -2520,9 +2520,9 @@
    "errors": [],
    "warnings": [],
    "timing": {
-    "open": 14,
-    "enable": 78,
-    "metrics": 1204,
+    "open": 6,
+    "enable": 85,
+    "metrics": 1203,
     "desktop": 1,
     "mobile": 374
    },
@@ -2558,11 +2558,11 @@
    "errors": [],
    "warnings": [],
    "timing": {
-    "open": 5,
-    "enable": 88,
+    "open": 16,
+    "enable": 83,
     "metrics": 1203,
     "desktop": 1,
-    "mobile": 390
+    "mobile": 387
    },
    "metrics": {
     "title": "A Short History of Fog in Port Verrow — The Lee Shore",
@@ -2596,11 +2596,11 @@
    "errors": [],
    "warnings": [],
    "timing": {
-    "open": 13,
-    "enable": 89,
+    "open": 7,
+    "enable": 109,
     "metrics": 1202,
     "desktop": 1,
-    "mobile": 359
+    "mobile": 356
    },
    "metrics": {
     "title": "Torre di Gelato",
@@ -2635,10 +2635,10 @@
    "warnings": [],
    "timing": {
     "open": 5,
-    "enable": 110,
-    "metrics": 1213,
-    "desktop": 1,
-    "mobile": 379
+    "enable": 100,
+    "metrics": 1208,
+    "desktop": 16,
+    "mobile": 377
    },
    "metrics": {
     "title": "Strange Attractors — A Collection of Orbits",
@@ -2672,11 +2672,11 @@
    "errors": [],
    "warnings": [],
    "timing": {
-    "open": 5,
-    "enable": 79,
-    "metrics": 1202,
+    "open": 7,
+    "enable": 80,
+    "metrics": 1203,
     "desktop": 1,
-    "mobile": 367
+    "mobile": 365
    },
    "metrics": {
     "title": "Semaphore — Say It with Flags",
@@ -2710,11 +2710,11 @@
    "errors": [],
    "warnings": [],
    "timing": {
-    "open": 14,
-    "enable": 103,
-    "metrics": 1203,
+    "open": 12,
+    "enable": 115,
+    "metrics": 1201,
     "desktop": 1,
-    "mobile": 367
+    "mobile": 365
    },
    "metrics": {
     "title": "Apiary No. 9 — Hill Honey from Thornaby Coombe",
@@ -2748,11 +2748,11 @@
    "errors": [],
    "warnings": [],
    "timing": {
-    "open": 26,
-    "enable": 87,
-    "metrics": 1202,
+    "open": 33,
+    "enable": 100,
+    "metrics": 1203,
     "desktop": 1,
-    "mobile": 371
+    "mobile": 369
    },
    "metrics": {
     "title": "Lumen — Municipal Power Board, Pop. 2,140",
@@ -2786,11 +2786,11 @@
    "errors": [],
    "warnings": [],
    "timing": {
-    "open": 15,
-    "enable": 210,
+    "open": 28,
+    "enable": 226,
     "metrics": 1202,
     "desktop": 1,
-    "mobile": 360
+    "mobile": 397
    },
    "metrics": {
     "title": "Zoetrope, or the Wheel of Life",
@@ -2824,11 +2824,11 @@
    "errors": [],
    "warnings": [],
    "timing": {
-    "open": 12,
-    "enable": 108,
+    "open": 13,
+    "enable": 122,
     "metrics": 1203,
     "desktop": 1,
-    "mobile": 361
+    "mobile": 359
    },
    "metrics": {
     "title": "The Kelp Forest of 3n + 1",
@@ -2862,11 +2862,11 @@
    "errors": [],
    "warnings": [],
    "timing": {
-    "open": 6,
-    "enable": 438,
-    "metrics": 1204,
-    "desktop": 1,
-    "mobile": 362
+    "open": 11,
+    "enable": 441,
+    "metrics": 1209,
+    "desktop": 10,
+    "mobile": 363
    },
    "metrics": {
     "title": "Hell Box — Wood Type You Can Drop",
@@ -2900,11 +2900,11 @@
    "errors": [],
    "warnings": [],
    "timing": {
-    "open": 5,
-    "enable": 89,
+    "open": 7,
+    "enable": 111,
     "metrics": 1203,
     "desktop": 1,
-    "mobile": 361
+    "mobile": 360
    },
    "metrics": {
     "title": "Formicarium — Notes on a Colony",
@@ -2929,13 +2929,53 @@
     "overflow": false,
     "offenders": []
    }
+  },
+  {
+   "file": "studies/030-rose-window/index.html",
+   "stem": "derived-030-rose-window",
+   "number": "030",
+   "reimpl": true,
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 7,
+    "enable": 50,
+    "metrics": 1255,
+    "desktop": 84,
+    "mobile": 775
+   },
+   "metrics": {
+    "title": "Rose Window — Opus 0231",
+    "canvases": 1,
+    "svgs": 0,
+    "buttons": 1,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 913,
+    "lang": "en",
+    "nodes": 16
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "shot": "shots/derived-030-rose-window.png",
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
   }
  ],
  "summary": {
-  "chrome_launch_ms": 2206,
+  "chrome_launch_ms": 3419,
   "chunks": 4,
-  "targets": 77,
-  "captured": 77,
+  "targets": 78,
+  "captured": 78,
   "failed": 0,
   "console_errors": 0,
   "desktop_overflow": 0,

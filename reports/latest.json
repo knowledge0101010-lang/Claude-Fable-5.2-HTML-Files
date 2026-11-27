@@ -1,6 +1,6 @@
 {
- "builtAt": "2026-11-26T22:03:53+0900",
- "wall_seconds": 0.7,
+ "builtAt": "2026-11-27T14:14:50+0900",
+ "wall_seconds": 79.1,
  "schedule": {
   "reason": "full sweep (forced)",
   "sparsity": 0.0,
@@ -172,10 +172,10 @@
   "static.reduced_motion_missing": 0,
   "static.external_refs": 0,
   "static.gallery_passed": 13,
-  "runtime.failed": null,
-  "runtime.console_errors": null,
-  "runtime.mobile_overflow": null,
-  "runtime.desktop_overflow": null,
+  "runtime.failed": 0,
+  "runtime.console_errors": 0,
+  "runtime.mobile_overflow": 0,
+  "runtime.desktop_overflow": 0,
   "runtime.fps_mean": null
  },
  "regressions": [],
@@ -206,5 +206,22 @@
   "reimpl_count": 1,
   "reimpl_mean_delta": 0.18
  },
- "runtime_summary": null
+ "runtime_summary": {
+  "chrome_launch_ms": 3419,
+  "chunks": 4,
+  "targets": 78,
+  "captured": 78,
+  "failed": 0,
+  "console_errors": 0,
+  "desktop_overflow": 0,
+  "mobile_overflow": 0,
+  "fps_min": null,
+  "fps_p50": null,
+  "fps_mean": null,
+  "slow_pages": [],
+  "erroring_pages": [],
+  "mobile_overflow_pages": [],
+  "desktop_overflow_pages": [],
+  "failed_pages": []
+ }
 }
