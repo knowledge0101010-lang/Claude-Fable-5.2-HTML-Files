@@ -1,0 +1,23 @@
+id: study-030-derived
+kind: study
+goal: 030-rose-window 파생판이 원본 스펙을 만족하고 갤러리가 그대로 재현되는지 확인한다
+references:
+  - 030-rose-window.txt
+  - 030-rose-window.html
+  - studies/030-rose-window/index.html
+preflight:
+  - "disk_mb >= 150"
+  - "path: studies/030-rose-window/index.html"
+  - "path: scripts/build_gallery.py"
+run:
+  cwd: .
+  command: python3 harness/static_audit.py reports/static.json >/dev/null && python3 scripts/build_gallery.py --check
+  metrics_file: reports/static.json
+metrics:
+  composite: summary.composite_mean
+  delta: comparisons.0.delta
+  reimpl_score: comparisons.0.reimpl_score
+acceptance:
+  - "delta >= 0.15"
+  - "composite >= 0.97"
+  - "reimpl_score >= 0.98"
