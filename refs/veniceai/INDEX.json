@@ -1,0 +1,146 @@
+{
+ "org": "veniceai",
+ "count": 14,
+ "total_size_mb": 610.8,
+ "connectable": [
+  {
+   "repo": "venice-cli",
+   "how": "npm i -g @veniceai/cli (또는 npx), VENICE_API_KEY 필요",
+   "use": "chat/search/image/TTS"
+  },
+  {
+   "repo": "venice-mcp-server",
+   "how": "MCP stdio 서버 → DSH 프로필에 등록",
+   "use": "에이전트 도구로 직접 호출"
+  },
+  {
+   "repo": "skills",
+   "how": "폴더 단위 스킬, DSH skill 디렉터리에 복사",
+   "use": "API 표면별 사용법"
+  },
+  {
+   "repo": "x402-client",
+   "how": "패키지 설치",
+   "use": "건당 과금 결제 경로"
+  },
+  {
+   "repo": "api-docs",
+   "how": "오프라인 문서 색인",
+   "use": "엔드포인트 레퍼런스"
+  }
+ ],
+ "repos": [
+  {
+   "name": "base-org-web",
+   "clone": "https://github.com/veniceai/base-org-web.git",
+   "size_mb": 298.7,
+   "language": "MDX",
+   "updated": "2026-02-01",
+   "description": ""
+  },
+  {
+   "name": "pdf.js",
+   "clone": "https://github.com/veniceai/pdf.js.git",
+   "size_mb": 159.7,
+   "language": null,
+   "updated": "2025-06-03",
+   "description": "PDF Reader in JavaScript"
+  },
+  {
+   "name": "api-docs",
+   "clone": "https://github.com/veniceai/api-docs.git",
+   "size_mb": 94.2,
+   "language": "MDX",
+   "updated": "2026-11-27",
+   "description": "Docs powering https://docs.venice.ai"
+  },
+  {
+   "name": "builtinvenice",
+   "clone": "https://github.com/veniceai/builtinvenice.git",
+   "size_mb": 26.6,
+   "language": "TypeScript",
+   "updated": "2026-11-18",
+   "description": "Built with Venice — community showcase of tools, SDKs, and integrations for the Venice AI ecosystem"
+  },
+  {
+   "name": "venice-mcp-server",
+   "clone": "https://github.com/veniceai/venice-mcp-server.git",
+   "size_mb": 20.3,
+   "language": "TypeScript",
+   "updated": "2026-11-20",
+   "description": "Venice AI MCP Server for Claude Code, Cline, and AI agents"
+  },
+  {
+   "name": "ironclaw",
+   "clone": "https://github.com/veniceai/ironclaw.git",
+   "size_mb": 8.4,
+   "language": "Rust",
+   "updated": "2026-03-14",
+   "description": "IronClaw is OpenClaw inspired implementation in Rust focused on privacy and security"
+  },
+  {
+   "name": "venice-cli",
+   "clone": "https://github.com/veniceai/venice-cli.git",
+   "size_mb": 1.5,
+   "language": "TypeScript",
+   "updated": "2026-11-26",
+   "description": "Official CLI for Venice AI — chat, search, images, TTS, and more from your terminal"
+  },
+  {
+   "name": "venice_mind_x",
+   "clone": "https://github.com/veniceai/venice_mind_x.git",
+   "size_mb": 0.6,
+   "language": "Python",
+   "updated": "2026-11-13",
+   "description": "A fully autonomous, uncensored Twitter bot powered by Venice AI."
+  },
+  {
+   "name": "skills",
+   "clone": "https://github.com/veniceai/skills.git",
+   "size_mb": 0.5,
+   "language": "Python",
+   "updated": "2026-11-23",
+   "description": "Agent Skills for the Venice.ai API. One folder per surface area, each with a SKILL.md for agent runtimes (Cursor, Claude, Codex, etc.)."
+  },
+  {
+   "name": "slackbot",
+   "clone": "https://github.com/veniceai/slackbot.git",
+   "size_mb": 0.1,
+   "language": "TypeScript",
+   "updated": "2026-01-29",
+   "description": ""
+  },
+  {
+   "name": "x402-client",
+   "clone": "https://github.com/veniceai/x402-client.git",
+   "size_mb": 0.1,
+   "language": "TypeScript",
+   "updated": "2026-04-14",
+   "description": "Official Venice AI client for x402 micropayments. Pay-per-request AI inference with your crypto wallet."
+  },
+  {
+   "name": "venice-hermes-plugin",
+   "clone": "https://github.com/veniceai/venice-hermes-plugin.git",
+   "size_mb": 0.1,
+   "language": "Python",
+   "updated": "2026-11-23",
+   "description": ""
+  },
+  {
+   "name": "venice-android",
+   "clone": "https://github.com/veniceai/venice-android.git",
+   "size_mb": 0.0,
+   "language": null,
+   "updated": "2026-11-26",
+   "description": ""
+  },
+  {
+   "name": "egress-token-proxy",
+   "clone": "https://github.com/veniceai/egress-token-proxy.git",
+   "size_mb": 0.0,
+   "language": null,
+   "updated": "2026-11-22",
+   "description": ""
+  }
+ ]
+}

@@ -1,0 +1,4183 @@
+{
+ "originals": {
+  "count": 76
+ },
+ "reimpls": [
+  {
+   "file": "studies/017-spore-print-riso-zine/index.html",
+   "number": "ind",
+   "bytes": 6609,
+   "palette": {
+    "wanted": 4,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "canvas",
+     "keyboard",
+     "pointer",
+     "reduced motion",
+     "svg",
+     "svg filter"
+    ],
+    "missing": []
+   },
+   "keyboard": {
+    "keys": [
+     "1-5",
+     "arrow keys",
+     "enter",
+     "shift",
+     "tab"
+    ],
+    "keydown": true,
+    "focusable": 0,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 1.0,
+    "a11y": 1.0,
+    "composite": 1.0
+   },
+   "original": "017-spore-print-riso-zine.html"
+  },
+  {
+   "file": "studies/030-rose-window/index.html",
+   "number": "ind",
+   "bytes": 25327,
+   "palette": {
+    "wanted": 10,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "canvas",
+     "keyboard",
+     "pointer",
+     "reduced motion"
+    ],
+    "missing": []
+   },
+   "keyboard": {
+    "keys": [
+     "1-5",
+     "arrow keys",
+     "enter",
+     "shift",
+     "space"
+    ],
+    "keydown": true,
+    "focusable": 2,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 1.0,
+    "a11y": 1.0,
+    "composite": 1.0
+   },
+   "original": "030-rose-window.html"
+  },
+  {
+   "file": "studies/049-conchology-cabinet/index.html",
+   "number": "ind",
+   "bytes": 8150,
+   "palette": {
+    "wanted": 7,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "canvas",
+     "keyboard",
+     "pointer",
+     "reduced motion",
+     "svg filter",
+     "typed arrays"
+    ],
+    "missing": []
+   },
+   "keyboard": {
+    "keys": [
+     "1-5",
+     "D",
+     "S",
+     "arrow keys",
+     "shift",
+     "space",
+     "tab"
+    ],
+    "keydown": true,
+    "focusable": 0,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 1.0,
+    "a11y": 1.0,
+    "composite": 1.0
+   },
+   "original": "049-conchology-cabinet.html"
+  }
+ ],
+ "comparisons": [
+  {
+   "study": "017-spore-print-riso-zine.html",
+   "original_score": 0.8875,
+   "reimpl_score": 1.0,
+   "delta": 0.1125,
+   "original_palette_missing": [
+    "3b2f5c"
+   ],
+   "reimpl_palette_missing": []
+  },
+  {
+   "study": "030-rose-window.html",
+   "original_score": 0.82,
+   "reimpl_score": 1.0,
+   "delta": 0.18,
+   "original_palette_missing": [
+    "b3202a",
+    "1b4fa0",
+    "2e8b57",
+    "6c2a7a"
+   ],
+   "reimpl_palette_missing": []
+  },
+  {
+   "study": "049-conchology-cabinet.html",
+   "original_score": 0.9417,
+   "reimpl_score": 1.0,
+   "delta": 0.0583,
+   "original_palette_missing": [],
+   "reimpl_palette_missing": []
+  }
+ ],
+ "reused": 0,
+ "studies": [
+  {
+   "file": "001-suminagashi-marbling-tray.html",
+   "number": "001",
+   "bytes": 61268,
+   "palette": {
+    "wanted": 6,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "canvas",
+     "clip-path",
+     "keyboard",
+     "pointer",
+     "reduced motion",
+     "svg",
+     "svg filter",
+     "web audio"
+    ],
+    "missing": []
+   },
+   "keyboard": {
+    "keys": [
+     "1-5",
+     "C",
+     "F",
+     "K",
+     "P",
+     "S",
+     "arrow keys",
+     "enter",
+     "escape",
+     "space"
+    ],
+    "keydown": true,
+    "focusable": 13,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 1.0,
+    "a11y": 1.0,
+    "composite": 1.0
+   }
+  },
+  {
+   "file": "002-airship-terminal-split-flap.html",
+   "number": "002",
+   "bytes": 54113,
+   "palette": {
+    "wanted": 5,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "canvas",
+     "keyboard",
+     "reduced motion",
+     "svg",
+     "svg filter",
+     "web audio"
+    ],
+    "missing": []
+   },
+   "keyboard": {
+    "keys": [
+     "R",
+     "enter",
+     "shift",
+     "space"
+    ],
+    "keydown": true,
+    "focusable": 7,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 1.0,
+    "a11y": 1.0,
+    "composite": 1.0
+   }
+  },
+  {
+   "file": "003-anatomy-of-a-croissant.html",
+   "number": "003",
+   "bytes": 69524,
+   "palette": {
+    "wanted": 5,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "clip-path",
+     "keyboard",
+     "pointer",
+     "reduced motion",
+     "svg",
+     "svg filter"
+    ],
+    "missing": []
+   },
+   "keyboard": {
+    "keys": [
+     "enter",
+     "escape",
+     "space",
+     "tab"
+    ],
+    "keydown": true,
+    "focusable": 12,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 1.0,
+    "a11y": 1.0,
+    "composite": 1.0
+   }
+  },
+  {
+   "file": "004-lighthouse-keeper-night-watch.html",
+   "number": "004",
+   "bytes": 73967,
+   "palette": {
+    "wanted": 7,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "canvas",
+     "keyboard",
+     "pointer",
+     "reduced motion",
+     "svg",
+     "web audio"
+    ],
+    "missing": []
+   },
+   "keyboard": {
+    "keys": [
+     "A",
+     "D",
+     "arrow keys",
+     "enter",
+     "escape",
+     "space",
+     "tab"
+    ],
+    "keydown": true,
+    "focusable": 5,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 1.0,
+    "a11y": 1.0,
+    "composite": 1.0
+   }
+  },
+  {
+   "file": "005-working-slide-rule.html",
+   "number": "005",
+   "bytes": 62678,
+   "palette": {
+    "wanted": 6,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "keyboard",
+     "pointer",
+     "reduced motion",
+     "svg"
+    ],
+    "missing": []
+   },
+   "keyboard": {
+    "keys": [
+     "arrow keys",
+     "shift",
+     "space",
+     "tab"
+    ],
+    "keydown": true,
+    "focusable": 8,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 1.0,
+    "a11y": 1.0,
+    "composite": 1.0
+   }
+  },
+  {
+   "file": "006-volcan-chico-hot-sauce.html",
+   "number": "006",
+   "bytes": 97236,
+   "palette": {
+    "wanted": 6,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "canvas",
+     "keyboard",
+     "pointer",
+     "reduced motion",
+     "svg",
+     "svg filter"
+    ],
+    "missing": []
+   },
+   "keyboard": {
+    "keys": [
+     "arrow keys",
+     "shift",
+     "space"
+    ],
+    "keydown": true,
+    "focusable": 26,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 1.0,
+    "a11y": 1.0,
+    "composite": 1.0
+   }
+  },
+  {
+   "file": "007-ice-core-800-metres.html",
+   "number": "007",
+   "bytes": 73054,
+   "palette": {
+    "wanted": 5,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "canvas",
+     "clip-path",
+     "keyboard",
+     "pointer",
+     "reduced motion",
+     "svg"
+    ],
+    "missing": []
+   },
+   "keyboard": {
+    "keys": [
+     "arrow keys",
+     "enter",
+     "shift",
+     "space"
+    ],
+    "keydown": true,
+    "focusable": 7,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 1.0,
+    "a11y": 1.0,
+    "composite": 1.0
+   }
+  },
+  {
+   "file": "008-cabinet-of-impossible-minerals.html",
+   "number": "008",
+   "bytes": 48770,
+   "palette": {
+    "wanted": 10,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "canvas",
+     "keyboard",
+     "pointer",
+     "reduced motion",
+     "svg",
+     "svg filter"
+    ],
+    "missing": []
+   },
+   "keyboard": {
+    "keys": [
+     "1-5",
+     "U",
+     "arrow keys",
+     "tab"
+    ],
+    "keydown": true,
+    "focusable": 1,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 1.0,
+    "a11y": 1.0,
+    "composite": 1.0
+   }
+  },
+  {
+   "file": "009-koi-pond-noon.html",
+   "number": "009",
+   "bytes": 71825,
+   "palette": {
+    "wanted": 10,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "canvas",
+     "keyboard",
+     "pointer",
+     "reduced motion",
+     "svg filter"
+    ],
+    "missing": [
+     "svg filter"
+    ]
+   },
+   "keyboard": {
+    "keys": [
+     "enter",
+     "space"
+    ],
+    "keydown": true,
+    "focusable": 2,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 0.8,
+    "a11y": 1.0,
+    "composite": 0.93
+   }
+  },
+  {
+   "file": "010-op-art-pulse.html",
+   "number": "010",
+   "bytes": 32378,
+   "palette": {
+    "wanted": 2,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "clip-path",
+     "keyboard",
+     "reduced motion",
+     "svg"
+    ],
+    "missing": [
+     "keyboard"
+    ]
+   },
+   "keyboard": {
+    "keys": [
+     "enter",
+     "shift",
+     "space",
+     "tab"
+    ],
+    "keydown": false,
+    "focusable": 25,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 0.75,
+    "a11y": 1.0,
+    "composite": 0.9125
+   }
+  },
+  {
+   "file": "011-the-hours-in-words.html",
+   "number": "011",
+   "bytes": 47284,
+   "palette": {
+    "wanted": 12,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "canvas",
+     "keyboard",
+     "pointer",
+     "reduced motion"
+    ],
+    "missing": [
+     "canvas"
+    ]
+   },
+   "keyboard": {
+    "keys": [
+     "arrow keys",
+     "escape",
+     "shift",
+     "space"
+    ],
+    "keydown": true,
+    "focusable": 3,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 0.75,
+    "a11y": 1.0,
+    "composite": 0.9125
+   }
+  },
+  {
+   "file": "012-murmuration-at-dusk.html",
+   "number": "012",
+   "bytes": 52743,
+   "palette": {
+    "wanted": 5,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "canvas",
+     "keyboard",
+     "path 2d",
+     "pointer",
+     "reduced motion",
+     "svg filter",
+     "typed arrays",
+     "web audio"
+    ],
+    "missing": []
+   },
+   "keyboard": {
+    "keys": [
+     "space",
+     "tab"
+    ],
+    "keydown": true,
+    "focusable": 2,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 1.0,
+    "a11y": 1.0,
+    "composite": 1.0
+   }
+  },
+  {
+   "file": "013-iron-filings.html",
+   "number": "013",
+   "bytes": 61569,
+   "palette": {
+    "wanted": 5,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "canvas",
+     "keyboard",
+     "pointer",
+     "reduced motion",
+     "typed arrays",
+     "web audio"
+    ],
+    "missing": []
+   },
+   "keyboard": {
+    "keys": [
+     "1-5",
+     "E",
+     "Q",
+     "arrow keys",
+     "shift",
+     "space",
+     "tab"
+    ],
+    "keydown": true,
+    "focusable": 7,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 1.0,
+    "a11y": 1.0,
+    "composite": 1.0
+   }
+  },
+  {
+   "file": "014-ulam-prime-spiral.html",
+   "number": "014",
+   "bytes": 58582,
+   "palette": {
+    "wanted": 4,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "canvas",
+     "clip-path",
+     "keyboard",
+     "pointer",
+     "reduced motion",
+     "typed arrays"
+    ],
+    "missing": []
+   },
+   "keyboard": {
+    "keys": [
+     "1-5",
+     "N",
+     "arrow keys",
+     "space",
+     "tab"
+    ],
+    "keydown": true,
+    "focusable": 22,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 1.0,
+    "a11y": 1.0,
+    "composite": 1.0
+   }
+  },
+  {
+   "file": "015-maison-ombre-perfume.html",
+   "number": "015",
+   "bytes": 74436,
+   "palette": {
+    "wanted": 4,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "keyboard",
+     "pointer",
+     "reduced motion",
+     "svg",
+     "svg filter"
+    ],
+    "missing": []
+   },
+   "keyboard": {
+    "keys": [
+     "arrow keys",
+     "shift",
+     "tab"
+    ],
+    "keydown": true,
+    "focusable": 27,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 1.0,
+    "a11y": 1.0,
+    "composite": 1.0
+   }
+  },
+  {
+   "file": "016-vector-lunar-descent.html",
+   "number": "016",
+   "bytes": 56071,
+   "palette": {
+    "wanted": 3,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "canvas",
+     "keyboard",
+     "reduced motion",
+     "web audio"
+    ],
+    "missing": []
+   },
+   "keyboard": {
+    "keys": [
+     "1-5",
+     "A",
+     "D",
+     "enter",
+     "space",
+     "tab"
+    ],
+    "keydown": true,
+    "focusable": 6,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 1.0,
+    "a11y": 1.0,
+    "composite": 1.0
+   }
+  },
+  {
+   "file": "017-spore-print-riso-zine.html",
+   "number": "017",
+   "bytes": 84037,
+   "palette": {
+    "wanted": 4,
+    "missing": [
+     "3b2f5c"
+    ]
+   },
+   "api": {
+    "wanted": [
+     "canvas",
+     "keyboard",
+     "pointer",
+     "reduced motion",
+     "svg",
+     "svg filter"
+    ],
+    "missing": []
+   },
+   "keyboard": {
+    "keys": [
+     "1-5",
+     "arrow keys",
+     "enter",
+     "shift",
+     "tab"
+    ],
+    "keydown": true,
+    "focusable": 9,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 0.75,
+    "api": 1.0,
+    "a11y": 1.0,
+    "composite": 0.8875
+   }
+  },
+  {
+   "file": "018-pen-plotter-landscapes.html",
+   "number": "018",
+   "bytes": 58806,
+   "palette": {
+    "wanted": 5,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "canvas",
+     "keyboard",
+     "pointer",
+     "reduced motion",
+     "svg filter"
+    ],
+    "missing": [
+     "svg filter"
+    ]
+   },
+   "keyboard": {
+    "keys": [
+     "1-5",
+     "F",
+     "N",
+     "arrow keys",
+     "enter",
+     "space"
+    ],
+    "keydown": true,
+    "focusable": 8,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 0.8,
+    "a11y": 1.0,
+    "composite": 0.93
+   }
+  },
+  {
+   "file": "019-bauhaus-drum-machine.html",
+   "number": "019",
+   "bytes": 50887,
+   "palette": {
+    "wanted": 5,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "canvas",
+     "keyboard",
+     "pointer",
+     "reduced motion",
+     "svg",
+     "svg filter",
+     "web audio"
+    ],
+    "missing": [
+     "canvas"
+    ]
+   },
+   "keyboard": {
+    "keys": [
+     "1-5",
+     "arrow keys",
+     "enter",
+     "space",
+     "tab"
+    ],
+    "keydown": true,
+    "focusable": 17,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 0.8571,
+    "a11y": 1.0,
+    "composite": 0.95
+   }
+  },
+  {
+   "file": "020-aurora-over-the-fjord.html",
+   "number": "020",
+   "bytes": 48895,
+   "palette": {
+    "wanted": 8,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "keyboard",
+     "pointer",
+     "reduced motion",
+     "svg",
+     "web audio"
+    ],
+    "missing": []
+   },
+   "keyboard": {
+    "keys": [
+     "H",
+     "arrow keys",
+     "enter",
+     "shift",
+     "space"
+    ],
+    "keydown": true,
+    "focusable": 3,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 1.0,
+    "a11y": 1.0,
+    "composite": 1.0
+   }
+  },
+  {
+   "file": "021-drawer-of-imaginary-moths.html",
+   "number": "021",
+   "bytes": 67966,
+   "palette": {
+    "wanted": 8,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "canvas",
+     "clip-path",
+     "keyboard",
+     "pointer",
+     "reduced motion",
+     "svg",
+     "svg filter"
+    ],
+    "missing": [
+     "svg"
+    ]
+   },
+   "keyboard": {
+    "keys": [
+     "arrow keys",
+     "enter",
+     "escape",
+     "tab"
+    ],
+    "keydown": true,
+    "focusable": 5,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 0.8571,
+    "a11y": 1.0,
+    "composite": 0.95
+   }
+  },
+  {
+   "file": "022-hotel-meridian-elevator.html",
+   "number": "022",
+   "bytes": 85923,
+   "palette": {
+    "wanted": 6,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "canvas",
+     "clip-path",
+     "keyboard",
+     "reduced motion",
+     "svg",
+     "svg filter",
+     "web audio"
+    ],
+    "missing": []
+   },
+   "keyboard": {
+    "keys": [
+     "tab"
+    ],
+    "keydown": true,
+    "focusable": 2,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 1.0,
+    "a11y": 1.0,
+    "composite": 1.0
+   }
+  },
+  {
+   "file": "023-walnut-turntable.html",
+   "number": "023",
+   "bytes": 58038,
+   "palette": {
+    "wanted": 7,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "clip-path",
+     "keyboard",
+     "pointer",
+     "reduced motion",
+     "svg"
+    ],
+    "missing": [
+     "keyboard",
+     "pointer",
+     "svg"
+    ]
+   },
+   "keyboard": {
+    "keys": [
+     "arrow keys",
+     "space",
+     "tab"
+    ],
+    "keydown": false,
+    "focusable": 5,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 0.4,
+    "a11y": 1.0,
+    "composite": 0.79
+   }
+  },
+  {
+   "file": "024-village-of-three-hundred.html",
+   "number": "024",
+   "bytes": 84215,
+   "palette": {
+    "wanted": 7,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "canvas",
+     "clip-path",
+     "keyboard",
+     "reduced motion",
+     "svg",
+     "svg filter"
+    ],
+    "missing": []
+   },
+   "keyboard": {
+    "keys": [
+     "arrow keys",
+     "enter",
+     "escape",
+     "space",
+     "tab"
+    ],
+    "keydown": true,
+    "focusable": 3,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 1.0,
+    "a11y": 1.0,
+    "composite": 1.0
+   }
+  },
+  {
+   "file": "025-pottery-wheel.html",
+   "number": "025",
+   "bytes": 88697,
+   "palette": {
+    "wanted": 10,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "canvas",
+     "keyboard",
+     "pointer",
+     "reduced motion",
+     "svg",
+     "web audio"
+    ],
+    "missing": []
+   },
+   "keyboard": {
+    "keys": [
+     "arrow keys",
+     "shift",
+     "space"
+    ],
+    "keydown": true,
+    "focusable": 16,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 1.0,
+    "a11y": 1.0,
+    "composite": 1.0
+   }
+  },
+  {
+   "file": "026-frost-on-the-window.html",
+   "number": "026",
+   "bytes": 68010,
+   "palette": {
+    "wanted": 5,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "canvas",
+     "keyboard",
+     "pointer",
+     "reduced motion",
+     "svg",
+     "web audio"
+    ],
+    "missing": []
+   },
+   "keyboard": {
+    "keys": [
+     "arrow keys",
+     "enter",
+     "shift",
+     "space"
+    ],
+    "keydown": true,
+    "focusable": 3,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 1.0,
+    "a11y": 1.0,
+    "composite": 1.0
+   }
+  },
+  {
+   "file": "027-calligrams.html",
+   "number": "027",
+   "bytes": 59402,
+   "palette": {
+    "wanted": 4,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "keyboard",
+     "pointer",
+     "raf",
+     "reduced motion",
+     "svg",
+     "svg filter"
+    ],
+    "missing": []
+   },
+   "keyboard": {
+    "keys": [
+     "arrow keys",
+     "enter",
+     "space",
+     "tab"
+    ],
+    "keydown": true,
+    "focusable": 16,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 1.0,
+    "a11y": 1.0,
+    "composite": 1.0
+   }
+  },
+  {
+   "file": "028-conservas-mare-alta.html",
+   "number": "028",
+   "bytes": 112518,
+   "palette": {
+    "wanted": 5,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "clip-path",
+     "keyboard",
+     "pointer",
+     "reduced motion",
+     "svg",
+     "svg filter"
+    ],
+    "missing": [
+     "keyboard"
+    ]
+   },
+   "keyboard": {
+    "keys": [
+     "enter",
+     "space"
+    ],
+    "keydown": false,
+    "focusable": 20,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 0.8333,
+    "a11y": 1.0,
+    "composite": 0.9417
+   }
+  },
+  {
+   "file": "029-skerry-weather-station.html",
+   "number": "029",
+   "bytes": 78074,
+   "palette": {
+    "wanted": 8,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "clip-path",
+     "keyboard",
+     "pointer",
+     "reduced motion",
+     "svg",
+     "svg filter"
+    ],
+    "missing": []
+   },
+   "keyboard": {
+    "keys": [
+     "arrow keys",
+     "enter",
+     "escape",
+     "shift"
+    ],
+    "keydown": true,
+    "focusable": 13,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 1.0,
+    "a11y": 1.0,
+    "composite": 1.0
+   }
+  },
+  {
+   "file": "030-rose-window.html",
+   "number": "030",
+   "bytes": 59363,
+   "palette": {
+    "wanted": 10,
+    "missing": [
+     "b3202a",
+     "1b4fa0",
+     "2e8b57",
+     "6c2a7a"
+    ]
+   },
+   "api": {
+    "wanted": [
+     "canvas",
+     "keyboard",
+     "pointer",
+     "reduced motion"
+    ],
+    "missing": []
+   },
+   "keyboard": {
+    "keys": [
+     "1-5",
+     "arrow keys",
+     "enter",
+     "shift",
+     "space"
+    ],
+    "keydown": true,
+    "focusable": 2,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 0.6,
+    "api": 1.0,
+    "a11y": 1.0,
+    "composite": 0.82
+   }
+  },
+  {
+   "file": "031-tangram-menagerie.html",
+   "number": "031",
+   "bytes": 46113,
+   "palette": {
+    "wanted": 8,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "canvas",
+     "keyboard",
+     "pointer",
+     "reduced motion",
+     "svg"
+    ],
+    "missing": [
+     "canvas"
+    ]
+   },
+   "keyboard": {
+    "keys": [
+     "arrow keys",
+     "enter",
+     "shift",
+     "tab"
+    ],
+    "keydown": true,
+    "focusable": 4,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 0.8,
+    "a11y": 1.0,
+    "composite": 0.93
+   }
+  },
+  {
+   "file": "032-the-night-typist.html",
+   "number": "032",
+   "bytes": 58093,
+   "palette": {
+    "wanted": 5,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "canvas",
+     "keyboard",
+     "reduced motion",
+     "svg",
+     "web audio"
+    ],
+    "missing": []
+   },
+   "keyboard": {
+    "keys": [
+     "enter",
+     "escape",
+     "shift",
+     "space",
+     "tab"
+    ],
+    "keydown": true,
+    "focusable": 4,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 1.0,
+    "a11y": 1.0,
+    "composite": 1.0
+   }
+  },
+  {
+   "file": "033-lava-lamp-1971.html",
+   "number": "033",
+   "bytes": 43932,
+   "palette": {
+    "wanted": 5,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "canvas",
+     "clip-path",
+     "keyboard",
+     "pointer",
+     "reduced motion",
+     "svg",
+     "svg filter"
+    ],
+    "missing": []
+   },
+   "keyboard": {
+    "keys": [
+     "arrow keys",
+     "space",
+     "tab"
+    ],
+    "keydown": true,
+    "focusable": 5,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 1.0,
+    "a11y": 1.0,
+    "composite": 1.0
+   }
+  },
+  {
+   "file": "034-museum-of-obsolete-sounds.html",
+   "number": "034",
+   "bytes": 82187,
+   "palette": {
+    "wanted": 4,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "canvas",
+     "clip-path",
+     "keyboard",
+     "pointer",
+     "reduced motion",
+     "svg",
+     "web audio"
+    ],
+    "missing": []
+   },
+   "keyboard": {
+    "keys": [
+     "enter",
+     "space",
+     "tab"
+    ],
+    "keydown": true,
+    "focusable": 20,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 1.0,
+    "a11y": 1.0,
+    "composite": 1.0
+   }
+  },
+  {
+   "file": "035-totality.html",
+   "number": "035",
+   "bytes": 55268,
+   "palette": {
+    "wanted": 6,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "canvas",
+     "keyboard",
+     "reduced motion",
+     "svg"
+    ],
+    "missing": []
+   },
+   "keyboard": {
+    "keys": [],
+    "keydown": true,
+    "focusable": 7,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 1.0,
+    "a11y": 1.0,
+    "composite": 1.0
+   }
+  },
+  {
+   "file": "036-kestrel-frameworks-bicycles.html",
+   "number": "036",
+   "bytes": 74968,
+   "palette": {
+    "wanted": 4,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "keyboard",
+     "pointer",
+     "reduced motion",
+     "svg",
+     "svg filter"
+    ],
+    "missing": []
+   },
+   "keyboard": {
+    "keys": [
+     "1-5",
+     "X",
+     "Y",
+     "space",
+     "tab"
+    ],
+    "keydown": true,
+    "focusable": 14,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 1.0,
+    "a11y": 1.0,
+    "composite": 1.0
+   }
+  },
+  {
+   "file": "037-pendulum-wave.html",
+   "number": "037",
+   "bytes": 53034,
+   "palette": {
+    "wanted": 6,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "canvas",
+     "keyboard",
+     "pointer",
+     "reduced motion",
+     "svg",
+     "svg filter",
+     "web audio"
+    ],
+    "missing": []
+   },
+   "keyboard": {
+    "keys": [
+     "escape",
+     "shift",
+     "space",
+     "tab"
+    ],
+    "keydown": true,
+    "focusable": 12,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 1.0,
+    "a11y": 1.0,
+    "composite": 1.0
+   }
+  },
+  {
+   "file": "038-instant-film.html",
+   "number": "038",
+   "bytes": 59386,
+   "palette": {
+    "wanted": 9,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "clip-path",
+     "keyboard",
+     "pointer",
+     "reduced motion",
+     "svg filter"
+    ],
+    "missing": [
+     "keyboard",
+     "pointer"
+    ]
+   },
+   "keyboard": {
+    "keys": [
+     "space",
+     "tab"
+    ],
+    "keydown": false,
+    "focusable": 19,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 0.6,
+    "a11y": 1.0,
+    "composite": 0.86
+   }
+  },
+  {
+   "file": "039-mars-greenhouse-console.html",
+   "number": "039",
+   "bytes": 70152,
+   "palette": {
+    "wanted": 4,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "keyboard",
+     "reduced motion",
+     "svg",
+     "svg filter",
+     "web audio"
+    ],
+    "missing": []
+   },
+   "keyboard": {
+    "keys": [
+     "1-5",
+     "arrow keys",
+     "enter",
+     "space",
+     "tab"
+    ],
+    "keydown": true,
+    "focusable": 1,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 1.0,
+    "a11y": 1.0,
+    "composite": 1.0
+   }
+  },
+  {
+   "file": "040-the-harbour-courier-1926.html",
+   "number": "040",
+   "bytes": 104909,
+   "palette": {
+    "wanted": 3,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "canvas",
+     "clip-path",
+     "keyboard",
+     "pointer",
+     "reduced motion",
+     "svg"
+    ],
+    "missing": []
+   },
+   "keyboard": {
+    "keys": [
+     "arrow keys",
+     "escape",
+     "tab"
+    ],
+    "keydown": true,
+    "focusable": 32,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 1.0,
+    "a11y": 1.0,
+    "composite": 1.0
+   }
+  },
+  {
+   "file": "041-jelly-alphabet.html",
+   "number": "041",
+   "bytes": 64875,
+   "palette": {
+    "wanted": 7,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "canvas",
+     "clip-path",
+     "keyboard",
+     "pointer",
+     "reduced motion",
+     "web audio"
+    ],
+    "missing": []
+   },
+   "keyboard": {
+    "keys": [
+     "1-5",
+     "escape",
+     "space",
+     "tab"
+    ],
+    "keydown": true,
+    "focusable": 16,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 1.0,
+    "a11y": 1.0,
+    "composite": 1.0
+   }
+  },
+  {
+   "file": "042-dance-of-venus.html",
+   "number": "042",
+   "bytes": 54818,
+   "palette": {
+    "wanted": 4,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "canvas",
+     "keyboard",
+     "pointer",
+     "reduced motion",
+     "svg",
+     "svg filter"
+    ],
+    "missing": []
+   },
+   "keyboard": {
+    "keys": [
+     "arrow keys",
+     "space",
+     "tab"
+    ],
+    "keydown": true,
+    "focusable": 11,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 1.0,
+    "a11y": 1.0,
+    "composite": 1.0
+   }
+  },
+  {
+   "file": "043-lichen-on-slate.html",
+   "number": "043",
+   "bytes": 57111,
+   "palette": {
+    "wanted": 6,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "canvas",
+     "keyboard",
+     "pointer",
+     "reduced motion",
+     "svg",
+     "svg filter"
+    ],
+    "missing": []
+   },
+   "keyboard": {
+    "keys": [
+     "arrow keys",
+     "enter",
+     "shift",
+     "space",
+     "tab"
+    ],
+    "keydown": true,
+    "focusable": 13,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 1.0,
+    "a11y": 1.0,
+    "composite": 1.0
+   }
+  },
+  {
+   "file": "044-ariadnes-thread.html",
+   "number": "044",
+   "bytes": 51796,
+   "palette": {
+    "wanted": 4,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "canvas",
+     "clip-path",
+     "keyboard",
+     "reduced motion",
+     "svg",
+     "web audio"
+    ],
+    "missing": []
+   },
+   "keyboard": {
+    "keys": [
+     "arrow keys",
+     "enter",
+     "escape",
+     "space"
+    ],
+    "keydown": true,
+    "focusable": 12,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 1.0,
+    "a11y": 1.0,
+    "composite": 1.0
+   }
+  },
+  {
+   "file": "045-foundry-specimen-halden.html",
+   "number": "045",
+   "bytes": 80461,
+   "palette": {
+    "wanted": 3,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "clip-path",
+     "keyboard",
+     "pointer",
+     "reduced motion",
+     "svg"
+    ],
+    "missing": []
+   },
+   "keyboard": {
+    "keys": [
+     "1-5",
+     "arrow keys",
+     "enter",
+     "shift",
+     "space",
+     "tab"
+    ],
+    "keydown": true,
+    "focusable": 25,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 1.0,
+    "a11y": 1.0,
+    "composite": 1.0
+   }
+  },
+  {
+   "file": "046-snow-at-the-bridge.html",
+   "number": "046",
+   "bytes": 74719,
+   "palette": {
+    "wanted": 6,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "canvas",
+     "keyboard",
+     "pointer",
+     "reduced motion",
+     "svg",
+     "svg filter"
+    ],
+    "missing": []
+   },
+   "keyboard": {
+    "keys": [
+     "arrow keys",
+     "enter",
+     "shift"
+    ],
+    "keydown": true,
+    "focusable": 2,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 1.0,
+    "a11y": 1.0,
+    "composite": 1.0
+   }
+  },
+  {
+   "file": "047-atelier-vesper-watch.html",
+   "number": "047",
+   "bytes": 85243,
+   "palette": {
+    "wanted": 6,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "keyboard",
+     "pointer",
+     "reduced motion",
+     "svg",
+     "svg filter",
+     "web audio"
+    ],
+    "missing": []
+   },
+   "keyboard": {
+    "keys": [
+     "arrow keys",
+     "enter",
+     "escape",
+     "space",
+     "tab"
+    ],
+    "keydown": true,
+    "focusable": 12,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 1.0,
+    "a11y": 1.0,
+    "composite": 1.0
+   }
+  },
+  {
+   "file": "048-cross-stitch-studio.html",
+   "number": "048",
+   "bytes": 87665,
+   "palette": {
+    "wanted": 15,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "canvas",
+     "keyboard",
+     "pointer",
+     "reduced motion",
+     "svg"
+    ],
+    "missing": []
+   },
+   "keyboard": {
+    "keys": [
+     "1-5",
+     "arrow keys",
+     "enter",
+     "shift",
+     "space",
+     "tab"
+    ],
+    "keydown": true,
+    "focusable": 27,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 1.0,
+    "a11y": 1.0,
+    "composite": 1.0
+   }
+  },
+  {
+   "file": "049-conchology-cabinet.html",
+   "number": "049",
+   "bytes": 70662,
+   "palette": {
+    "wanted": 7,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "canvas",
+     "keyboard",
+     "pointer",
+     "reduced motion",
+     "svg filter",
+     "typed arrays"
+    ],
+    "missing": [
+     "keyboard"
+    ]
+   },
+   "keyboard": {
+    "keys": [
+     "1-5",
+     "D",
+     "S",
+     "arrow keys",
+     "shift",
+     "space",
+     "tab"
+    ],
+    "keydown": false,
+    "focusable": 18,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 0.8333,
+    "a11y": 1.0,
+    "composite": 0.9417
+   }
+  },
+  {
+   "file": "050-river-from-source-to-sea.html",
+   "number": "050",
+   "bytes": 83271,
+   "palette": {
+    "wanted": 5,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "keyboard",
+     "pointer",
+     "reduced motion",
+     "svg",
+     "svg filter"
+    ],
+    "missing": []
+   },
+   "keyboard": {
+    "keys": [
+     "arrow keys",
+     "shift",
+     "space"
+    ],
+    "keydown": true,
+    "focusable": 2,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 1.0,
+    "a11y": 1.0,
+    "composite": 1.0
+   }
+  },
+  {
+   "file": "051-pinscreen.html",
+   "number": "051",
+   "bytes": 51248,
+   "palette": {
+    "wanted": 5,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "canvas",
+     "keyboard",
+     "pointer",
+     "reduced motion",
+     "svg",
+     "typed arrays"
+    ],
+    "missing": []
+   },
+   "keyboard": {
+    "keys": [
+     "1-5",
+     "S",
+     "arrow keys",
+     "escape",
+     "shift",
+     "space"
+    ],
+    "keydown": true,
+    "focusable": 10,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 1.0,
+    "a11y": 1.0,
+    "composite": 1.0
+   }
+  },
+  {
+   "file": "052-beton-brut-zine.html",
+   "number": "052",
+   "bytes": 69509,
+   "palette": {
+    "wanted": 4,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "canvas",
+     "keyboard",
+     "pointer",
+     "reduced motion",
+     "svg",
+     "svg filter"
+    ],
+    "missing": [
+     "canvas"
+    ]
+   },
+   "keyboard": {
+    "keys": [
+     "arrow keys",
+     "enter",
+     "space"
+    ],
+    "keydown": true,
+    "focusable": 28,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 0.8333,
+    "a11y": 1.0,
+    "composite": 0.9417
+   }
+  },
+  {
+   "file": "053-sandpile.html",
+   "number": "053",
+   "bytes": 49679,
+   "palette": {
+    "wanted": 5,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "canvas",
+     "keyboard",
+     "pointer",
+     "reduced motion",
+     "svg",
+     "typed arrays"
+    ],
+    "missing": []
+   },
+   "keyboard": {
+    "keys": [
+     "arrow keys",
+     "enter",
+     "shift",
+     "space",
+     "tab"
+    ],
+    "keydown": true,
+    "focusable": 12,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 1.0,
+    "a11y": 1.0,
+    "composite": 1.0
+   }
+  },
+  {
+   "file": "054-matryoshka.html",
+   "number": "054",
+   "bytes": 52705,
+   "palette": {
+    "wanted": 6,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "clip-path",
+     "keyboard",
+     "pointer",
+     "reduced motion"
+    ],
+    "missing": [
+     "keyboard",
+     "pointer"
+    ]
+   },
+   "keyboard": {
+    "keys": [
+     "space",
+     "tab"
+    ],
+    "keydown": false,
+    "focusable": 7,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 0.5,
+    "a11y": 1.0,
+    "composite": 0.825
+   }
+  },
+  {
+   "file": "055-seismograph-drum.html",
+   "number": "055",
+   "bytes": 65464,
+   "palette": {
+    "wanted": 5,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "canvas",
+     "pointer",
+     "reduced motion",
+     "svg"
+    ],
+    "missing": []
+   },
+   "keyboard": {
+    "keys": [
+     "escape",
+     "space",
+     "tab"
+    ],
+    "keydown": true,
+    "focusable": 9,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 1.0,
+    "a11y": 1.0,
+    "composite": 1.0
+   }
+  },
+  {
+   "file": "056-the-combination.html",
+   "number": "056",
+   "bytes": 74493,
+   "palette": {
+    "wanted": 7,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "keyboard",
+     "pointer",
+     "reduced motion",
+     "svg",
+     "svg filter",
+     "web audio"
+    ],
+    "missing": []
+   },
+   "keyboard": {
+    "keys": [
+     "arrow keys",
+     "enter",
+     "shift",
+     "tab"
+    ],
+    "keydown": true,
+    "focusable": 10,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 1.0,
+    "a11y": 1.0,
+    "composite": 1.0
+   }
+  },
+  {
+   "file": "057-a-year-of-daylight.html",
+   "number": "057",
+   "bytes": 54010,
+   "palette": {
+    "wanted": 6,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "canvas",
+     "keyboard",
+     "pointer",
+     "reduced motion",
+     "svg filter"
+    ],
+    "missing": []
+   },
+   "keyboard": {
+    "keys": [
+     "arrow keys",
+     "enter",
+     "shift",
+     "tab"
+    ],
+    "keydown": true,
+    "focusable": 5,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 1.0,
+    "a11y": 1.0,
+    "composite": 1.0
+   }
+  },
+  {
+   "file": "058-the-drawloom.html",
+   "number": "058",
+   "bytes": 65201,
+   "palette": {
+    "wanted": 5,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "canvas",
+     "keyboard",
+     "pointer",
+     "reduced motion"
+    ],
+    "missing": []
+   },
+   "keyboard": {
+    "keys": [
+     "space",
+     "tab"
+    ],
+    "keydown": true,
+    "focusable": 34,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 1.0,
+    "a11y": 1.0,
+    "composite": 1.0
+   }
+  },
+  {
+   "file": "059-pluvia-and-sons-umbrellas.html",
+   "number": "059",
+   "bytes": 80116,
+   "palette": {
+    "wanted": 4,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "canvas",
+     "pointer",
+     "reduced motion",
+     "svg",
+     "svg filter",
+     "typed arrays",
+     "web audio"
+    ],
+    "missing": []
+   },
+   "keyboard": {
+    "keys": [
+     "tab"
+    ],
+    "keydown": false,
+    "focusable": 29,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 1.0,
+    "a11y": 1.0,
+    "composite": 1.0
+   }
+  },
+  {
+   "file": "060-ascii-tide.html",
+   "number": "060",
+   "bytes": 45040,
+   "palette": {
+    "wanted": 4,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "canvas",
+     "keyboard",
+     "pointer",
+     "reduced motion",
+     "svg filter",
+     "web audio"
+    ],
+    "missing": [
+     "svg filter"
+    ]
+   },
+   "keyboard": {
+    "keys": [
+     "enter",
+     "space"
+    ],
+    "keydown": true,
+    "focusable": 3,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 0.8333,
+    "a11y": 1.0,
+    "composite": 0.9417
+   }
+  },
+  {
+   "file": "061-moon-tonight.html",
+   "number": "061",
+   "bytes": 44581,
+   "palette": {
+    "wanted": 4,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "canvas",
+     "keyboard",
+     "pointer",
+     "reduced motion"
+    ],
+    "missing": []
+   },
+   "keyboard": {
+    "keys": [
+     "N",
+     "S",
+     "arrow keys",
+     "enter",
+     "escape",
+     "shift",
+     "space",
+     "tab"
+    ],
+    "keydown": true,
+    "focusable": 7,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 1.0,
+    "a11y": 1.0,
+    "composite": 1.0
+   }
+  },
+  {
+   "file": "062-wheat-before-rain.html",
+   "number": "062",
+   "bytes": 67655,
+   "palette": {
+    "wanted": 6,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "canvas",
+     "keyboard",
+     "pointer",
+     "reduced motion",
+     "svg",
+     "svg filter",
+     "typed arrays",
+     "web audio"
+    ],
+    "missing": [
+     "svg filter"
+    ]
+   },
+   "keyboard": {
+    "keys": [
+     "enter",
+     "shift"
+    ],
+    "keydown": true,
+    "focusable": 2,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 0.875,
+    "a11y": 1.0,
+    "composite": 0.9563
+   }
+  },
+  {
+   "file": "063-the-astrolabe.html",
+   "number": "063",
+   "bytes": 65902,
+   "palette": {
+    "wanted": 6,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "keyboard",
+     "pointer",
+     "reduced motion",
+     "svg",
+     "svg filter",
+     "web audio"
+    ],
+    "missing": []
+   },
+   "keyboard": {
+    "keys": [
+     "arrow keys",
+     "shift",
+     "space",
+     "tab"
+    ],
+    "keydown": true,
+    "focusable": 19,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 1.0,
+    "a11y": 1.0,
+    "composite": 1.0
+   }
+  },
+  {
+   "file": "064-par-avion.html",
+   "number": "064",
+   "bytes": 92353,
+   "palette": {
+    "wanted": 5,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "clip-path",
+     "keyboard",
+     "pointer",
+     "reduced motion",
+     "svg",
+     "svg filter",
+     "web audio"
+    ],
+    "missing": [
+     "keyboard"
+    ]
+   },
+   "keyboard": {
+    "keys": [],
+    "keydown": false,
+    "focusable": 3,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 0.8571,
+    "a11y": 1.0,
+    "composite": 0.95
+   }
+  },
+  {
+   "file": "065-ripple-tank.html",
+   "number": "065",
+   "bytes": 60289,
+   "palette": {
+    "wanted": 5,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "canvas",
+     "keyboard",
+     "pointer",
+     "reduced motion",
+     "svg"
+    ],
+    "missing": []
+   },
+   "keyboard": {
+    "keys": [
+     "arrow keys",
+     "shift",
+     "space",
+     "tab"
+    ],
+    "keydown": true,
+    "focusable": 24,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 1.0,
+    "a11y": 1.0,
+    "composite": 1.0
+   }
+  },
+  {
+   "file": "066-night-diner.html",
+   "number": "066",
+   "bytes": 55407,
+   "palette": {
+    "wanted": 5,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "keyboard",
+     "reduced motion",
+     "svg",
+     "svg filter"
+    ],
+    "missing": [
+     "keyboard"
+    ]
+   },
+   "keyboard": {
+    "keys": [],
+    "keydown": false,
+    "focusable": 9,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 0.75,
+    "a11y": 1.0,
+    "composite": 0.9125
+   }
+  },
+  {
+   "file": "067-a-short-history-of-fog.html",
+   "number": "067",
+   "bytes": 50656,
+   "palette": {
+    "wanted": 4,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "canvas",
+     "keyboard",
+     "pointer",
+     "reduced motion",
+     "svg",
+     "svg filter",
+     "web audio"
+    ],
+    "missing": [
+     "keyboard"
+    ]
+   },
+   "keyboard": {
+    "keys": [
+     "tab"
+    ],
+    "keydown": false,
+    "focusable": 23,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 0.8571,
+    "a11y": 1.0,
+    "composite": 0.95
+   }
+  },
+  {
+   "file": "068-gelato-tower.html",
+   "number": "068",
+   "bytes": 64346,
+   "palette": {
+    "wanted": 7,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "canvas",
+     "reduced motion"
+    ],
+    "missing": []
+   },
+   "keyboard": {
+    "keys": [
+     "enter",
+     "space",
+     "tab"
+    ],
+    "keydown": true,
+    "focusable": 4,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 1.0,
+    "a11y": 1.0,
+    "composite": 1.0
+   }
+  },
+  {
+   "file": "069-strange-attractors.html",
+   "number": "069",
+   "bytes": 51766,
+   "palette": {
+    "wanted": 4,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "canvas",
+     "keyboard",
+     "pointer",
+     "reduced motion",
+     "svg",
+     "web audio"
+    ],
+    "missing": [
+     "web audio"
+    ]
+   },
+   "keyboard": {
+    "keys": [
+     "1-5",
+     "arrow keys",
+     "escape",
+     "shift",
+     "tab"
+    ],
+    "keydown": true,
+    "focusable": 8,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 0.8333,
+    "a11y": 1.0,
+    "composite": 0.9417
+   }
+  },
+  {
+   "file": "070-semaphore.html",
+   "number": "070",
+   "bytes": 60487,
+   "palette": {
+    "wanted": 4,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "canvas",
+     "clip-path",
+     "keyboard",
+     "reduced motion",
+     "svg",
+     "web audio"
+    ],
+    "missing": [
+     "canvas"
+    ]
+   },
+   "keyboard": {
+    "keys": [
+     "J",
+     "enter",
+     "escape",
+     "space",
+     "tab"
+    ],
+    "keydown": true,
+    "focusable": 24,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 0.8333,
+    "a11y": 1.0,
+    "composite": 0.9417
+   }
+  },
+  {
+   "file": "071-apiary-no-9.html",
+   "number": "071",
+   "bytes": 63313,
+   "palette": {
+    "wanted": 6,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "canvas",
+     "clip-path",
+     "keyboard",
+     "pointer",
+     "reduced motion",
+     "svg",
+     "svg filter"
+    ],
+    "missing": []
+   },
+   "keyboard": {
+    "keys": [
+     "arrow keys",
+     "enter",
+     "tab"
+    ],
+    "keydown": true,
+    "focusable": 13,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 1.0,
+    "a11y": 1.0,
+    "composite": 1.0
+   }
+  },
+  {
+   "file": "072-lumen-town-grid.html",
+   "number": "072",
+   "bytes": 83208,
+   "palette": {
+    "wanted": 6,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "keyboard",
+     "pointer",
+     "reduced motion",
+     "svg"
+    ],
+    "missing": []
+   },
+   "keyboard": {
+    "keys": [
+     "arrow keys",
+     "enter",
+     "escape",
+     "shift",
+     "tab"
+    ],
+    "keydown": true,
+    "focusable": 14,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 1.0,
+    "a11y": 1.0,
+    "composite": 1.0
+   }
+  },
+  {
+   "file": "073-zoetrope.html",
+   "number": "073",
+   "bytes": 65183,
+   "palette": {
+    "wanted": 5,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "canvas",
+     "keyboard",
+     "pointer",
+     "reduced motion",
+     "svg",
+     "web audio"
+    ],
+    "missing": []
+   },
+   "keyboard": {
+    "keys": [
+     "arrow keys",
+     "enter",
+     "space",
+     "tab"
+    ],
+    "keydown": true,
+    "focusable": 10,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 1.0,
+    "a11y": 1.0,
+    "composite": 1.0
+   }
+  },
+  {
+   "file": "074-collatz-kelp.html",
+   "number": "074",
+   "bytes": 53640,
+   "palette": {
+    "wanted": 5,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "canvas",
+     "keyboard",
+     "pointer",
+     "reduced motion",
+     "svg",
+     "typed arrays"
+    ],
+    "missing": []
+   },
+   "keyboard": {
+    "keys": [
+     "arrow keys",
+     "tab"
+    ],
+    "keydown": true,
+    "focusable": 11,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 1.0,
+    "a11y": 1.0,
+    "composite": 1.0
+   }
+  },
+  {
+   "file": "075-wood-type-avalanche.html",
+   "number": "075",
+   "bytes": 64323,
+   "palette": {
+    "wanted": 7,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "canvas",
+     "keyboard",
+     "pointer",
+     "reduced motion",
+     "svg"
+    ],
+    "missing": []
+   },
+   "keyboard": {
+    "keys": [
+     "enter",
+     "escape",
+     "space",
+     "tab"
+    ],
+    "keydown": true,
+    "focusable": 20,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 1.0,
+    "a11y": 1.0,
+    "composite": 1.0
+   }
+  },
+  {
+   "file": "079-formicarium.html",
+   "number": "079",
+   "bytes": 60907,
+   "palette": {
+    "wanted": 4,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "canvas",
+     "clip-path",
+     "keyboard",
+     "path 2d",
+     "pointer",
+     "reduced motion",
+     "svg",
+     "svg filter",
+     "typed arrays"
+    ],
+    "missing": [
+     "path 2d"
+    ]
+   },
+   "keyboard": {
+    "keys": [
+     "1-5",
+     "arrow keys",
+     "enter",
+     "escape",
+     "shift",
+     "tab"
+    ],
+    "keydown": true,
+    "focusable": 8,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 0.8889,
+    "a11y": 1.0,
+    "composite": 0.9611
+   }
+  }
+ ],
+ "gallery": {
+  "checks": {
+   "card_count": {
+    "value": 76,
+    "ok": true
+   },
+   "all_studies_linked": {
+    "value": 76,
+    "ok": true
+   },
+   "prompt_exact": {
+    "value": 76,
+    "ok": true
+   },
+   "thumbnails": {
+    "value": true,
+    "ok": true
+   },
+   "alts": {
+    "value": 76,
+    "ok": true
+   },
+   "unique_ids": {
+    "value": 0,
+    "ok": true
+   },
+   "lang": {
+    "value": true,
+    "ok": true
+   },
+   "viewport": {
+    "value": true,
+    "ok": true
+   },
+   "h1_count": {
+    "value": 1,
+    "ok": true
+   },
+   "skip_link": {
+    "value": true,
+    "ok": true
+   },
+   "search_control": {
+    "value": true,
+    "ok": true
+   },
+   "interaction_model_shown": {
+    "value": true,
+    "ok": true
+   },
+   "template_matches_index": {
+    "value": null,
+    "ok": true
+   }
+  },
+  "bytes": 803237,
+  "duplicate_ids": [],
+  "passed": 13,
+  "total": 13
+ },
+ "summary": {
+  "studies": 76,
+  "composite_mean": 0.9747,
+  "palette_perfect": 74,
+  "api_perfect": 55,
+  "reduced_motion_wanted": 76,
+  "reduced_motion_missing": 0,
+  "keyboard_promised": 73,
+  "keyboard_missing": 0,
+  "studies_with_focusable_controls": 76,
+  "external_refs": 0,
+  "gallery_passed": 13,
+  "gallery_total": 13,
+  "total_bytes": 4970473,
+  "reimpl_count": 3,
+  "reimpl_delta": {
+   "017-spore-print-riso-zine": 0.1125,
+   "030-rose-window": 0.18,
+   "049-conchology-cabinet": 0.0583
+  },
+  "reimpl_score": {
+   "017-spore-print-riso-zine": 1.0,
+   "030-rose-window": 1.0,
+   "049-conchology-cabinet": 1.0
+  },
+  "reimpl_mean_delta": 0.1169
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "builtAt": "2026-11-27T14:23:57+0900",
+ "results": [
+  {
+   "task": "study030",
+   "exit": 0,
+   "wall_seconds": 90.4,
+   "best_score": 1.0,
+   "best_metrics": {
+    "combined_score": 1.0,
+    "palette": 1.0,
+    "api": 1.0,
+    "a11y": 1.0,
+    "shape": 1.0,
+    "missing_palette": [],
+    "missing_api": [],
+    "bytes": 7121
+   },
+   "best_file": "/Users/gojunjang/Documents/deepseek-harness/default-workspace/fable52/work/evolution/study030/openevolve_output/best/best_program_info.json",
+   "tail": [
+    "  bytes: 7121.0000",
+    "Latest checkpoint saved at: /Users/gojunjang/Documents/deepseek-harness/default-workspace/fable52/work/evolution/study030/openevolve_output/checkpoints/checkpoint_3",
+    "To resume, use: --checkpoint /Users/gojunjang/Documents/deepseek-harness/default-workspace/fable52/work/evolution/study030/openevolve_output/checkpoints/checkpoint_3"
+   ],
+   "stderr_tail": [
+    "2026-11-27 14:20:51,729 - INFO - Evolution complete. Best program has metrics: combined_score=1.0000, palette=1.0000, api=1.0000, a11y=1.0000, shape=1.0000, missing_palette=[], missing_api=[], bytes=7121.0000",
+    "2026-11-27 14:20:51,731 - INFO - Saved best program to /Users/gojunjang/Documents/deepseek-harness/default-workspace/fable52/work/evolution/study030/openevolve_output/best/best_program.py with program info to /Users/gojunjang/Documents/deepseek-harness/default-workspace/fable52/work/evolution/study030/openevolve_output/best/best_program_info.json"
+   ]
+  },
+  {
+   "task": "lewm",
+   "exit": 0,
+   "wall_seconds": 185.5,
+   "best_score": 1.0,
+   "best_metrics": {
+    "combined_score": 1.0,
+    "sep_std": 0.09668,
+    "sep_var": 79.328,
+    "treated": {
+     "lam": 0.15,
+     "mean_std": 0.12936140596866608,
+     "total_var": 84.66529083251953,
+     "eff_rank": 11.932844161987305
+    },
+    "control": {
+     "lam": 0.0,
+     "mean_std": 0.032677061855793,
+     "total_var": 5.337118625640869,
+     "eff_rank": 17.819787979125977
+    },
+    "steps": 45
+   },
+   "best_file": "/Users/gojunjang/Documents/deepseek-harness/default-workspace/fable52/work/evolution/lewm/openevolve_output/best/best_program_info.json",
+   "tail": [
+    "  steps: 45.0000",
+    "Latest checkpoint saved at: /Users/gojunjang/Documents/deepseek-harness/default-workspace/fable52/work/evolution/lewm/openevolve_output/checkpoints/checkpoint_2",
+    "To resume, use: --checkpoint /Users/gojunjang/Documents/deepseek-harness/default-workspace/fable52/work/evolution/lewm/openevolve_output/checkpoints/checkpoint_2"
+   ],
+   "stderr_tail": [
+    "2026-11-27 14:23:57,135 - INFO - Evolution complete. Best program has metrics: combined_score=1.0000, sep_std=0.0967, sep_var=79.3280, treated={'lam': 0.15, 'mean_std': 0.12936140596866608, 'total_var': 84.66529083251953, 'eff_rank': 11.932844161987305}, control={'lam': 0.0, 'mean_std': 0.032677061855793, 'total_var': 5.337118625640869, 'eff_rank': 17.819787979125977}, steps=45.0000",
+    "2026-11-27 14:23:57,136 - INFO - Saved best program to /Users/gojunjang/Documents/deepseek-harness/default-workspace/fable52/work/evolution/lewm/openevolve_output/best/best_program.py with program info to /Users/gojunjang/Documents/deepseek-harness/default-workspace/fable52/work/evolution/lewm/openevolve_output/best/best_program_info.json"
+   ]
+  }
+ ]
+}

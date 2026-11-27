@@ -1,0 +1,24 @@
+max_iterations: 2
+checkpoint_interval: 1
+random_seed: 5
+llm:
+  primary_model: "deepseek-flash"
+  primary_model_weight: 1.0
+  api_base: "http://127.0.0.1:8123/v1"
+  temperature: 0.5
+  max_tokens: 8000
+  timeout: 180
+prompt:
+  system_message: "Emit ONE minimal SEARCH/REPLACE diff inside the block; never restate the whole file. You tune an ablation protocol for LeWorldModel (LeWM). PARAMS['lam'] is the SIGReg weight of the treated run, PARAMS['steps'] the training steps (10-60). Goal: maximise the variance separation between the treated run (SIGReg on) and the control (SIGReg off). Edit only inside the EVOLVE-BLOCK."
+database:
+  population_size: 3
+  archive_size: 2
+  num_islands: 1
+  elite_selection_ratio: 0.3
+  exploitation_ratio: 0.7
+  similarity_threshold: 0.99
+evaluator:
+  timeout: 900
+  cascade_thresholds: [1.0]
+  parallel_evaluations: 1
+diff_based_evolution: true

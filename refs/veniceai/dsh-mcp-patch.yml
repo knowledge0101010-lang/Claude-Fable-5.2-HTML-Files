@@ -1,0 +1,8 @@
+# Venice MCP server를 DSH 프로필에 등록하는 패치.
+# 전제: VENICE_API_KEY 환경변수, `npm i -g @veniceai/mcp-server` 또는 npx 사용 가능.
+- id: mcp-venice
+  config:
+    command: npx
+    args: ["-y", "@veniceai/mcp-server"]
+    env:
+      VENICE_API_KEY: "${VENICE_API_KEY}"

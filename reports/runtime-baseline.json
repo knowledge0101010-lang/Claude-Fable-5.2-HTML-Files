@@ -1,0 +1,2950 @@
+{
+ "capturedAt": "2026-11-26T12:52:45.555Z",
+ "pages": [
+  {
+   "file": "index.html",
+   "stem": "index",
+   "number": "000",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 27,
+    "enable": 121,
+    "metrics": 1201,
+    "desktop": 1,
+    "mobile": 697,
+    "mobileShot": 309
+   },
+   "metrics": {
+    "title": "Claude Fable 5.2 HTML Files",
+    "canvases": 0,
+    "svgs": 1,
+    "buttons": 76,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 59281,
+    "lang": "en",
+    "nodes": 1475
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "shot": "shots/index.png",
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobileShot": "shots/index-mobile.png"
+  },
+  {
+   "file": "001-suminagashi-marbling-tray.html",
+   "stem": "001-suminagashi-marbling-tray",
+   "number": "001",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 20,
+    "enable": 106,
+    "metrics": 1202,
+    "desktop": 1,
+    "mobile": 360
+   },
+   "metrics": {
+    "title": "Suminagashi — The Marbling Tray",
+    "canvases": 3,
+    "svgs": 14,
+    "buttons": 12,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 913,
+    "lang": "en",
+    "nodes": 235
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "002-airship-terminal-split-flap.html",
+   "stem": "002-airship-terminal-split-flap",
+   "number": "002",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 4,
+    "enable": 97,
+    "metrics": 1202,
+    "desktop": 1,
+    "mobile": 361
+   },
+   "metrics": {
+    "title": "Aerodrome Lisbeth — Airship Departures",
+    "canvases": 71,
+    "svgs": 5,
+    "buttons": 17,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 1137,
+    "lang": "en",
+    "nodes": 253
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 1315,
+    "innerWidth": 1315,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "003-anatomy-of-a-croissant.html",
+   "stem": "003-anatomy-of-a-croissant",
+   "number": "003",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 8,
+    "enable": 90,
+    "metrics": 1203,
+    "desktop": 1,
+    "mobile": 375
+   },
+   "metrics": {
+    "title": "The Anatomy of a Croissant · Crumb Quarterly, No. 14",
+    "canvases": 0,
+    "svgs": 21,
+    "buttons": 12,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 11311,
+    "lang": "en",
+    "nodes": 1105
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "004-lighthouse-keeper-night-watch.html",
+   "stem": "004-lighthouse-keeper-night-watch",
+   "number": "004",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 4,
+    "enable": 112,
+    "metrics": 1201,
+    "desktop": 1,
+    "mobile": 357
+   },
+   "metrics": {
+    "title": "Night Watch at Sorrow Rock",
+    "canvases": 1,
+    "svgs": 7,
+    "buttons": 3,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 913,
+    "lang": "en",
+    "nodes": 86
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "005-working-slide-rule.html",
+   "stem": "005-working-slide-rule",
+   "number": "005",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 6,
+    "enable": 99,
+    "metrics": 1202,
+    "desktop": 1,
+    "mobile": 369
+   },
+   "metrics": {
+    "title": "The Slide Rule · Halloran & Voss No. 4081",
+    "canvases": 0,
+    "svgs": 16,
+    "buttons": 4,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 1544,
+    "lang": "en",
+    "nodes": 483
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "006-volcan-chico-hot-sauce.html",
+   "stem": "006-volcan-chico-hot-sauce",
+   "number": "006",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 5,
+    "enable": 100,
+    "metrics": 1203,
+    "desktop": 1,
+    "mobile": 400
+   },
+   "metrics": {
+    "title": "Volcán Chico — small volcano, big opinions",
+    "canvases": 1,
+    "svgs": 149,
+    "buttons": 11,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 7117,
+    "lang": "en",
+    "nodes": 1285
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "007-ice-core-800-metres.html",
+   "stem": "007-ice-core-800-metres",
+   "number": "007",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 7,
+    "enable": 95,
+    "metrics": 1203,
+    "desktop": 1,
+    "mobile": 361
+   },
+   "metrics": {
+    "title": "Core 7B — Eight Hundred Metres of Winter",
+    "canvases": 6,
+    "svgs": 31,
+    "buttons": 5,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 20197,
+    "lang": "en",
+    "nodes": 438
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "008-cabinet-of-impossible-minerals.html",
+   "stem": "008-cabinet-of-impossible-minerals",
+   "number": "008",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 8,
+    "enable": 97,
+    "metrics": 1204,
+    "desktop": 1,
+    "mobile": 388
+   },
+   "metrics": {
+    "title": "Cabinet of Impossible Minerals — Gallery VII, Case III",
+    "canvases": 1,
+    "svgs": 11,
+    "buttons": 8,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 913,
+    "lang": "en",
+    "nodes": 730
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "009-koi-pond-noon.html",
+   "stem": "009-koi-pond-noon",
+   "number": "009",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 10,
+    "enable": 278,
+    "metrics": 1203,
+    "desktop": 1,
+    "mobile": 360
+   },
+   "metrics": {
+    "title": "Koi Pond, Noon",
+    "canvases": 1,
+    "svgs": 3,
+    "buttons": 1,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 913,
+    "lang": "en",
+    "nodes": 33
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "010-op-art-pulse.html",
+   "stem": "010-op-art-pulse",
+   "number": "010",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 7,
+    "enable": 74,
+    "metrics": 1202,
+    "desktop": 1,
+    "mobile": 366
+   },
+   "metrics": {
+    "title": "Six Rooms of Optical Pressure",
+    "canvases": 0,
+    "svgs": 1,
+    "buttons": 0,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 6391,
+    "lang": "en",
+    "nodes": 331
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "011-the-hours-in-words.html",
+   "stem": "011-the-hours-in-words",
+   "number": "011",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 4,
+    "enable": 81,
+    "metrics": 1203,
+    "desktop": 1,
+    "mobile": 359
+   },
+   "metrics": {
+    "title": "It is ten to ten at night.",
+    "canvases": 0,
+    "svgs": 1,
+    "buttons": 3,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 913,
+    "lang": "en",
+    "nodes": 100
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "012-murmuration-at-dusk.html",
+   "stem": "012-murmuration-at-dusk",
+   "number": "012",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 17,
+    "enable": 193,
+    "metrics": 1203,
+    "desktop": 1,
+    "mobile": 355
+   },
+   "metrics": {
+    "title": "Murmuration at Dusk",
+    "canvases": 4,
+    "svgs": 3,
+    "buttons": 2,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 913,
+    "lang": "en",
+    "nodes": 38
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "013-iron-filings.html",
+   "stem": "013-iron-filings",
+   "number": "013",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 4,
+    "enable": 133,
+    "metrics": 1202,
+    "desktop": 1,
+    "mobile": 356
+   },
+   "metrics": {
+    "title": "Demonstration 14 — Lines of Force",
+    "canvases": 2,
+    "svgs": 4,
+    "buttons": 12,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 913,
+    "lang": "en",
+    "nodes": 99
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "014-ulam-prime-spiral.html",
+   "stem": "014-ulam-prime-spiral",
+   "number": "014",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 4,
+    "enable": 204,
+    "metrics": 1202,
+    "desktop": 1,
+    "mobile": 361
+   },
+   "metrics": {
+    "title": "Where the Primes Fall",
+    "canvases": 2,
+    "svgs": 7,
+    "buttons": 15,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 1213,
+    "lang": "en",
+    "nodes": 185
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "015-maison-ombre-perfume.html",
+   "stem": "015-maison-ombre-perfume",
+   "number": "015",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 10,
+    "enable": 80,
+    "metrics": 1202,
+    "desktop": 9,
+    "mobile": 373
+   },
+   "metrics": {
+    "title": "Maison Ombre — No. 7, Bibliothèque Brûlée",
+    "canvases": 0,
+    "svgs": 12,
+    "buttons": 11,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 7754,
+    "lang": "en",
+    "nodes": 566
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "016-vector-lunar-descent.html",
+   "stem": "016-vector-lunar-descent",
+   "number": "016",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 4,
+    "enable": 96,
+    "metrics": 1203,
+    "desktop": 1,
+    "mobile": 356
+   },
+   "metrics": {
+    "title": "Descent — A Vector Lander",
+    "canvases": 2,
+    "svgs": 0,
+    "buttons": 6,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 913,
+    "lang": "en",
+    "nodes": 29
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "017-spore-print-riso-zine.html",
+   "stem": "017-spore-print-riso-zine",
+   "number": "017",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 5,
+    "enable": 148,
+    "metrics": 1202,
+    "desktop": 1,
+    "mobile": 395
+   },
+   "metrics": {
+    "title": "SPORE PRINT no. 3 · The Wet Month · Damp Hands Press",
+    "canvases": 1,
+    "svgs": 101,
+    "buttons": 34,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 5779,
+    "lang": "en",
+    "nodes": 1912
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "018-pen-plotter-landscapes.html",
+   "stem": "018-pen-plotter-landscapes",
+   "number": "018",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 5,
+    "enable": 96,
+    "metrics": 1202,
+    "desktop": 1,
+    "mobile": 356
+   },
+   "metrics": {
+    "title": "Plotter No. 2 — Landscapes in One Pen",
+    "canvases": 1,
+    "svgs": 5,
+    "buttons": 6,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 913,
+    "lang": "en",
+    "nodes": 117
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "019-bauhaus-drum-machine.html",
+   "stem": "019-bauhaus-drum-machine",
+   "number": "019",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 15,
+    "enable": 93,
+    "metrics": 1203,
+    "desktop": 1,
+    "mobile": 381
+   },
+   "metrics": {
+    "title": "Rhythmus — a drum machine in primary colours",
+    "canvases": 0,
+    "svgs": 108,
+    "buttons": 117,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 913,
+    "lang": "en",
+    "nodes": 682
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "020-aurora-over-the-fjord.html",
+   "stem": "020-aurora-over-the-fjord",
+   "number": "020",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 5,
+    "enable": 60,
+    "metrics": 1203,
+    "desktop": 1,
+    "mobile": 361
+   },
+   "metrics": {
+    "title": "Aurora over Skjervøy Sound",
+    "canvases": 1,
+    "svgs": 2,
+    "buttons": 2,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 913,
+    "lang": "en",
+    "nodes": 233
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "021-drawer-of-imaginary-moths.html",
+   "stem": "021-drawer-of-imaginary-moths",
+   "number": "021",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 7,
+    "enable": 204,
+    "metrics": 1204,
+    "desktop": 1,
+    "mobile": 378
+   },
+   "metrics": {
+    "title": "Drawer 31 — Moths That Were Never Caught",
+    "canvases": 25,
+    "svgs": 0,
+    "buttons": 26,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 1121,
+    "lang": "en",
+    "nodes": 592
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 404,
+    "innerWidth": 404,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "022-hotel-meridian-elevator.html",
+   "stem": "022-hotel-meridian-elevator",
+   "number": "022",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 4,
+    "enable": 73,
+    "metrics": 1204,
+    "desktop": 1,
+    "mobile": 362
+   },
+   "metrics": {
+    "title": "The Hotel Meridian — Going Up",
+    "canvases": 1,
+    "svgs": 18,
+    "buttons": 12,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 16179,
+    "lang": "en",
+    "nodes": 953
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "023-walnut-turntable.html",
+   "stem": "023-walnut-turntable",
+   "number": "023",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 8,
+    "enable": 95,
+    "metrics": 1201,
+    "desktop": 1,
+    "mobile": 374
+   },
+   "metrics": {
+    "title": "Side A — Marlowe PL·7",
+    "canvases": 0,
+    "svgs": 0,
+    "buttons": 0,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 913,
+    "lang": "en",
+    "nodes": 277
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "024-village-of-three-hundred.html",
+   "stem": "024-village-of-three-hundred",
+   "number": "024",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 9,
+    "enable": 163,
+    "metrics": 1203,
+    "desktop": 1,
+    "mobile": 359
+   },
+   "metrics": {
+    "title": "Everyone in Ostrava-under-Hill",
+    "canvases": 1,
+    "svgs": 15,
+    "buttons": 8,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 913,
+    "lang": "en",
+    "nodes": 125
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "025-pottery-wheel.html",
+   "stem": "025-pottery-wheel",
+   "number": "025",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 16,
+    "enable": 131,
+    "metrics": 1203,
+    "desktop": 1,
+    "mobile": 360
+   },
+   "metrics": {
+    "title": "The Wheel — Throw a Pot",
+    "canvases": 1,
+    "svgs": 8,
+    "buttons": 14,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 913,
+    "lang": "en",
+    "nodes": 146
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "026-frost-on-the-window.html",
+   "stem": "026-frost-on-the-window",
+   "number": "026",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 9,
+    "enable": 314,
+    "metrics": 1202,
+    "desktop": 1,
+    "mobile": 354
+   },
+   "metrics": {
+    "title": "Frost on the Window",
+    "canvases": 1,
+    "svgs": 2,
+    "buttons": 2,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 913,
+    "lang": "en",
+    "nodes": 47
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "027-calligrams.html",
+   "stem": "027-calligrams",
+   "number": "027",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 4,
+    "enable": 81,
+    "metrics": 1202,
+    "desktop": 1,
+    "mobile": 373
+   },
+   "metrics": {
+    "title": "Five Calligrams — poems that do what they say",
+    "canvases": 0,
+    "svgs": 15,
+    "buttons": 5,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 7030,
+    "lang": "en",
+    "nodes": 579
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "028-conservas-mare-alta.html",
+   "stem": "028-conservas-mare-alta",
+   "number": "028",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 5,
+    "enable": 73,
+    "metrics": 1204,
+    "desktop": 1,
+    "mobile": 383
+   },
+   "metrics": {
+    "title": "Conservas Maré Alta — Tinned Fish Since 1923",
+    "canvases": 0,
+    "svgs": 30,
+    "buttons": 10,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 8586,
+    "lang": "en",
+    "nodes": 928
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "029-skerry-weather-station.html",
+   "stem": "029-skerry-weather-station",
+   "number": "029",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 18,
+    "enable": 84,
+    "metrics": 1202,
+    "desktop": 1,
+    "mobile": 380
+   },
+   "metrics": {
+    "title": "Holm Skerry · Meteorological Station · Est. 1884",
+    "canvases": 0,
+    "svgs": 15,
+    "buttons": 12,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 2075,
+    "lang": "en",
+    "nodes": 1102
+   },
+   "desktop": {
+    "scrollWidth": 1425,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 396,
+    "innerWidth": 396,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "030-rose-window.html",
+   "stem": "030-rose-window",
+   "number": "030",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 6,
+    "enable": 213,
+    "metrics": 1203,
+    "desktop": 1,
+    "mobile": 355
+   },
+   "metrics": {
+    "title": "Rose Window · Opus 0231",
+    "canvases": 1,
+    "svgs": 1,
+    "buttons": 1,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 913,
+    "lang": "en",
+    "nodes": 31
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "031-tangram-menagerie.html",
+   "stem": "031-tangram-menagerie",
+   "number": "031",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 5,
+    "enable": 65,
+    "metrics": 1203,
+    "desktop": 1,
+    "mobile": 362
+   },
+   "metrics": {
+    "title": "tangram menagerie — seven shapes, a whole zoo",
+    "canvases": 0,
+    "svgs": 31,
+    "buttons": 21,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 913,
+    "lang": "en",
+    "nodes": 395
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "032-the-night-typist.html",
+   "stem": "032-the-night-typist",
+   "number": "032",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 8,
+    "enable": 4238,
+    "metrics": 1202,
+    "desktop": 1,
+    "mobile": 356
+   },
+   "metrics": {
+    "title": "The Night Typist",
+    "canvases": 5,
+    "svgs": 3,
+    "buttons": 55,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 913,
+    "lang": "en",
+    "nodes": 478
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "033-lava-lamp-1971.html",
+   "stem": "033-lava-lamp-1971",
+   "number": "033",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 5,
+    "enable": 82,
+    "metrics": 1207,
+    "desktop": 2,
+    "mobile": 364
+   },
+   "metrics": {
+    "title": "Lava Lamp, 1971",
+    "canvases": 1,
+    "svgs": 6,
+    "buttons": 3,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 913,
+    "lang": "en",
+    "nodes": 134
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "034-museum-of-obsolete-sounds.html",
+   "stem": "034-museum-of-obsolete-sounds",
+   "number": "034",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 7,
+    "enable": 82,
+    "metrics": 1202,
+    "desktop": 1,
+    "mobile": 369
+   },
+   "metrics": {
+    "title": "The Museum of Obsolete Sounds · Gallery 2",
+    "canvases": 20,
+    "svgs": 20,
+    "buttons": 17,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 8086,
+    "lang": "en",
+    "nodes": 712
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "035-totality.html",
+   "stem": "035-totality",
+   "number": "035",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 8,
+    "enable": 362,
+    "metrics": 1202,
+    "desktop": 1,
+    "mobile": 356
+   },
+   "metrics": {
+    "title": "Totality",
+    "canvases": 1,
+    "svgs": 3,
+    "buttons": 7,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 13695,
+    "lang": "en",
+    "nodes": 172
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "036-kestrel-frameworks-bicycles.html",
+   "stem": "036-kestrel-frameworks-bicycles",
+   "number": "036",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 6,
+    "enable": 5,
+    "metrics": 1203,
+    "desktop": 1,
+    "mobile": 385
+   },
+   "metrics": {
+    "title": "Kestrel Frameworks — Bicycles Drawn to Measure",
+    "canvases": 0,
+    "svgs": 16,
+    "buttons": 1,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 4892,
+    "lang": "en-GB",
+    "nodes": 1114
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "037-pendulum-wave.html",
+   "stem": "037-pendulum-wave",
+   "number": "037",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 10,
+    "enable": 122,
+    "metrics": 1202,
+    "desktop": 1,
+    "mobile": 361
+   },
+   "metrics": {
+    "title": "Pendulum Wave",
+    "canvases": 2,
+    "svgs": 4,
+    "buttons": 39,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 913,
+    "lang": "en",
+    "nodes": 407
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 893,
+    "innerWidth": 893,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "038-instant-film.html",
+   "stem": "038-instant-film",
+   "number": "038",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 12,
+    "enable": 71,
+    "metrics": 1204,
+    "desktop": 1,
+    "mobile": 365
+   },
+   "metrics": {
+    "title": "Instant Film",
+    "canvases": 0,
+    "svgs": 1,
+    "buttons": 0,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 913,
+    "lang": "en",
+    "nodes": 289
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "039-mars-greenhouse-console.html",
+   "stem": "039-mars-greenhouse-console",
+   "number": "039",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 9,
+    "enable": 77,
+    "metrics": 1202,
+    "desktop": 1,
+    "mobile": 354
+   },
+   "metrics": {
+    "title": "ARES-HORT Console — Greenhouse B",
+    "canvases": 0,
+    "svgs": 2,
+    "buttons": 0,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 913,
+    "lang": "en",
+    "nodes": 78
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "040-the-harbour-courier-1926.html",
+   "stem": "040-the-harbour-courier-1926",
+   "number": "040",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 5,
+    "enable": 376,
+    "metrics": 1203,
+    "desktop": 1,
+    "mobile": 395
+   },
+   "metrics": {
+    "title": "The Harbour Courier — Tuesday, 9 March 1926",
+    "canvases": 4,
+    "svgs": 28,
+    "buttons": 27,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 2181,
+    "lang": "en-GB",
+    "nodes": 755
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "041-jelly-alphabet.html",
+   "stem": "041-jelly-alphabet",
+   "number": "041",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 7,
+    "enable": 82,
+    "metrics": 1202,
+    "desktop": 1,
+    "mobile": 358
+   },
+   "metrics": {
+    "title": "Jelly Alphabet",
+    "canvases": 2,
+    "svgs": 3,
+    "buttons": 15,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 913,
+    "lang": "en",
+    "nodes": 58
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "042-dance-of-venus.html",
+   "stem": "042-dance-of-venus",
+   "number": "042",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 13,
+    "enable": 80,
+    "metrics": 1204,
+    "desktop": 1,
+    "mobile": 374
+   },
+   "metrics": {
+    "title": "The Dance of Venus",
+    "canvases": 8,
+    "svgs": 21,
+    "buttons": 11,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 1455,
+    "lang": "en",
+    "nodes": 395
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "043-lichen-on-slate.html",
+   "stem": "043-lichen-on-slate",
+   "number": "043",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 4,
+    "enable": 1294,
+    "metrics": 1202,
+    "desktop": 1,
+    "mobile": 360
+   },
+   "metrics": {
+    "title": "Lichen on Slate",
+    "canvases": 1,
+    "svgs": 11,
+    "buttons": 4,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 913,
+    "lang": "en",
+    "nodes": 187
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "044-ariadnes-thread.html",
+   "stem": "044-ariadnes-thread",
+   "number": "044",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 7,
+    "enable": 80,
+    "metrics": 1202,
+    "desktop": 1,
+    "mobile": 383
+   },
+   "metrics": {
+    "title": "Ariadne's Thread",
+    "canvases": 2,
+    "svgs": 15,
+    "buttons": 12,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 913,
+    "lang": "en",
+    "nodes": 207
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "045-foundry-specimen-halden.html",
+   "stem": "045-foundry-specimen-halden",
+   "number": "045",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 7,
+    "enable": 93,
+    "metrics": 1210,
+    "desktop": 1,
+    "mobile": 388
+   },
+   "metrics": {
+    "title": "Halden Grotesk — Specimen No. 4 — Nordre Type",
+    "canvases": 0,
+    "svgs": 155,
+    "buttons": 109,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 7898,
+    "lang": "en",
+    "nodes": 1850
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "046-snow-at-the-bridge.html",
+   "stem": "046-snow-at-the-bridge",
+   "number": "046",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 15,
+    "enable": 161,
+    "metrics": 1203,
+    "desktop": 1,
+    "mobile": 354
+   },
+   "metrics": {
+    "title": "Evening Snow at the Bridge",
+    "canvases": 2,
+    "svgs": 5,
+    "buttons": 7,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 913,
+    "lang": "en",
+    "nodes": 72
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 873,
+    "innerWidth": 873,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "047-atelier-vesper-watch.html",
+   "stem": "047-atelier-vesper-watch",
+   "number": "047",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 4,
+    "enable": 59,
+    "metrics": 1202,
+    "desktop": 1,
+    "mobile": 371
+   },
+   "metrics": {
+    "title": "Atelier Vesper — Heure Bleue 38 · Calibre V.03",
+    "canvases": 0,
+    "svgs": 16,
+    "buttons": 17,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 4419,
+    "lang": "en",
+    "nodes": 903
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "048-cross-stitch-studio.html",
+   "stem": "048-cross-stitch-studio",
+   "number": "048",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 8,
+    "enable": 303,
+    "metrics": 1201,
+    "desktop": 1,
+    "mobile": 358
+   },
+   "metrics": {
+    "title": "Cross-Stitch Studio",
+    "canvases": 10,
+    "svgs": 12,
+    "buttons": 37,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 913,
+    "lang": "en",
+    "nodes": 325
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "049-conchology-cabinet.html",
+   "stem": "049-conchology-cabinet",
+   "number": "049",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 14,
+    "enable": 107,
+    "metrics": 1202,
+    "desktop": 1,
+    "mobile": 362
+   },
+   "metrics": {
+    "title": "A Cabinet of Computed Shells · Gallery 49",
+    "canvases": 3,
+    "svgs": 14,
+    "buttons": 21,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 1949,
+    "lang": "en",
+    "nodes": 216
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "050-river-from-source-to-sea.html",
+   "stem": "050-river-from-source-to-sea",
+   "number": "050",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 13,
+    "enable": 87,
+    "metrics": 1203,
+    "desktop": 1,
+    "mobile": 378
+   },
+   "metrics": {
+    "title": "The Aldwyn, Source to Sea",
+    "canvases": 0,
+    "svgs": 6,
+    "buttons": 13,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 14237,
+    "lang": "en",
+    "nodes": 2544
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "051-pinscreen.html",
+   "stem": "051-pinscreen",
+   "number": "051",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 13,
+    "enable": 126,
+    "metrics": 1202,
+    "desktop": 1,
+    "mobile": 357
+   },
+   "metrics": {
+    "title": "Pinscreen",
+    "canvases": 1,
+    "svgs": 10,
+    "buttons": 8,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 913,
+    "lang": "en",
+    "nodes": 107
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "052-beton-brut-zine.html",
+   "stem": "052-beton-brut-zine",
+   "number": "052",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 17,
+    "enable": 90,
+    "metrics": 1203,
+    "desktop": 1,
+    "mobile": 384
+   },
+   "metrics": {
+    "title": "BÉTON BRUT No. 6 — The Northmere Issue",
+    "canvases": 0,
+    "svgs": 10,
+    "buttons": 13,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 8217,
+    "lang": "en",
+    "nodes": 2631
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "053-sandpile.html",
+   "stem": "053-sandpile",
+   "number": "053",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 8,
+    "enable": 79,
+    "metrics": 1202,
+    "desktop": 1,
+    "mobile": 365
+   },
+   "metrics": {
+    "title": "sandpile: one rule, every size of avalanche",
+    "canvases": 2,
+    "svgs": 9,
+    "buttons": 10,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 926,
+    "lang": "en",
+    "nodes": 245
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 775,
+    "innerWidth": 775,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "054-matryoshka.html",
+   "stem": "054-matryoshka",
+   "number": "054",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 14,
+    "enable": 72,
+    "metrics": 1203,
+    "desktop": 1,
+    "mobile": 385
+   },
+   "metrics": {
+    "title": "Seven Sisters — A Nest of Dolls",
+    "canvases": 0,
+    "svgs": 0,
+    "buttons": 0,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 913,
+    "lang": "en",
+    "nodes": 392
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "055-seismograph-drum.html",
+   "stem": "055-seismograph-drum",
+   "number": "055",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 8,
+    "enable": 118,
+    "metrics": 1202,
+    "desktop": 1,
+    "mobile": 365
+   },
+   "metrics": {
+    "title": "Kettlewick Observatory — Seismograph No. 2",
+    "canvases": 5,
+    "svgs": 12,
+    "buttons": 9,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 1317,
+    "lang": "en",
+    "nodes": 529
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "056-the-combination.html",
+   "stem": "056-the-combination",
+   "number": "056",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 12,
+    "enable": 85,
+    "metrics": 1201,
+    "desktop": 1,
+    "mobile": 361
+   },
+   "metrics": {
+    "title": "The Combination",
+    "canvases": 0,
+    "svgs": 13,
+    "buttons": 6,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 913,
+    "lang": "en",
+    "nodes": 568
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "057-a-year-of-daylight.html",
+   "stem": "057-a-year-of-daylight",
+   "number": "057",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 6,
+    "enable": 152,
+    "metrics": 1203,
+    "desktop": 16,
+    "mobile": 368
+   },
+   "metrics": {
+    "title": "A Year of Daylight",
+    "canvases": 4,
+    "svgs": 3,
+    "buttons": 12,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 2073,
+    "lang": "en",
+    "nodes": 202
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "058-the-drawloom.html",
+   "stem": "058-the-drawloom",
+   "number": "058",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 10,
+    "enable": 98,
+    "metrics": 1204,
+    "desktop": 1,
+    "mobile": 359
+   },
+   "metrics": {
+    "title": "The Drawloom — Cloth from a Diagram",
+    "canvases": 11,
+    "svgs": 1,
+    "buttons": 36,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 999,
+    "lang": "en",
+    "nodes": 154
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "059-pluvia-and-sons-umbrellas.html",
+   "stem": "059-pluvia-and-sons-umbrellas",
+   "number": "059",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 5,
+    "enable": 139,
+    "metrics": 1202,
+    "desktop": 1,
+    "mobile": 377
+   },
+   "metrics": {
+    "title": "Pluvia & Sons — Umbrella Makers, Garrow, est. 1871",
+    "canvases": 12,
+    "svgs": 18,
+    "buttons": 2,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 6593,
+    "lang": "en",
+    "nodes": 639
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 1017,
+    "innerWidth": 1017,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "060-ascii-tide.html",
+   "stem": "060-ascii-tide",
+   "number": "060",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 9,
+    "enable": 100,
+    "metrics": 1202,
+    "desktop": 1,
+    "mobile": 353
+   },
+   "metrics": {
+    "title": "TIDE.TXT",
+    "canvases": 2,
+    "svgs": 0,
+    "buttons": 2,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 913,
+    "lang": "en",
+    "nodes": 19
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "061-moon-tonight.html",
+   "stem": "061-moon-tonight",
+   "number": "061",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 5,
+    "enable": 57,
+    "metrics": 1202,
+    "desktop": 0,
+    "mobile": 358
+   },
+   "metrics": {
+    "title": "Waning Gibbous · 95% — The Moon Tonight",
+    "canvases": 3,
+    "svgs": 3,
+    "buttons": 5,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 913,
+    "lang": "en",
+    "nodes": 123
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "062-wheat-before-rain.html",
+   "stem": "062-wheat-before-rain",
+   "number": "062",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 7,
+    "enable": 239,
+    "metrics": 1201,
+    "desktop": 1,
+    "mobile": 355
+   },
+   "metrics": {
+    "title": "Wheat, Before Rain",
+    "canvases": 2,
+    "svgs": 1,
+    "buttons": 2,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 913,
+    "lang": "en",
+    "nodes": 42
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "063-the-astrolabe.html",
+   "stem": "063-the-astrolabe",
+   "number": "063",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 4,
+    "enable": 86,
+    "metrics": 1202,
+    "desktop": 1,
+    "mobile": 369
+   },
+   "metrics": {
+    "title": "The Astrolabe — Exhibit IV.12",
+    "canvases": 0,
+    "svgs": 16,
+    "buttons": 17,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 2103,
+    "lang": "en",
+    "nodes": 800
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "064-par-avion.html",
+   "stem": "064-par-avion",
+   "number": "064",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 9,
+    "enable": 100,
+    "metrics": 1224,
+    "desktop": 1,
+    "mobile": 361
+   },
+   "metrics": {
+    "title": "Par Avion — The Journey of One Letter",
+    "canvases": 0,
+    "svgs": 21,
+    "buttons": 12,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 17758,
+    "lang": "en",
+    "nodes": 927
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "065-ripple-tank.html",
+   "stem": "065-ripple-tank",
+   "number": "065",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 4,
+    "enable": 123,
+    "metrics": 1201,
+    "desktop": 1,
+    "mobile": 361
+   },
+   "metrics": {
+    "title": "Ripple Tank · Apparatus 7",
+    "canvases": 1,
+    "svgs": 15,
+    "buttons": 21,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 913,
+    "lang": "en",
+    "nodes": 193
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "066-night-diner.html",
+   "stem": "066-night-diner",
+   "number": "066",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 12,
+    "enable": 73,
+    "metrics": 1203,
+    "desktop": 1,
+    "mobile": 374
+   },
+   "metrics": {
+    "title": "The Comet Diner, 3 A.M.",
+    "canvases": 0,
+    "svgs": 2,
+    "buttons": 0,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 913,
+    "lang": "en",
+    "nodes": 258
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "067-a-short-history-of-fog.html",
+   "stem": "067-a-short-history-of-fog",
+   "number": "067",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 4,
+    "enable": 57,
+    "metrics": 1202,
+    "desktop": 1,
+    "mobile": 383
+   },
+   "metrics": {
+    "title": "A Short History of Fog in Port Verrow — The Lee Shore",
+    "canvases": 1,
+    "svgs": 8,
+    "buttons": 2,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 8433,
+    "lang": "en",
+    "nodes": 356
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "068-gelato-tower.html",
+   "stem": "068-gelato-tower",
+   "number": "068",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 7,
+    "enable": 74,
+    "metrics": 1218,
+    "desktop": 20,
+    "mobile": 375
+   },
+   "metrics": {
+    "title": "Torre di Gelato",
+    "canvases": 1,
+    "svgs": 5,
+    "buttons": 3,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 913,
+    "lang": "en",
+    "nodes": 63
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "069-strange-attractors.html",
+   "stem": "069-strange-attractors",
+   "number": "069",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 7,
+    "enable": 91,
+    "metrics": 1216,
+    "desktop": 16,
+    "mobile": 362
+   },
+   "metrics": {
+    "title": "Strange Attractors — A Collection of Orbits",
+    "canvases": 8,
+    "svgs": 3,
+    "buttons": 17,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 913,
+    "lang": "en",
+    "nodes": 140
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "070-semaphore.html",
+   "stem": "070-semaphore",
+   "number": "070",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 5,
+    "enable": 82,
+    "metrics": 1201,
+    "desktop": 0,
+    "mobile": 365
+   },
+   "metrics": {
+    "title": "Semaphore — Say It with Flags",
+    "canvases": 0,
+    "svgs": 56,
+    "buttons": 48,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 2369,
+    "lang": "en",
+    "nodes": 920
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "071-apiary-no-9.html",
+   "stem": "071-apiary-no-9",
+   "number": "071",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 7,
+    "enable": 102,
+    "metrics": 1203,
+    "desktop": 1,
+    "mobile": 367
+   },
+   "metrics": {
+    "title": "Apiary No. 9 — Hill Honey from Thornaby Coombe",
+    "canvases": 4,
+    "svgs": 23,
+    "buttons": 13,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 7080,
+    "lang": "en-GB",
+    "nodes": 428
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "072-lumen-town-grid.html",
+   "stem": "072-lumen-town-grid",
+   "number": "072",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 7,
+    "enable": 89,
+    "metrics": 1203,
+    "desktop": 1,
+    "mobile": 370
+   },
+   "metrics": {
+    "title": "Lumen — Municipal Power Board, Pop. 2,140",
+    "canvases": 0,
+    "svgs": 14,
+    "buttons": 45,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 1740,
+    "lang": "en",
+    "nodes": 1640
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "073-zoetrope.html",
+   "stem": "073-zoetrope",
+   "number": "073",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 31,
+    "enable": 194,
+    "metrics": 1203,
+    "desktop": 1,
+    "mobile": 359
+   },
+   "metrics": {
+    "title": "Zoetrope, or the Wheel of Life",
+    "canvases": 25,
+    "svgs": 1,
+    "buttons": 16,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 1433,
+    "lang": "en",
+    "nodes": 137
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "074-collatz-kelp.html",
+   "stem": "074-collatz-kelp",
+   "number": "074",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 13,
+    "enable": 112,
+    "metrics": 1202,
+    "desktop": 1,
+    "mobile": 360
+   },
+   "metrics": {
+    "title": "The Kelp Forest of 3n + 1",
+    "canvases": 2,
+    "svgs": 7,
+    "buttons": 8,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 913,
+    "lang": "en",
+    "nodes": 202
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "075-wood-type-avalanche.html",
+   "stem": "075-wood-type-avalanche",
+   "number": "075",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 8,
+    "enable": 434,
+    "metrics": 1203,
+    "desktop": 1,
+    "mobile": 365
+   },
+   "metrics": {
+    "title": "Hell Box — Wood Type You Can Drop",
+    "canvases": 6,
+    "svgs": 2,
+    "buttons": 67,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 1203,
+    "lang": "en",
+    "nodes": 241
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  },
+  {
+   "file": "079-formicarium.html",
+   "stem": "079-formicarium",
+   "number": "079",
+   "status": "ok",
+   "errors": [],
+   "warnings": [],
+   "timing": {
+    "open": 6,
+    "enable": 94,
+    "metrics": 1202,
+    "desktop": 1,
+    "mobile": 359
+   },
+   "metrics": {
+    "title": "Formicarium — Notes on a Colony",
+    "canvases": 5,
+    "svgs": 14,
+    "buttons": 7,
+    "audio": true,
+    "reducedMotion": false,
+    "scrollHeight": 913,
+    "lang": "en",
+    "nodes": 217
+   },
+   "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "overflow": false,
+    "offenders": []
+   },
+   "mobile": {
+    "scrollWidth": 360,
+    "innerWidth": 360,
+    "overflow": false,
+    "offenders": []
+   }
+  }
+ ],
+ "summary": {
+  "chrome_launch_ms": 605,
+  "targets": 77,
+  "captured": 77,
+  "failed": 0,
+  "console_errors": 0,
+  "desktop_overflow": 0,
+  "mobile_overflow": 0,
+  "fps_min": null,
+  "fps_p50": null,
+  "fps_mean": null,
+  "slow_pages": [],
+  "erroring_pages": [],
+  "mobile_overflow_pages": [],
+  "desktop_overflow_pages": []
+ }
+}

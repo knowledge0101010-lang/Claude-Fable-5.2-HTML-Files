@@ -1,3 +1,10 @@
 __pycache__/
 *.pyc
 _site/
+
+# 회귀 하네스 산출물: 판정 JSON은 커밋, 스크린샷/캐시는 커밋하지 않는다
+reports/shots/
+reports/shots*/
+harness/__pycache__/
+evolution/*/openevolve_output/checkpoints/
+evolution/*/openevolve_output/logs/

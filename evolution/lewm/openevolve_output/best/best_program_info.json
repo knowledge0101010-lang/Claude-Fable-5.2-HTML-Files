@@ -1,0 +1,27 @@
+{
+  "id": "e8f79afc-d4b1-4c97-b49c-74a2df97944d",
+  "generation": 1,
+  "iteration": 1,
+  "timestamp": 1795756973.9866319,
+  "parent_id": "b7910bbb-9fa9-4720-a43e-4459ca8381ed",
+  "metrics": {
+    "combined_score": 1.0,
+    "sep_std": 0.09668,
+    "sep_var": 79.328,
+    "treated": {
+      "lam": 0.15,
+      "mean_std": 0.12936140596866608,
+      "total_var": 84.66529083251953,
+      "eff_rank": 11.932844161987305
+    },
+    "control": {
+      "lam": 0.0,
+      "mean_std": 0.032677061855793,
+      "total_var": 5.337118625640869,
+      "eff_rank": 17.819787979125977
+    },
+    "steps": 45
+  },
+  "language": "unknown",
+  "saved_at": 1795757037.136103
+}

@@ -1,0 +1,43 @@
+{
+ "id": "lewm-collapse",
+ "card": "requests/lewm-collapse.yaml",
+ "startedAt": "2026-11-27T12:21:31+0900",
+ "stage": "judge",
+ "ok": false,
+ "goal": "LeWM의 SIGReg 항을 끄면 잠재 표현이 붕괴하는지(ablation) 확인한다",
+ "falsifier": "SIGReg를 끈 변형의 effective rank가 LeWM과 같거나 높고 mean_std도 떨어지지 않으면 가설 기각",
+ "references": [
+  {
+   "ref": "/Users/gojunjang/Documents/deepseek-harness/default-workspace/lewm-study/le-wm/jepa.py",
+   "sha256": "41bad7fd21e0f14a",
+   "bytes": 5398
+  },
+  {
+   "ref": "/Users/gojunjang/Documents/deepseek-harness/default-workspace/lewm-study/le-wm/module.py",
+   "sha256": "0b258a9e8dc24c29",
+   "bytes": 8433
+  },
+  {
+   "ref": "/Users/gojunjang/Documents/deepseek-harness/default-workspace/lewm-study/lab/model.py",
+   "sha256": "13131fd145c53730",
+   "bytes": 2693
+  },
+  {
+   "ref": "/Users/gojunjang/Documents/deepseek-harness/default-workspace/lewm-study/lab/world.py",
+   "sha256": "1e022b599537299b",
+   "bytes": 3260
+  }
+ ],
+ "meta": {},
+ "metrics": {
+  "lewm_rank": 11.952156066894531,
+  "nog_rank": 18.056440353393555,
+  "lewm_std": 0.07183527201414108,
+  "nog_std": 0.022165445610880852
+ },
+ "acceptance": [
+  "lewm_rank=11.952156066894531 > 18.056440353393555 · FAIL",
+  "lewm_std=0.07183527201414108 > 0.022165445610880852 · PASS"
+ ],
+ "finishedAt": "2026-11-27T12:21:33+0900"
+}

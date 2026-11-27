@@ -1,0 +1,385 @@
+{
+"loop": 3,
+"neurons": {
+"001-suminagashi-marbling-tray": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"002-airship-terminal-split-flap": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"003-anatomy-of-a-croissant": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"004-lighthouse-keeper-night-watch": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"005-working-slide-rule": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"006-volcan-chico-hot-sauce": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"007-ice-core-800-metres": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"008-cabinet-of-impossible-minerals": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"009-koi-pond-noon": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"010-op-art-pulse": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"011-the-hours-in-words": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"012-murmuration-at-dusk": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"013-iron-filings": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"014-ulam-prime-spiral": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"015-maison-ombre-perfume": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"016-vector-lunar-descent": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"017-spore-print-riso-zine": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"018-pen-plotter-landscapes": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"019-bauhaus-drum-machine": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"020-aurora-over-the-fjord": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"021-drawer-of-imaginary-moths": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"022-hotel-meridian-elevator": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"023-walnut-turntable": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"024-village-of-three-hundred": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"025-pottery-wheel": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"026-frost-on-the-window": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"027-calligrams": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"028-conservas-mare-alta": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"029-skerry-weather-station": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"030-rose-window": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"031-tangram-menagerie": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"032-the-night-typist": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"033-lava-lamp-1971": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"034-museum-of-obsolete-sounds": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"035-totality": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"036-kestrel-frameworks-bicycles": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"037-pendulum-wave": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"038-instant-film": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"039-mars-greenhouse-console": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"040-the-harbour-courier-1926": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"041-jelly-alphabet": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"042-dance-of-venus": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"043-lichen-on-slate": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"044-ariadnes-thread": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"045-foundry-specimen-halden": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"046-snow-at-the-bridge": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"047-atelier-vesper-watch": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"048-cross-stitch-studio": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"049-conchology-cabinet": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"050-river-from-source-to-sea": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"051-pinscreen": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"052-beton-brut-zine": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"053-sandpile": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"054-matryoshka": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"055-seismograph-drum": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"056-the-combination": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"057-a-year-of-daylight": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"058-the-drawloom": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"059-pluvia-and-sons-umbrellas": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"060-ascii-tide": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"061-moon-tonight": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"062-wheat-before-rain": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"063-the-astrolabe": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"064-par-avion": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"065-ripple-tank": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"066-night-diner": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"067-a-short-history-of-fog": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"068-gelato-tower": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"069-strange-attractors": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"070-semaphore": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"071-apiary-no-9": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"072-lumen-town-grid": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"073-zoetrope": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"074-collatz-kelp": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"075-wood-type-avalanche": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+},
+"079-formicarium": {
+"m": 1.5,
+"theta": 1.0,
+"fires": 1
+}
+}
+}

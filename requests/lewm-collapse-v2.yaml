@@ -1,0 +1,29 @@
+id: lewm-collapse-v2
+kind: experiment
+goal: 1차 결과(v2)에서 드러난 대로, SIGReg를 끄면 붕괴가 rank가 아니라 분산 규모에서 나타나는지 확인한다
+falsifier: SIGReg를 끈 변형의 mean_std와 total_var가 LeWM과 같거나 크면 분산 붕괴 가설 기각
+references:
+  - /Users/gojunjang/Documents/deepseek-harness/default-workspace/lewm-study/le-wm/jepa.py
+  - /Users/gojunjang/Documents/deepseek-harness/default-workspace/lewm-study/le-wm/module.py
+  - /Users/gojunjang/Documents/deepseek-harness/default-workspace/lewm-study/lab/model.py
+  - /Users/gojunjang/Documents/deepseek-harness/default-workspace/lewm-study/lab/train_lib.py
+preflight:
+  - "disk_mb >= 400"
+  - "module: torch"
+  - "path: /Users/gojunjang/Documents/deepseek-harness/default-workspace/lewm-study/lab/data.npz"
+run:
+  cwd: /Users/gojunjang/Documents/deepseek-harness/default-workspace/lewm-study
+  python: /opt/homebrew/Caskroom/miniconda/base/bin/python3
+  command: PYTHONPATH=$PWD/pylibs MPLCONFIGDIR=$PWD/.mplcache /opt/homebrew/Caskroom/miniconda/base/bin/python3 lab/run_train.py --steps 40 --only lewm no_sigreg
+  metrics_file: /Users/gojunjang/Documents/deepseek-harness/default-workspace/lewm-study/lab/runs/train_results.json
+  timeout: 1500
+metrics:
+  lewm_rank: lewm.collapse.eff_rank
+  nog_rank: no_sigreg.collapse.eff_rank
+  lewm_std: lewm.collapse.mean_std
+  nog_std: no_sigreg.collapse.mean_std
+  lewm_var: lewm.collapse.total_var
+  nog_var: no_sigreg.collapse.total_var
+acceptance:
+  - "lewm_std > nog_std"
+  - "lewm_var > nog_var"
