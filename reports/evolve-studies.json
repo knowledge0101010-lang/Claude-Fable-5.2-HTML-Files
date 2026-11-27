@@ -1,0 +1,51 @@
+{
+ "builtAt": "2026-11-27T14:32:07+0900",
+ "results": [
+  {
+   "stem": "017-spore-print-riso-zine",
+   "status": "candidate",
+   "exit": 0,
+   "score": 1.0,
+   "metrics": {
+    "combined_score": 1.0,
+    "palette": 1.0,
+    "api": 1.0,
+    "a11y": 1.0,
+    "shape": 1.0,
+    "missing_palette": [],
+    "missing_api": [],
+    "bytes": 6609
+   },
+   "gate": {
+    "rendered": true,
+    "shot": "/tmp/evo-gate/017-spore-print-riso-zine/shot.png",
+    "console_errors": [],
+    "bytes": 6609
+   },
+   "promoted": true
+  },
+  {
+   "stem": "049-conchology-cabinet",
+   "status": "candidate",
+   "exit": 0,
+   "score": 1.0,
+   "metrics": {
+    "combined_score": 1.0,
+    "palette": 1.0,
+    "api": 1.0,
+    "a11y": 1.0,
+    "shape": 1.0,
+    "missing_palette": [],
+    "missing_api": [],
+    "bytes": 8150
+   },
+   "gate": {
+    "rendered": true,
+    "shot": "/tmp/evo-gate/049-conchology-cabinet/shot.png",
+    "console_errors": [],
+    "bytes": 8150
+   },
+   "promoted": true
+  }
+ ]
+}

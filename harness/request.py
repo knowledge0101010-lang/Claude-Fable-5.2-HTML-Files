@@ -289,7 +289,15 @@ def run_card(card_path: Path, execute: bool) -> int:
         "finishedAt": time.strftime("%Y-%m-%dT%H:%M:%S%z"),
     })
     (OUTDIR / f"{cid}.json").write_text(json.dumps(manifest, indent=1, ensure_ascii=False), encoding="utf-8")
-    print(f"  → reports/requests/{cid}.json")
+    try:
+        import handoff
+
+        card["_card_path"] = str(card_path)
+        dest = handoff.write_handoff(card, manifest)
+        print(f"  → reports/requests/{cid}.json · {dest.relative_to(ROOT)}/")
+    except Exception as exc:  # handoff must never change a verdict
+        print(f"  (handoff 생략: {exc})")
+        print(f"  → reports/requests/{cid}.json")
     return 0 if ok else 1
 
 

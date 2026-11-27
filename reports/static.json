@@ -4,6 +4,59 @@
  },
  "reimpls": [
   {
+   "file": "studies/017-spore-print-riso-zine/index.html",
+   "number": "ind",
+   "bytes": 6609,
+   "palette": {
+    "wanted": 4,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "canvas",
+     "keyboard",
+     "pointer",
+     "reduced motion",
+     "svg",
+     "svg filter"
+    ],
+    "missing": []
+   },
+   "keyboard": {
+    "keys": [
+     "1-5",
+     "arrow keys",
+     "enter",
+     "shift",
+     "tab"
+    ],
+    "keydown": true,
+    "focusable": 0,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 1.0,
+    "a11y": 1.0,
+    "composite": 1.0
+   },
+   "original": "017-spore-print-riso-zine.html"
+  },
+  {
    "file": "studies/030-rose-window/index.html",
    "number": "ind",
    "bytes": 25327,
@@ -53,9 +106,74 @@
     "composite": 1.0
    },
    "original": "030-rose-window.html"
+  },
+  {
+   "file": "studies/049-conchology-cabinet/index.html",
+   "number": "ind",
+   "bytes": 8150,
+   "palette": {
+    "wanted": 7,
+    "missing": []
+   },
+   "api": {
+    "wanted": [
+     "canvas",
+     "keyboard",
+     "pointer",
+     "reduced motion",
+     "svg filter",
+     "typed arrays"
+    ],
+    "missing": []
+   },
+   "keyboard": {
+    "keys": [
+     "1-5",
+     "D",
+     "S",
+     "arrow keys",
+     "shift",
+     "space",
+     "tab"
+    ],
+    "keydown": true,
+    "focusable": 0,
+    "operable": true
+   },
+   "reduced_motion": {
+    "wanted": true,
+    "present": true
+   },
+   "a11y": {
+    "lang": true,
+    "title": true,
+    "viewport": true,
+    "reduced_motion": true
+   },
+   "self_contained": {
+    "external_refs": [],
+    "ok": true
+   },
+   "score": {
+    "palette": 1.0,
+    "api": 1.0,
+    "a11y": 1.0,
+    "composite": 1.0
+   },
+   "original": "049-conchology-cabinet.html"
   }
  ],
  "comparisons": [
+  {
+   "study": "017-spore-print-riso-zine.html",
+   "original_score": 0.8875,
+   "reimpl_score": 1.0,
+   "delta": 0.1125,
+   "original_palette_missing": [
+    "3b2f5c"
+   ],
+   "reimpl_palette_missing": []
+  },
   {
    "study": "030-rose-window.html",
    "original_score": 0.82,
@@ -67,6 +185,14 @@
     "2e8b57",
     "6c2a7a"
    ],
+   "reimpl_palette_missing": []
+  },
+  {
+   "study": "049-conchology-cabinet.html",
+   "original_score": 0.9417,
+   "reimpl_score": 1.0,
+   "delta": 0.0583,
+   "original_palette_missing": [],
    "reimpl_palette_missing": []
   }
  ],
@@ -4022,7 +4148,7 @@
     "ok": true
    }
   },
-  "bytes": 802849,
+  "bytes": 803237,
   "duplicate_ids": [],
   "passed": 13,
   "total": 13
@@ -4041,7 +4167,17 @@
   "gallery_passed": 13,
   "gallery_total": 13,
   "total_bytes": 4970473,
-  "reimpl_count": 1,
-  "reimpl_mean_delta": 0.18
+  "reimpl_count": 3,
+  "reimpl_delta": {
+   "017-spore-print-riso-zine": 0.1125,
+   "030-rose-window": 0.18,
+   "049-conchology-cabinet": 0.0583
+  },
+  "reimpl_score": {
+   "017-spore-print-riso-zine": 1.0,
+   "030-rose-window": 1.0,
+   "049-conchology-cabinet": 1.0
+  },
+  "reimpl_mean_delta": 0.1169
  }
 }

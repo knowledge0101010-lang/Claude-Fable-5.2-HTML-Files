@@ -21,7 +21,8 @@ ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "harness"))
 import spec as S  # noqa: E402
 
-SPEC = ROOT / "030-rose-window.txt"
+import os
+SPEC = Path(os.environ.get("STUDY_SPEC") or (ROOT / "030-rose-window.txt"))
 MAX_BYTES = 140_000
 
 

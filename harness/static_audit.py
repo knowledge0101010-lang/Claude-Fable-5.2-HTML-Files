@@ -176,6 +176,12 @@ def summarize(studies: list[dict], gallery: dict, comparisons: list[dict]) -> di
         "gallery_total": gallery["total"],
         "total_bytes": sum(s["bytes"] for s in studies),
         "reimpl_count": len([c for c in comparisons]),
+        "reimpl_delta": {
+            c["study"].replace(".html", ""): c["delta"] for c in comparisons
+        },
+        "reimpl_score": {
+            c["study"].replace(".html", ""): c["reimpl_score"] for c in comparisons
+        },
         "reimpl_mean_delta": round(sum(c["delta"] for c in comparisons) / len(comparisons), 4) if comparisons else None,
     }
 

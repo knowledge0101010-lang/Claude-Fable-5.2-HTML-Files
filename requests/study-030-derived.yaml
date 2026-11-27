@@ -15,8 +15,8 @@ run:
   metrics_file: reports/static.json
 metrics:
   composite: summary.composite_mean
-  delta: comparisons.0.delta
-  reimpl_score: comparisons.0.reimpl_score
+  delta: summary.reimpl_delta.030-rose-window
+  reimpl_score: summary.reimpl_score.030-rose-window
 acceptance:
   - "delta >= 0.15"
   - "composite >= 0.97"

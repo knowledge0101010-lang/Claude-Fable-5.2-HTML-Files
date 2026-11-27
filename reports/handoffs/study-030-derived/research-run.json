@@ -1,0 +1,20 @@
+{
+ "id": "study-030-derived",
+ "timeline": [
+  {
+   "at": "2026-11-27T14:32:31+0900",
+   "event": "start"
+  },
+  {
+   "at": "2026-11-27T14:32:31+0900",
+   "event": "stage:judge",
+   "verdict": "PASS"
+  }
+ ],
+ "wall_seconds": 0.5,
+ "exit": 0,
+ "stdout_tail": [
+  "Built index.html with 76 studies, full prompts, techniques and interaction models.",
+  "PASS gallery-reproducible"
+ ]
+}

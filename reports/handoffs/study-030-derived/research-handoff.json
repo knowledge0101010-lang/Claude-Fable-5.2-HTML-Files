@@ -1,0 +1,53 @@
+{
+ "id": "study-030-derived",
+ "kind": "study",
+ "goal": "030-rose-window 파생판이 원본 스펙을 만족하고 갤러리가 그대로 재현되는지 확인한다",
+ "falsifier": null,
+ "verdict": "PASS",
+ "stage_reached": "judge",
+ "metrics": {
+  "composite": 0.9747,
+  "delta": 0.18,
+  "reimpl_score": 1.0
+ },
+ "references": [
+  {
+   "ref": "030-rose-window.txt",
+   "sha256": "28a7b4e285b62064",
+   "bytes": 7671
+  },
+  {
+   "ref": "030-rose-window.html",
+   "sha256": "76a49cd2a09e3a90",
+   "bytes": 59363
+  },
+  {
+   "ref": "studies/030-rose-window/index.html",
+   "sha256": "3972976bbd1dcb1a",
+   "bytes": 25327
+  }
+ ],
+ "card": "requests/study-030-derived.yaml",
+ "evidence": {
+  "acceptance": [
+   "delta=0.18 >= 0.15 · PASS",
+   "composite=0.9747 >= 0.97 · PASS",
+   "reimpl_score=1.0 >= 0.98 · PASS"
+  ],
+  "checks": [],
+  "meta": {
+   "wall_seconds": 0.5,
+   "exit": 0,
+   "stdout_tail": [
+    "Built index.html with 76 studies, full prompts, techniques and interaction models.",
+    "PASS gallery-reproducible"
+   ],
+   "stderr_tail": []
+  }
+ },
+ "next_actions": [
+  "판정 통과 — 결과를 승격할지 결정 (studies/ 또는 리포트)",
+  "지표 파일의 원본을 보관 (참고 해시와 함께)"
+ ],
+ "writtenAt": "2026-11-27T14:32:31+0900"
+}
